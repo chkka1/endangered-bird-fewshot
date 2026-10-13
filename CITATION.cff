@@ -7,9 +7,8 @@ abstract: >-
 type: software
 license: MIT
 authors:
-  - family-names: "常"
-    given-names: "开开"
-    affiliation: "长江大学 地球科学学院"
+  - family-names: "chkka1"
+        affiliation: "长江大学 地球科学学院"
 repository-code: "https://github.com/chkka1/endangered-bird-fewshot"
 keywords:
   - few-shot learning
