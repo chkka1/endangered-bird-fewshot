@@ -28,3 +28,6 @@ clip_checkpoints/
 
 # 稿件与图源：不随仓库发布（仍在 ZIP 材料包中）
 paper/
+
+# 论文生成脚本（含作者个人信息，不随仓库发布）
+code/06_paper/
