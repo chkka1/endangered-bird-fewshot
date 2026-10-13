@@ -3,12 +3,13 @@ message: "If you use this benchmark or code, please cite the paper below."
 title: "面向濒危鸟类小样本识别的属分层基准与基类校准方法族"
 abstract: >-
   属分层小样本评测基准与基类校准方法族的可复现材料：
-  代码、三个评测集的划分清单、濒危集逐张来源清单、全部结果文件与稿件图源。
+  代码、三个评测集的划分清单、濒危集逐张来源清单与全部结果文件。
 type: software
 license: MIT
 authors:
-  - family-names: "待补"
-    given-names: "待补"
+  - family-names: "常"
+    given-names: "开开"
+    affiliation: "长江大学 地球科学学院"
 repository-code: "待补（仓库地址）"
 keywords:
   - few-shot learning
