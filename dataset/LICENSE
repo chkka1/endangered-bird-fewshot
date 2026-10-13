@@ -1,0 +1,55 @@
+# 许可条款
+
+本包内不同部分适用不同条款，**使用前请分别确认**。
+
+---
+
+## 1. 濒危鸟类评测集的图像（`endangered_birds/images/`）
+
+**可自由再分发**，但须遵守逐张图像各自的 CC 许可。全部 1617 张图像的许可构成为：
+
+| 许可 | 张数 | 允许 | 要求 |
+|---|---|---|---|
+| **CC-BY-NC** | 1377 | 复制、分发、改编 | **署名** + **非商业使用** |
+| **CC-BY** | 181 | 复制、分发、改编、商业使用 | **署名** |
+| **CC0** | 59 | 无限制 | 无 |
+
+- 署名信息（观察者、观察链接、许可）逐张记录在 `endangered_birds/image_sources.csv`
+- **使用者必须保留该文件并按其内容署名**
+- 因含 CC-BY-NC 图像，**本数据集整体不得用于商业目的**
+- 图像版权归各观察者所有，本包仅依其 CC 许可进行再分发
+
+## 2. 划分文件与元数据（`*/splits/`、`*.json`、`*.csv`）
+
+由本文作者构建，采用 **CC BY 4.0** 许可，可自由使用、修改与再分发，须署名。
+
+这包括：
+- `cub/splits/*` 与 `nabirds/splits/*`（属分层划分、未见属对照划分）
+- `cub/cub_metadata.json`、`nabirds/nabirds_metadata.json`
+- `nabirds/nabirds_species_table.csv`、`nabirds/nabirds_taxonomy.csv`
+- `endangered_birds/species_table.csv`、`species_zh.json`
+
+## 3. CUB-200-2011 与 NABirds 的图像
+
+**本包不包含，也不授予任何权利。** 两者的图像版权分别属于加州理工学院与原发布方，
+请从官方渠道获取并遵守其条款：
+
+- CUB-200-2011：http://www.vision.caltech.edu/visipedia/CUB-200-2011.html
+- NABirds：https://dl.allaboutbirds.org/nabirds
+
+本包提供的 `cub_train_test_split.csv` 与官方 `train_test_split.txt` 逐字节一致，
+`nabirds_train_test_split.csv` 来自官方 train/test 压缩包的划分，均仅为便于使用而附带。
+
+## 4. 第三方数据的来源声明
+
+- **物种分类信息**：eBird / Clements Checklist（Cornell Lab of Ornithology），
+  经 eBird Taxonomy API 获取
+- **受威胁等级**：IUCN Red List of Threatened Species
+- **图像与观察记录**：iNaturalist（观察者信息见 `image_sources.csv`）
+
+---
+
+## 免责声明
+
+本数据集按"现状"提供，作者不对其适用性或使用后果作出任何担保。使用者应自行确认其使用
+场景符合上述各条款，尤其是 CC-BY-NC 的**非商业使用**限制。

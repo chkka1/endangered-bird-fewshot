@@ -1,0 +1,133 @@
+﻿dataset,backbone,shot,key,method,acc_mean,acc_std,total_err,cross_genus_err,same_genus_err,cross_share_pct,episodes
+cubunseen,unseen_multitask,1,nn,NN 基线（余弦 kNN）,39.383,2.688,932.90,860.52,72.38,92.241,50
+cubunseen,unseen_multitask,1,protonet,ProtoNet（类原型均值）,39.383,2.688,932.90,860.52,72.38,92.241,50
+cubunseen,unseen_multitask,1,simpleshot,SimpleShot（欧氏最近类均值）,39.383,2.688,932.90,860.52,72.38,92.241,50
+cubunseen,unseen_multitask,1,matchingnet,MatchingNet（注意力 kNN）,39.383,2.688,932.90,860.52,72.38,92.241,50
+cubunseen,unseen_multitask,1,gsingle,全局单属提权（无掩码）,39.365,2.731,933.18,854.84,78.34,91.605,50
+cubunseen,unseen_multitask,1,ablationA_single_local,消融A：单属＋局部掩码,39.365,2.731,933.18,854.84,78.34,91.605,50
+cubunseen,unseen_multitask,1,ablationB_dual_global,消融B：双属（无掩码）,39.322,2.748,933.84,858.18,75.66,91.898,50
+cubunseen,unseen_multitask,1,full_masked,Full：双属＋局部掩码,39.322,2.748,933.84,858.18,75.66,91.898,50
+cubunseen,unseen_multitask,1,full_nomask,Full（去掩码，==消融B）,39.322,2.748,933.84,858.18,75.66,91.898,50
+cubunseen,unseen_multitask,1,full_oldparam,Full（原硬编码超参）,39.313,2.740,933.98,859.12,74.86,91.985,50
+cubunseen,unseen_multitask,1,calibrated,z 校准＋双属,39.135,2.806,936.72,859.94,76.78,91.803,50
+cubunseen,unseen_multitask,1,baseaug,属先验＋Base 属原型,39.322,2.748,933.84,858.18,75.66,91.898,50
+cubunseen,unseen_multitask,1,fusion_only,仅原型-实例融合（无属先验）,39.383,2.688,932.90,860.52,72.38,92.241,50
+cubunseen,unseen_multitask,1,fusion_calib,融合＋z 校准（无属先验）,39.266,2.801,934.70,859.48,75.22,91.952,50
+cubunseen,unseen_multitask,1,protoprior_GWP,GWP/ProtoPrior（属先验版）,39.219,2.784,935.42,859.54,75.88,91.888,50
+cubunseen,unseen_multitask,1,protoprior_oldparam,GWP（原硬编码超参）,39.128,2.812,936.82,860.66,76.16,91.870,50
+cubunseen,unseen_multitask,1,protoprior_nomask,GWP（去局部掩码）,39.219,2.784,935.42,859.54,75.88,91.888,50
+cubunseen,unseen_multitask,1,linearprobe,线性探针,39.436,2.907,932.08,857.72,74.36,92.022,50
+cubunseen,unseen_multitask,1,simpleshot_tta,SimpleShot＋TTA,40.763,2.766,911.66,838.06,73.60,91.927,50
+cubunseen,unseen_multitask,1,protonet_tta,ProtoNet＋TTA,40.763,2.766,911.66,838.06,73.60,91.927,50
+cubunseen,unseen_multitask,1,fusion_only_tta,仅融合＋TTA,40.763,2.766,911.66,838.06,73.60,91.927,50
+cubunseen,unseen_multitask,1,protoprior_tta,GWP＋TTA,40.707,2.918,912.52,835.56,76.96,91.566,50
+cubunseen,unseen_multitask,1,protoprior_oldparam_tta,GWP＋TTA（原超参）,40.609,2.928,914.02,836.52,77.50,91.521,50
+cubunseen,unseen_multitask,1,white_nn,★白化＋NN,40.035,2.668,922.86,853.80,69.06,92.517,50
+cubunseen,unseen_multitask,1,white_protonet,★白化＋ProtoNet,40.035,2.668,922.86,853.80,69.06,92.517,50
+cubunseen,unseen_multitask,1,white_simpleshot,★白化＋SimpleShot,40.035,2.668,922.86,853.80,69.06,92.517,50
+cubunseen,unseen_multitask,1,white_fusion_only,★白化＋仅融合,40.035,2.668,922.86,853.80,69.06,92.517,50
+cubunseen,unseen_multitask,1,white_fusion_calib,★白化＋融合＋z校准,40.018,2.728,923.12,852.54,70.58,92.354,50
+cubunseen,unseen_multitask,1,white_protoprior_GWP,★白化＋GWP,40.048,2.719,922.66,852.04,70.62,92.346,50
+cubunseen,unseen_multitask,1,white_linearprobe,★白化＋线性探针,40.760,2.574,911.70,841.86,69.84,92.340,50
+cubunseen,unseen_multitask,1,white_simpleshot_tta,★白化＋SimpleShot＋TTA,41.615,2.682,898.54,828.20,70.34,92.172,50
+cubunseen,unseen_multitask,1,white_fusion_only_tta,★白化＋仅融合＋TTA,41.615,2.682,898.54,828.20,70.34,92.172,50
+cubunseen,unseen_multitask,1,white_protoprior_tta,★白化＋GWP＋TTA,41.671,2.764,897.68,825.78,71.90,91.990,50
+cubunseen,unseen_multitask,5,nn,NN 基线（余弦 kNN）,50.076,1.067,658.50,602.66,55.84,91.520,50
+cubunseen,unseen_multitask,5,protonet,ProtoNet（类原型均值）,53.915,1.168,607.86,550.06,57.80,90.491,50
+cubunseen,unseen_multitask,5,simpleshot,SimpleShot（欧氏最近类均值）,53.277,1.228,616.28,558.02,58.26,90.547,50
+cubunseen,unseen_multitask,5,matchingnet,MatchingNet（注意力 kNN）,52.701,1.021,623.88,563.64,60.24,90.344,50
+cubunseen,unseen_multitask,5,gsingle,全局单属提权（无掩码）,51.528,1.210,639.34,575.26,64.08,89.977,50
+cubunseen,unseen_multitask,5,ablationA_single_local,消融A：单属＋局部掩码,51.528,1.210,639.34,575.26,64.08,89.977,50
+cubunseen,unseen_multitask,5,ablationB_dual_global,消融B：双属（无掩码）,51.403,1.110,641.00,578.66,62.34,90.275,50
+cubunseen,unseen_multitask,5,full_masked,Full：双属＋局部掩码,51.403,1.110,641.00,578.66,62.34,90.275,50
+cubunseen,unseen_multitask,5,full_nomask,Full（去掩码，==消融B）,51.403,1.110,641.00,578.66,62.34,90.275,50
+cubunseen,unseen_multitask,5,full_oldparam,Full（原硬编码超参）,51.222,1.029,643.38,582.30,61.08,90.506,50
+cubunseen,unseen_multitask,5,calibrated,z 校准＋双属,48.190,1.675,683.38,629.16,54.22,92.066,50
+cubunseen,unseen_multitask,5,baseaug,属先验＋Base 属原型,51.403,1.110,641.00,578.66,62.34,90.275,50
+cubunseen,unseen_multitask,5,fusion_only,仅原型-实例融合（无属先验）,53.319,1.228,615.72,557.06,58.66,90.473,50
+cubunseen,unseen_multitask,5,fusion_calib,融合＋z 校准（无属先验）,53.325,1.221,615.64,557.36,58.28,90.533,50
+cubunseen,unseen_multitask,5,protoprior_GWP,GWP/ProtoPrior（属先验版）,53.328,1.225,615.60,557.34,58.26,90.536,50
+cubunseen,unseen_multitask,5,protoprior_oldparam,GWP（原硬编码超参）,53.330,1.238,615.58,557.08,58.50,90.497,50
+cubunseen,unseen_multitask,5,protoprior_nomask,GWP（去局部掩码）,53.328,1.225,615.60,557.34,58.26,90.536,50
+cubunseen,unseen_multitask,5,linearprobe,线性探针,54.846,1.177,595.58,540.14,55.44,90.691,50
+cubunseen,unseen_multitask,5,simpleshot_tta,SimpleShot＋TTA,56.171,1.322,578.10,517.68,60.42,89.549,50
+cubunseen,unseen_multitask,5,protonet_tta,ProtoNet＋TTA,56.587,1.318,572.62,512.22,60.40,89.452,50
+cubunseen,unseen_multitask,5,fusion_only_tta,仅融合＋TTA,56.326,1.281,576.06,516.16,59.90,89.602,50
+cubunseen,unseen_multitask,5,protoprior_tta,GWP＋TTA,56.355,1.325,575.68,516.22,59.46,89.671,50
+cubunseen,unseen_multitask,5,protoprior_oldparam_tta,GWP＋TTA（原超参）,56.365,1.332,575.54,515.76,59.78,89.613,50
+cubunseen,unseen_multitask,5,white_nn,★白化＋NN,53.243,1.047,616.72,560.50,56.22,90.884,50
+cubunseen,unseen_multitask,5,white_protonet,★白化＋ProtoNet,57.213,1.035,564.36,508.34,56.02,90.074,50
+cubunseen,unseen_multitask,5,white_simpleshot,★白化＋SimpleShot,56.014,1.146,580.18,523.94,56.24,90.306,50
+cubunseen,unseen_multitask,5,white_fusion_only,★白化＋仅融合,56.814,0.982,569.62,514.38,55.24,90.302,50
+cubunseen,unseen_multitask,5,white_fusion_calib,★白化＋融合＋z校准,56.729,0.950,570.74,515.96,54.78,90.402,50
+cubunseen,unseen_multitask,5,white_protoprior_GWP,★白化＋GWP,56.749,0.968,570.48,515.64,54.84,90.387,50
+cubunseen,unseen_multitask,5,white_linearprobe,★白化＋线性探针,58.135,1.182,552.20,501.46,50.74,90.811,50
+cubunseen,unseen_multitask,5,white_simpleshot_tta,★白化＋SimpleShot＋TTA,58.707,1.261,544.66,486.84,57.82,89.384,50
+cubunseen,unseen_multitask,5,white_fusion_only_tta,★白化＋仅融合＋TTA,59.550,1.083,533.54,476.38,57.16,89.287,50
+cubunseen,unseen_multitask,5,white_protoprior_tta,★白化＋GWP＋TTA,59.551,1.109,533.52,477.08,56.44,89.421,50
+cubunseen,unseen_species,1,nn,NN 基线（余弦 kNN）,38.724,2.770,943.04,870.44,72.60,92.301,50
+cubunseen,unseen_species,1,protonet,ProtoNet（类原型均值）,38.724,2.770,943.04,870.44,72.60,92.301,50
+cubunseen,unseen_species,1,simpleshot,SimpleShot（欧氏最近类均值）,38.724,2.770,943.04,870.44,72.60,92.301,50
+cubunseen,unseen_species,1,matchingnet,MatchingNet（注意力 kNN）,38.724,2.770,943.04,870.44,72.60,92.301,50
+cubunseen,unseen_species,1,gsingle,全局单属提权（无掩码）,38.635,2.815,944.40,864.78,79.62,91.569,50
+cubunseen,unseen_species,1,ablationA_single_local,消融A：单属＋局部掩码,38.635,2.815,944.40,864.78,79.62,91.569,50
+cubunseen,unseen_species,1,ablationB_dual_global,消融B：双属（无掩码）,38.596,2.757,945.00,868.88,76.12,91.945,50
+cubunseen,unseen_species,1,full_masked,Full：双属＋局部掩码,38.596,2.757,945.00,868.88,76.12,91.945,50
+cubunseen,unseen_species,1,full_nomask,Full（去掩码，==消融B）,38.596,2.757,945.00,868.88,76.12,91.945,50
+cubunseen,unseen_species,1,full_oldparam,Full（原硬编码超参）,38.611,2.736,944.78,869.76,75.02,92.060,50
+cubunseen,unseen_species,1,calibrated,z 校准＋双属,38.507,2.918,946.38,869.54,76.84,91.881,50
+cubunseen,unseen_species,1,baseaug,属先验＋Base 属原型,38.596,2.757,945.00,868.88,76.12,91.945,50
+cubunseen,unseen_species,1,fusion_only,仅原型-实例融合（无属先验）,38.724,2.770,943.04,870.44,72.60,92.301,50
+cubunseen,unseen_species,1,fusion_calib,融合＋z 校准（无属先验）,38.673,2.928,943.82,868.96,74.86,92.068,50
+cubunseen,unseen_species,1,protoprior_GWP,GWP/ProtoPrior（属先验版）,38.626,2.901,944.54,869.12,75.42,92.015,50
+cubunseen,unseen_species,1,protoprior_oldparam,GWP（原硬编码超参）,38.517,2.900,946.22,870.16,76.06,91.962,50
+cubunseen,unseen_species,1,protoprior_nomask,GWP（去局部掩码）,38.626,2.901,944.54,869.12,75.42,92.015,50
+cubunseen,unseen_species,1,linearprobe,线性探针,38.699,2.681,943.42,869.96,73.46,92.213,50
+cubunseen,unseen_species,1,simpleshot_tta,SimpleShot＋TTA,40.391,2.842,917.38,842.16,75.22,91.801,50
+cubunseen,unseen_species,1,protonet_tta,ProtoNet＋TTA,40.391,2.842,917.38,842.16,75.22,91.801,50
+cubunseen,unseen_species,1,fusion_only_tta,仅融合＋TTA,40.391,2.842,917.38,842.16,75.22,91.801,50
+cubunseen,unseen_species,1,protoprior_tta,GWP＋TTA,40.265,2.964,919.32,841.82,77.50,91.570,50
+cubunseen,unseen_species,1,protoprior_oldparam_tta,GWP＋TTA（原超参）,40.190,2.972,920.48,842.30,78.18,91.507,50
+cubunseen,unseen_species,1,white_nn,★白化＋NN,40.424,2.454,916.88,846.84,70.04,92.361,50
+cubunseen,unseen_species,1,white_protonet,★白化＋ProtoNet,40.424,2.454,916.88,846.84,70.04,92.361,50
+cubunseen,unseen_species,1,white_simpleshot,★白化＋SimpleShot,40.424,2.454,916.88,846.84,70.04,92.361,50
+cubunseen,unseen_species,1,white_fusion_only,★白化＋仅融合,40.424,2.454,916.88,846.84,70.04,92.361,50
+cubunseen,unseen_species,1,white_fusion_calib,★白化＋融合＋z校准,40.415,2.453,917.02,845.46,71.56,92.196,50
+cubunseen,unseen_species,1,white_protoprior_GWP,★白化＋GWP,40.416,2.452,917.00,845.38,71.62,92.190,50
+cubunseen,unseen_species,1,white_linearprobe,★白化＋线性探针,40.537,2.506,915.14,844.80,70.34,92.314,50
+cubunseen,unseen_species,1,white_simpleshot_tta,★白化＋SimpleShot＋TTA,42.199,2.631,889.56,817.90,71.66,91.944,50
+cubunseen,unseen_species,1,white_fusion_only_tta,★白化＋仅融合＋TTA,42.199,2.631,889.56,817.90,71.66,91.944,50
+cubunseen,unseen_species,1,white_protoprior_tta,★白化＋GWP＋TTA,42.161,2.667,890.14,817.20,72.94,91.806,50
+cubunseen,unseen_species,5,nn,NN 基线（余弦 kNN）,50.064,1.286,658.66,600.24,58.42,91.130,50
+cubunseen,unseen_species,5,protonet,ProtoNet（类原型均值）,53.371,1.042,615.04,556.90,58.14,90.547,50
+cubunseen,unseen_species,5,simpleshot,SimpleShot（欧氏最近类均值）,52.543,1.135,625.96,567.76,58.20,90.702,50
+cubunseen,unseen_species,5,matchingnet,MatchingNet（注意力 kNN）,52.243,1.269,629.92,569.96,59.96,90.481,50
+cubunseen,unseen_species,5,gsingle,全局单属提权（无掩码）,50.945,1.061,647.04,582.10,64.94,89.964,50
+cubunseen,unseen_species,5,ablationA_single_local,消融A：单属＋局部掩码,50.945,1.061,647.04,582.10,64.94,89.964,50
+cubunseen,unseen_species,5,ablationB_dual_global,消融B：双属（无掩码）,50.831,1.037,648.54,585.38,63.16,90.261,50
+cubunseen,unseen_species,5,full_masked,Full：双属＋局部掩码,50.831,1.037,648.54,585.38,63.16,90.261,50
+cubunseen,unseen_species,5,full_nomask,Full（去掩码，==消融B）,50.831,1.037,648.54,585.38,63.16,90.261,50
+cubunseen,unseen_species,5,full_oldparam,Full（原硬编码超参）,50.829,1.143,648.56,585.88,62.68,90.336,50
+cubunseen,unseen_species,5,calibrated,z 校准＋双属,48.146,1.477,683.96,629.32,54.64,92.011,50
+cubunseen,unseen_species,5,baseaug,属先验＋Base 属原型,50.831,1.037,648.54,585.38,63.16,90.261,50
+cubunseen,unseen_species,5,fusion_only,仅原型-实例融合（无属先验）,52.854,1.146,621.86,563.82,58.04,90.667,50
+cubunseen,unseen_species,5,fusion_calib,融合＋z 校准（无属先验）,52.840,1.105,622.04,564.98,57.06,90.827,50
+cubunseen,unseen_species,5,protoprior_GWP,GWP/ProtoPrior（属先验版）,52.861,1.090,621.76,564.52,57.24,90.794,50
+cubunseen,unseen_species,5,protoprior_oldparam,GWP（原硬编码超参）,52.837,1.102,622.08,564.44,57.64,90.734,50
+cubunseen,unseen_species,5,protoprior_nomask,GWP（去局部掩码）,52.861,1.090,621.76,564.52,57.24,90.794,50
+cubunseen,unseen_species,5,linearprobe,线性探针,54.388,1.098,601.62,547.32,54.30,90.974,50
+cubunseen,unseen_species,5,simpleshot_tta,SimpleShot＋TTA,55.733,1.360,583.88,524.18,59.70,89.775,50
+cubunseen,unseen_species,5,protonet_tta,ProtoNet＋TTA,56.371,1.255,575.46,515.44,60.02,89.570,50
+cubunseen,unseen_species,5,fusion_only_tta,仅融合＋TTA,56.009,1.328,580.24,521.06,59.18,89.801,50
+cubunseen,unseen_species,5,protoprior_tta,GWP＋TTA,55.974,1.256,580.70,522.10,58.60,89.909,50
+cubunseen,unseen_species,5,protoprior_oldparam_tta,GWP＋TTA（原超参）,55.947,1.324,581.06,521.98,59.08,89.832,50
+cubunseen,unseen_species,5,white_nn,★白化＋NN,53.859,1.140,608.60,553.82,54.78,90.999,50
+cubunseen,unseen_species,5,white_protonet,★白化＋ProtoNet,57.548,1.075,559.94,506.24,53.70,90.410,50
+cubunseen,unseen_species,5,white_simpleshot,★白化＋SimpleShot,56.083,1.169,579.26,525.32,53.94,90.688,50
+cubunseen,unseen_species,5,white_fusion_only,★白化＋仅融合,57.052,1.018,566.48,513.36,53.12,90.623,50
+cubunseen,unseen_species,5,white_fusion_calib,★白化＋融合＋z校准,56.925,1.008,568.16,515.64,52.52,90.756,50
+cubunseen,unseen_species,5,white_protoprior_GWP,★白化＋GWP,56.936,0.994,568.02,515.38,52.64,90.733,50
+cubunseen,unseen_species,5,white_linearprobe,★白化＋线性探针,58.331,1.013,549.62,499.54,50.08,90.888,50
+cubunseen,unseen_species,5,white_simpleshot_tta,★白化＋SimpleShot＋TTA,59.239,1.143,537.64,482.84,54.80,89.807,50
+cubunseen,unseen_species,5,white_fusion_only_tta,★白化＋仅融合＋TTA,59.867,1.036,529.36,474.66,54.70,89.667,50
+cubunseen,unseen_species,5,white_protoprior_tta,★白化＋GWP＋TTA,59.833,1.023,529.80,475.54,54.26,89.758,50

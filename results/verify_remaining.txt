@@ -1,0 +1,35 @@
+﻿待核验 24 条
+
+  044.Anthus_sokokensis              Anthus_sokokensis_011.jpg      记录=CC-BY-NC  实际=CC-BY-NC     match (GBIF)
+  044.Anthus_sokokensis              Anthus_sokokensis_012.jpg      记录=CC-BY-NC  实际=CC-BY-NC     match (GBIF)
+  044.Anthus_sokokensis              Anthus_sokokensis_013.jpg      记录=CC0       实际=CC0          match (GBIF)
+  045.Ardea_humbloti                 Ardea_humbloti_025.jpg         记录=CC-BY-NC  实际=CC-BY-NC     match (iNat)
+  046.Charadrius_mongolus            Charadrius_mongolus_025.jpg    记录=CC-BY     实际=CC-BY        match (GBIF)
+  047.Coccyzus_rufigularis           Coccyzus_rufigularis_025.jpg   记录=CC-BY-NC  实际=CC-BY-NC     match (GBIF)
+  049.Icterus_northropi              Icterus_northropi_024.jpg      记录=CC-BY     实际=CC-BY-NC     mismatch (iNat)
+  049.Icterus_northropi              Icterus_northropi_025.jpg      记录=CC-BY-NC  实际=CC-BY-NC     match (iNat)
+  050.Mimus_trifasciatus             Mimus_trifasciatus_025.jpg     记录=CC-BY-NC  实际=CC-BY-NC     match (iNat)
+  051.Phalacrocorax_capensis         Phalacrocorax_capensis_025.jpg 记录=CC-BY-NC  实际=CC-BY        mismatch (iNat)
+  053.Phoebetria_fusca               Phoebetria_fusca_024.jpg       记录=CC-BY-NC  实际=CC-BY        mismatch (iNat)
+  053.Phoebetria_fusca               Phoebetria_fusca_025.jpg       记录=CC-BY-NC  实际=CC-BY-NC     match (iNat)
+  055.Setophaga_chrysoparia          Setophaga_chrysoparia_025.jpg  记录=CC-BY-NC  实际=CC-BY-NC     match (iNat)
+  058.Turdus_helleri                 Turdus_helleri_006.jpg         记录=CC-BY-NC  实际=CC-BY-NC     match (iNat)
+  058.Turdus_helleri                 Turdus_helleri_010.jpg         记录=CC-BY-NC  实际=CC-BY-NC     match (GBIF)
+  058.Turdus_helleri                 Turdus_helleri_015.jpg         记录=CC-BY-NC  实际=CC-BY-NC     match (iNat)
+  058.Turdus_helleri                 Turdus_helleri_017.jpg         记录=CC-BY-NC  实际=CC-BY-NC     match (iNat)
+  058.Turdus_helleri                 Turdus_helleri_018.jpg         记录=CC-BY     实际=CC-BY-NC     mismatch (iNat)
+  058.Turdus_helleri                 Turdus_helleri_019.jpg         记录=CC-BY-NC  实际=CC-BY-NC     match (GBIF)
+  058.Turdus_helleri                 Turdus_helleri_020.jpg         记录=CC0       实际=CC0          match (GBIF)
+  058.Turdus_helleri                 Turdus_helleri_021.jpg         记录=CC0       实际=CC0          match (GBIF)
+  058.Turdus_helleri                 Turdus_helleri_022.jpg         记录=CC0       实际=CC0          match (GBIF)
+  058.Turdus_helleri                 Turdus_helleri_023.jpg         记录=CC0       实际=CC0          match (GBIF)
+  058.Turdus_helleri                 Turdus_helleri_024.jpg         记录=CC0       实际=CC0          match (GBIF)
+
+======================================================================
+结果: {'match': 20, 'mismatch': 4}
+修正标注 4 条
+
+最终核验状态: {'yes': 1617}
+最终许可构成: {'CC-BY-NC': 1377, 'CC-BY': 181, 'CC0': 59}
+全部属 CC0/CC-BY/CC-BY-NC: True
+已核验比例: 100.0%

@@ -1,0 +1,21 @@
+﻿cub        clean_multitask    base留出: plain 98.02 -> eps=0.05 98.58 (Δ+0.56) → 启用     | 实际novel增益 +9.80
+cub        clean_species      base留出: plain 94.42 -> eps=0.05 95.93 (Δ+1.50) → 启用     | 实际novel增益 +10.07
+cub        clip_vitb16        base留出: plain 69.67 -> eps=0.40 62.15 (Δ-7.52) → 不用     | 实际novel增益 -15.59
+cub        dinov2_vitb14      base留出: plain 83.86 -> eps=0.40 85.33 (Δ+1.47) → 启用     | 实际novel增益 -0.59
+endb       clean_multitask    base留出: plain 98.02 -> eps=0.05 98.58 (Δ+0.56) → 启用     | 实际novel增益 +8.57
+endb       clean_species      base留出: plain 94.42 -> eps=0.05 95.93 (Δ+1.50) → 启用     | 实际novel增益 +9.60
+endb       clip_vitb16        base留出: plain 69.67 -> eps=0.40 62.15 (Δ-7.52) → 不用     | 实际novel增益 -14.48
+endb       dinov2_vitb14      base留出: plain 83.86 -> eps=0.40 85.33 (Δ+1.47) → 启用     | 实际novel增益 -1.38
+nab        clean_multitask    base留出: plain 33.56 -> eps=0.05 44.64 (Δ+11.07) → 启用     | 实际novel增益 +7.32
+nab        clean_species      base留出: plain 31.88 -> eps=0.05 44.82 (Δ+12.94) → 启用     | 实际novel增益 +8.87
+nab        clip_vitb16        base留出: plain 61.09 -> eps=0.40 57.30 (Δ-3.80) → 不用     | 实际novel增益 -7.20
+nab        dinov2_vitb14      base留出: plain 84.32 -> eps=0.20 86.49 (Δ+2.17) → 启用     | 实际novel增益 +3.26
+cubunseen  unseen_multitask   base留出: plain 98.33 -> eps=0.05 97.90 (Δ-0.43) → 不用     | 实际novel增益 +3.30
+cubunseen  unseen_species     base留出: plain 97.64 -> eps=0.10 97.57 (Δ-0.07) → 不用     | 实际novel增益 +4.18
+
+saved: \_tools\final_out\bwc_criterion.csv
+判据正确 10 / 14（无法核对 0）
+  误判: cub / dinov2_vitb14  baseΔ=1.47  实际=-0.59
+  误判: endb / dinov2_vitb14  baseΔ=1.47  实际=-1.38
+  误判: cubunseen / unseen_multitask  baseΔ=-0.43  实际=3.30
+  误判: cubunseen / unseen_species  baseΔ=-0.07  实际=4.18

@@ -1,0 +1,92 @@
+﻿==========================================================================
+1. 数量与编号
+==========================================================================
+类别 70，图像 1584
+编号异常类别: 0 
+低于目标 25 张的类: 47 个
+   003.Aythya_baeri                   23 张（差 2）
+   004.Aythya_nyroca                  24 张（差 1）
+   005.Calidris_pygmaea               22 张（差 3）
+   006.Calidris_tenuirostris          24 张（差 1）
+   007.Crossoptilon_mantchuricum      20 张（差 5）
+   013.Grus_japonensis                23 张（差 2）
+   016.Antigone_vipio                 20 张（差 5）
+   017.Haliaeetus_leucoryphus         20 张（差 5）
+   020.Mergus_squamatus               20 张（差 5）
+   021.Nipponia_nippon                20 张（差 5）
+   022.Oroanassa_magnifica            20 张（差 5）
+   023.Paradoxornis_heudei            20 张（差 5）
+   024.Pavo_muticus                   20 张（差 5）
+   025.Platalea_minor                 20 张（差 5）
+   028.Tragopan_caboti                24 张（差 1）
+   029.Tragopan_temminckii            23 张（差 2）
+   032.Tringa_flavipes                23 张（差 2）
+   033.Anas_laysanensis               22 张（差 3）
+   034.Ardea_insignis                 23 张（差 2）
+   036.Corvus_kubaryi                 24 张（差 1）
+   037.Corvus_unicolor                22 张（差 3）
+   039.Myadestes_palmeri              19 张（差 6）
+   040.Phoebastria_irrorata           24 张（差 1）
+   041.Agelaius_tricolor              24 张（差 1）
+   042.Agelaius_xanthomus             23 张（差 2）
+   043.Anas_bernieri                  19 张（差 6）
+   044.Anthus_sokokensis              10 张（差 15）
+   045.Ardea_humbloti                 24 张（差 1）
+   046.Charadrius_mongolus            24 张（差 1）
+   047.Coccyzus_rufigularis           24 张（差 1）
+   049.Icterus_northropi              23 张（差 2）
+   050.Mimus_trifasciatus             24 张（差 1）
+   051.Phalacrocorax_capensis         24 张（差 1）
+   053.Phoebetria_fusca               23 张（差 2）
+   055.Setophaga_chrysoparia          24 张（差 1）
+   058.Turdus_helleri                 16 张（差 9）
+   059.Anthus_nattereri               22 张（差 3）
+   060.Branta_ruficollis              20 张（差 5）
+   061.Bubo_blakistoni                24 张（差 1）
+   063.Chaetura_pelagica              23 张（差 2）
+   064.Coccyzus_ferrugineus            8 张（差 17）
+   065.Euphagus_carolinus             24 张（差 1）
+   066.Fregata_andrewsi               24 张（差 1）
+   067.Fregata_aquila                 19 张（差 6）
+   068.Glaucidium_nubicola            24 张（差 1）
+   069.Junco_insularis                15 张（差 10）
+   070.Lanius_meridionalis            24 张（差 1）
+
+==========================================================================
+2. 重复检测（MD5 完全重复 + dHash 近似重复，全库比对）
+==========================================================================
+完全重复组: 0（多余副本 0）
+近似重复组（dHash ≤4）: 0（多余副本 0）
+其中跨类别: 0
+
+==========================================================================
+3. 含人物图像（Faster R-CNN COCO person, >0.6）
+==========================================================================
+   400/1584  命中 1
+   800/1584  命中 1
+   1200/1584  命中 1
+含人物: 4 张（0.3%）
+   069.Junco_insularis                Junco_insularis_004.jpg        0.99
+   058.Turdus_helleri                 Turdus_helleri_006.jpg         0.95
+   058.Turdus_helleri                 Turdus_helleri_010.jpg         0.75
+   003.Aythya_baeri                   Aythya_baeri_003.jpeg          0.67
+
+==========================================================================
+4. 解码检查（真正 load()）
+==========================================================================
+无法解码: 1 张
+   058.Turdus_helleri/Turdus_helleri_015.jpg  UnidentifiedImageError
+
+==========================================================================
+5. 清单一致性
+==========================================================================
+清单 1652 条，磁盘 1584 张
+清单有记录但文件不存在: 1
+文件存在但清单无记录: 1
+清单中重复条目: 68
+缺许可字段的记录: 0
+许可构成: {'CC-BY-NC': 1414, 'CC-BY': 202, 'CC0': 36}
+
+问题清单已写入 \_tools\final_out\endb_health.csv
+
+汇总：1584 张 | 完全重复 0 | 近似重复 0 | 含人物 4 | 坏图 1 | 编号异常类 0

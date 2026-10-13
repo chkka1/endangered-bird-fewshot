@@ -1,0 +1,33 @@
+﻿图像总数 = 1673，类别 = 70
+
+========================================================================
+1. 完全重复（文件字节相同）
+========================================================================
+重复组 91 个，多余副本 91 张
+   003.Aythya_baeri/Aythya_baeri_003.jpeg | 004.Aythya_nyroca/Aythya_nyroca_010.jpeg
+   012.Emberiza_jankowskii/Emberiza_jankowskii_001.jpeg | 012.Emberiza_jankowskii/Emberiza_jankowskii_025.jpg
+   012.Emberiza_jankowskii/Emberiza_jankowskii_003.jpg | 012.Emberiza_jankowskii/Emberiza_jankowskii_022.jpg
+   012.Emberiza_jankowskii/Emberiza_jankowskii_004.jpg | 012.Emberiza_jankowskii/Emberiza_jankowskii_021.jpg
+   012.Emberiza_jankowskii/Emberiza_jankowskii_006.jpg | 012.Emberiza_jankowskii/Emberiza_jankowskii_018.jpg
+   012.Emberiza_jankowskii/Emberiza_jankowskii_007.jpg | 012.Emberiza_jankowskii/Emberiza_jankowskii_016.jpg
+   012.Emberiza_jankowskii/Emberiza_jankowskii_008.jpg | 012.Emberiza_jankowskii/Emberiza_jankowskii_023.jpg
+   012.Emberiza_jankowskii/Emberiza_jankowskii_009.jpg | 012.Emberiza_jankowskii/Emberiza_jankowskii_015.jpg
+
+========================================================================
+2. 近似重复（dHash 汉明距离 ≤ 4）
+========================================================================
+已计算 1673 张的 dHash
+近似重复组 91 个，多余副本 91 张
+其中**跨类别**的组 1 个（同一张图出现在不同类别里，危害最大）
+   003.Aythya_baeri/Aythya_baeri_003.jpeg | 004.Aythya_nyroca/Aythya_nyroca_010.jpeg
+
+同类别内的近似重复（前 6 组）：
+   012.Emberiza_jankowskii/Emberiza_jankowskii_001.jpeg | 012.Emberiza_jankowskii/Emberiza_jankowskii_025.jpg
+   012.Emberiza_jankowskii/Emberiza_jankowskii_003.jpg | 012.Emberiza_jankowskii/Emberiza_jankowskii_022.jpg
+   012.Emberiza_jankowskii/Emberiza_jankowskii_004.jpg | 012.Emberiza_jankowskii/Emberiza_jankowskii_021.jpg
+   012.Emberiza_jankowskii/Emberiza_jankowskii_006.jpg | 012.Emberiza_jankowskii/Emberiza_jankowskii_018.jpg
+   012.Emberiza_jankowskii/Emberiza_jankowskii_007.jpg | 012.Emberiza_jankowskii/Emberiza_jankowskii_016.jpg
+   012.Emberiza_jankowskii/Emberiza_jankowskii_008.jpg | 012.Emberiza_jankowskii/Emberiza_jankowskii_023.jpg
+
+标记结果已写入 \_tools\final_out\image_quality_flags.csv
+汇总：完全重复 91、近似重复 91、含人物 0

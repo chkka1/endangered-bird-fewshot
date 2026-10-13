@@ -1,0 +1,12 @@
+﻿eBird 分类表: 17891 个分类单元
+原有物种: 30 个
+模式=recollect  待处理物种=4  (dry-run)
+
+[1/4] Aquila chrysaetos                  属=Aquila         目标=25 已有=10 -> 001.Aquila_chrysaetos
+        可用照片 25 张（dry-run）
+[2/4] Aquila heliaca                     属=Aquila         目标=25 已有=10 -> 002.Aquila_heliaca
+        可用照片 25 张（dry-run）
+[3/4] Aythya baeri                       属=Aythya         目标=25 已有= 0 -> 003.Aythya_baeri
+        可用照片 25 张（dry-run）
+[4/4] Aythya nyroca                      属=Aythya         目标=25 已有= 0 -> 004.Aythya_nyroca
+        可用照片 25 张（dry-run）

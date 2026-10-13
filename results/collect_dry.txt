@@ -1,0 +1,20 @@
+﻿下载 eBird 分类表 ...
+  -> \data\ebird\ebird_taxonomy.csv
+eBird 分类表载入 17891 个分类单元
+现有目录数 30，新物种编号从 031 开始
+待采集物种 3 个（dry-run）
+
+[1/3] Egretta vinaceigula                eBird代码=slaegr1  目标=6张  -> 031.Egretta_vinaceigula
+        找到 6 张 CC 授权照片
+          · CC-BY-NC  [2020-12-21] https://inaturalist-open-data.s3.amazonaws.com/photos/108065273/square.jpeg
+          · CC-BY-NC  [2016-10-01] https://inaturalist-open-data.s3.amazonaws.com/photos/119164722/square.jpg
+[2/3] Tringa flavipes                    eBird代码=lesyel   目标=6张  -> 032.Tringa_flavipes
+        找到 6 张 CC 授权照片
+          · CC-BY-NC  [2025-09-23] https://inaturalist-open-data.s3.amazonaws.com/photos/571039165/square.jpg
+          · CC-BY-NC  [2023-06-17] https://inaturalist-open-data.s3.amazonaws.com/photos/294389687/square.jpg
+[3/3] Anas laysanensis                   eBird代码=layduc   目标=6张  -> 033.Anas_laysanensis
+        找到 6 张 CC 授权照片
+          · CC-BY-NC  [2013-04-24] https://inaturalist-open-data.s3.amazonaws.com/photos/12277782/square.jpeg
+          · CC-BY-NC  [2024-12-21] https://inaturalist-open-data.s3.amazonaws.com/photos/537886846/square.jpg
+
+（dry-run，未写入任何文件）

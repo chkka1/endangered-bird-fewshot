@@ -1,0 +1,94 @@
+需补 37 个类，共 140 张
+
+建立哈希索引 ...
+已有 1610 张
+
+007.Crossoptilon_mantchuricum      现有 23 需补  2，候选 95
+      时间预算用尽，转向下一个物种
+      补入 0 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 1, '下载失败': 1})}
+
+016.Antigone_vipio                 现有 20 需补  5，候选 249
+      时间预算用尽，转向下一个物种
+      补入 2 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 1, '下载失败': 2, '采用': 2})}
+
+017.Haliaeetus_leucoryphus         现有 20 需补  5，候选 148
+      补入 5 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 1, '下载失败': 2, '采用': 7})}
+
+020.Mergus_squamatus               现有 20 需补  5，候选 192
+      时间预算用尽，转向下一个物种
+      补入 2 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 1, '下载失败': 2, '采用': 9, '含人物': 3})}
+
+021.Nipponia_nippon                现有 20 需补  5，候选 195
+      时间预算用尽，转向下一个物种
+      补入 5 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 2, '下载失败': 2, '采用': 14, '含人物': 3})}
+
+022.Oroanassa_magnifica            现有 20 需补  5，候选 76
+      时间预算用尽，转向下一个物种
+      补入 4 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 4, '下载失败': 2, '采用': 18, '含人物': 3})}
+
+023.Paradoxornis_heudei            现有 20 需补  5，候选 293
+      补入 5 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 4, '下载失败': 2, '采用': 23, '含人物': 3})}
+
+024.Pavo_muticus                   现有 20 需补  5，候选 187
+      时间预算用尽，转向下一个物种
+      补入 5 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 4, '下载失败': 4, '采用': 28, '含人物': 3})}
+
+025.Platalea_minor                 现有 20 需补  5，候选 165
+      补入 5 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 4, '下载失败': 4, '采用': 33, '含人物': 3})}
+
+033.Anas_laysanensis               现有 24 需补  1，候选 135
+      时间预算用尽，转向下一个物种
+      补入 0 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 10, '下载失败': 4, '采用': 33, '含人物': 3})}
+
+034.Ardea_insignis                 现有 23 需补  2，候选 75
+      时间预算用尽，转向下一个物种
+      补入 1 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 22, '下载失败': 4, '采用': 34, '含人物': 4})}
+
+036.Corvus_kubaryi                 现有 24 需补  1，候选 87
+      补入 1 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 28, '下载失败': 4, '采用': 35, '含人物': 4})}
+
+037.Corvus_unicolor                现有 22 需补  3，候选 24
+      时间预算用尽，转向下一个物种
+      补入 0 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 45, '下载失败': 4, '采用': 35, '含人物': 5})}
+
+039.Myadestes_palmeri              现有 20 需补  5，候选 39
+      时间预算用尽，转向下一个物种
+      补入 3 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 50, '下载失败': 4, '采用': 38, '含人物': 5})}
+
+040.Phoebastria_irrorata           现有 24 需补  1，候选 260
+      补入 1 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 50, '下载失败': 4, '采用': 39, '含人物': 5})}
+
+041.Agelaius_tricolor              现有 24 需补  1，候选 202
+      补入 1 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 50, '下载失败': 4, '采用': 40, '含人物': 5})}
+
+044.Anthus_sokokensis              现有 10 需补 15，候选 26
+      补入 3 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 60, '下载失败': 5, '采用': 43, '含人物': 5})}
+
+045.Ardea_humbloti                 现有 24 需补  1，候选 115
+      补入 1 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 61, '下载失败': 5, '采用': 44, '含人物': 5})}
+
+046.Charadrius_mongolus            现有 24 需补  1，候选 140
+      补入 1 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 61, '下载失败': 6, '采用': 45, '含人物': 5})}
+
+047.Coccyzus_rufigularis           现有 24 需补  1，候选 54
+      补入 1 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 61, '下载失败': 6, '采用': 46, '含人物': 5})}
+
+049.Icterus_northropi              现有 23 需补  2，候选 29
+      补入 2 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 82, '下载失败': 6, '采用': 48, '含人物': 6})}
+
+050.Mimus_trifasciatus             现有 24 需补  1，候选 140
+      补入 1 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 89, '下载失败': 6, '采用': 49, '含人物': 6})}
+
+051.Phalacrocorax_capensis         现有 24 需补  1，候选 137
+      补入 1 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 89, '下载失败': 6, '采用': 50, '含人物': 6})}
+
+053.Phoebetria_fusca               现有 23 需补  2，候选 131
+      补入 2 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 89, '下载失败': 6, '采用': 52, '含人物': 6})}
+
+055.Setophaga_chrysoparia          现有 24 需补  1，候选 226
+      补入 1 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 89, '下载失败': 6, '采用': 53, '含人物': 6})}
+
+058.Turdus_helleri                 现有 13 需补 12，候选 39
+      补入 12 张  {'GBIF': defaultdict(<class 'int'>, {'近似重复': 103, '下载失败': 6, '采用': 65, '含人物': 12})}
+
+059.Anthus_nattereri               现有 22 需补  3，候选 38

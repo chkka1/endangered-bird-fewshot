@@ -1,0 +1,17 @@
+﻿复用 eBird 分类表: \data\ebird\ebird_taxonomy.csv
+eBird 分类表载入 17891 个分类单元
+现有目录数 30，新物种编号从 031 开始
+待采集物种 2 个
+
+[1/2] Egretta vinaceigula                eBird代码=slaegr1  目标=25张  -> 031.Egretta_vinaceigula
+        找到 25 张 CC 授权照片
+        下载成功 25/25
+[2/2] Tringa flavipes                    eBird代码=lesyel   目标=25张  -> 032.Tringa_flavipes
+        找到 25 张 CC 授权照片
+        下载成功 25/25
+
+来源清单已写入: \data\endangered_birds\image_sources.csv（50 条）
+
+新增类目录汇总:
+  031.Egretta_vinaceigula                    Egretta vinaceigula                25/25
+  032.Tringa_flavipes                        Tringa flavipes                    25/25

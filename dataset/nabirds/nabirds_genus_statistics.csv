@@ -1,0 +1,211 @@
+﻿genus,n_species_total,n_in_base,n_in_novel,membership
+,1,1,0,Base only
+Acanthis,2,1,1,Base+Novel
+Accipiter,1,1,0,Base only
+Actitis,1,1,0,Base only
+Aechmophorus,2,1,1,Base+Novel
+Aegolius,1,1,0,Base only
+Aeronautes,1,1,0,Base only
+Agelaius,1,1,0,Base only
+Aimophila,1,1,0,Base only
+Aix,1,1,0,Base only
+Anas,5,3,2,Base+Novel
+Anhinga,1,1,0,Base only
+Anser,3,1,2,Base+Novel
+Anthus,1,1,0,Base only
+Antigone,1,1,0,Base only
+Aphelocoma,4,2,2,Base+Novel
+Aquila,1,1,0,Base only
+Archilochus,2,1,1,Base+Novel
+Ardea,3,1,2,Base+Novel
+Arenaria,2,1,1,Base+Novel
+Astur,1,1,0,Base only
+Athene,1,1,0,Base only
+Auriparus,1,1,0,Base only
+Aythya,5,3,2,Base+Novel
+Baeolophus,5,3,2,Base+Novel
+Bombycilla,2,1,1,Base+Novel
+Bonasa,1,1,0,Base only
+Branta,3,1,2,Base+Novel
+Bubo,3,1,2,Base+Novel
+Bucephala,3,1,2,Base+Novel
+Buteo,5,3,2,Base+Novel
+Butorides,1,1,0,Base only
+Calamospiza,1,1,0,Base only
+Calidris,6,4,2,Base+Novel
+Callipepla,3,1,2,Base+Novel
+Calypte,2,1,1,Base+Novel
+Campylorhynchus,1,1,0,Base only
+Caracara,1,1,0,Base only
+Cardellina,2,1,1,Base+Novel
+Cardinalis,2,1,1,Base+Novel
+Cathartes,1,1,0,Base only
+Catharus,3,1,2,Base+Novel
+Catherpes,1,1,0,Base only
+Cepphus,2,1,1,Base+Novel
+Certhia,1,1,0,Base only
+Chaetura,2,1,1,Base+Novel
+Chamaea,1,1,0,Base only
+Charadrius,2,1,1,Base+Novel
+Chlidonias,1,1,0,Base only
+Chondestes,1,1,0,Base only
+Chordeiles,1,1,0,Base only
+Chroicocephalus,1,1,0,Base only
+Cinclus,1,1,0,Base only
+Circus,1,1,0,Base only
+Cistothorus,1,1,0,Base only
+Clangula,1,1,0,Base only
+Coccyzus,2,1,1,Base+Novel
+Colaptes,1,1,0,Base only
+Colinus,1,1,0,Base only
+Columba,1,1,0,Base only
+Columbina,2,1,1,Base+Novel
+Contopus,2,1,1,Base+Novel
+Coragyps,1,1,0,Base only
+Corthylio,1,1,0,Base only
+Corvus,4,2,2,Base+Novel
+Cyanocitta,2,1,1,Base+Novel
+Cygnus,3,1,2,Base+Novel
+Cynanthus,1,1,0,Base only
+Dendrocygna,1,1,0,Base only
+Dolichonyx,1,1,0,Base only
+Dryobates,3,1,2,Base+Novel
+Dryocopus,1,1,0,Base only
+Dumetella,1,1,0,Base only
+Egretta,4,2,2,Base+Novel
+Elanoides,1,1,0,Base only
+Elanus,1,1,0,Base only
+Empidonax,3,1,2,Base+Novel
+Eremophila,1,1,0,Base only
+Eudocimus,1,1,0,Base only
+Euphagus,2,1,1,Base+Novel
+Falco,4,2,2,Base+Novel
+Fulica,1,1,0,Base only
+Gallinago,1,1,0,Base only
+Gallinula,1,1,0,Base only
+Gavia,3,1,2,Base+Novel
+Geococcyx,1,1,0,Base only
+Geothlypis,3,1,2,Base+Novel
+Glaucidium,1,1,0,Base only
+Haematopus,2,1,1,Base+Novel
+Haemorhous,3,1,2,Base+Novel
+Haliaeetus,1,1,0,Base only
+Hesperiphona,1,1,0,Base only
+Himantopus,1,1,0,Base only
+Hirundo,1,1,0,Base only
+Histrionicus,1,1,0,Base only
+Hydroprogne,1,1,0,Base only
+Hylocichla,1,1,0,Base only
+Icteria,1,1,0,Base only
+Icterus,4,2,2,Base+Novel
+Ictinia,1,1,0,Base only
+Ixoreus,1,1,0,Base only
+Junco,1,1,0,Base only
+Lanius,2,1,1,Base+Novel
+Larus,8,6,2,Base+Novel
+Leiothlypis,3,1,2,Base+Novel
+Leuconotopicus,1,1,0,Base only
+Leucophaeus,1,1,0,Base only
+Leucosticte,3,1,2,Base+Novel
+Limnodromus,1,1,0,Base only
+Limosa,1,1,0,Base only
+Lophodytes,1,1,0,Base only
+Loxia,2,1,1,Base+Novel
+Mareca,2,1,1,Base+Novel
+Megaceryle,1,1,0,Base only
+Megascops,2,1,1,Base+Novel
+Melanerpes,5,3,2,Base+Novel
+Melanitta,3,1,2,Base+Novel
+Meleagris,1,1,0,Base only
+Melospiza,3,1,2,Base+Novel
+Melozone,3,1,2,Base+Novel
+Mergus,2,1,1,Base+Novel
+Mimus,1,1,0,Base only
+Mniotilta,1,1,0,Base only
+Molothrus,2,1,1,Base+Novel
+Morus,1,1,0,Base only
+Myadestes,1,1,0,Base only
+Mycteria,1,1,0,Base only
+Myiarchus,2,1,1,Base+Novel
+Myiopsitta,1,1,0,Base only
+Nannopterum,2,1,1,Base+Novel
+Nucifraga,1,1,0,Base only
+Numenius,2,1,1,Base+Novel
+Nyctanassa,1,1,0,Base only
+Nycticorax,1,1,0,Base only
+Oxyura,1,1,0,Base only
+Pandion,1,1,0,Base only
+Parabuteo,1,1,0,Base only
+Parkesia,2,1,1,Base+Novel
+Passer,1,1,0,Base only
+Passerculus,1,1,0,Base only
+Passerella,1,1,0,Base only
+Passerina,4,2,2,Base+Novel
+Patagioenas,1,1,0,Base only
+Pelecanus,2,1,1,Base+Novel
+Petrochelidon,2,1,1,Base+Novel
+Phainopepla,1,1,0,Base only
+Phalacrocorax,1,1,0,Base only
+Phalaropus,1,1,0,Base only
+Phasianus,1,1,0,Base only
+Pheucticus,2,1,1,Base+Novel
+Pica,2,1,1,Base+Novel
+Pinicola,1,1,0,Base only
+Pipilo,3,1,2,Base+Novel
+Piranga,3,1,2,Base+Novel
+Platalea,1,1,0,Base only
+Plectrophenax,1,1,0,Base only
+Plegadis,2,1,1,Base+Novel
+Pluvialis,1,1,0,Base only
+Podiceps,3,1,2,Base+Novel
+Podilymbus,1,1,0,Base only
+Poecile,5,3,2,Base+Novel
+Polioptila,2,1,1,Base+Novel
+Pooecetes,1,1,0,Base only
+Porphyrio,1,1,0,Base only
+Progne,1,1,0,Base only
+Protonotaria,1,1,0,Base only
+Psaltriparus,1,1,0,Base only
+Pyrocephalus,1,1,0,Base only
+Quiscalus,3,1,2,Base+Novel
+Recurvirostra,1,1,0,Base only
+Regulus,1,1,0,Base only
+Riparia,1,1,0,Base only
+Rissa,1,1,0,Base only
+Rynchops,1,1,0,Base only
+Sayornis,3,1,2,Base+Novel
+Scolopax,1,1,0,Base only
+Seiurus,1,1,0,Base only
+Selasphorus,4,2,2,Base+Novel
+Setophaga,20,13,7,Base+Novel
+Sialia,3,1,2,Base+Novel
+Sitta,4,2,2,Base+Novel
+Somateria,1,1,0,Base only
+Spatula,3,1,2,Base+Novel
+Sphyrapicus,3,1,2,Base+Novel
+Spinus,3,1,2,Base+Novel
+Spiza,1,1,0,Base only
+Spizella,4,2,2,Base+Novel
+Spizelloides,1,1,0,Base only
+Stelgidopteryx,1,1,0,Base only
+Sterna,2,1,1,Base+Novel
+Streptopelia,1,1,0,Base only
+Strix,1,1,0,Base only
+Sturnella,2,1,1,Base+Novel
+Sturnus,1,1,0,Base only
+Tachycineta,2,1,1,Base+Novel
+Thalasseus,1,1,0,Base only
+Thryomanes,1,1,0,Base only
+Thryothorus,1,1,0,Base only
+Toxostoma,3,1,2,Base+Novel
+Tringa,4,2,2,Base+Novel
+Troglodytes,3,1,2,Base+Novel
+Turdus,1,1,0,Base only
+Tyrannus,4,2,2,Base+Novel
+Tyto,1,1,0,Base only
+Urile,2,1,1,Base+Novel
+Vermivora,1,1,0,Base only
+Vireo,9,6,3,Base+Novel
+Xanthocephalus,1,1,0,Base only
+Zenaida,2,1,1,Base+Novel
+Zonotrichia,4,2,2,Base+Novel

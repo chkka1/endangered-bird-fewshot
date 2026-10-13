@@ -1,0 +1,27 @@
+{
+ "imagenet": {
+  "mean": 54.96,
+  "std": 1.24
+ },
+ "clean_multitask": {
+  "mean": 60.91,
+  "std": 1.15
+ },
+ "pretrained_rows": {
+  "cub": {
+   "none": 54.96,
+   "uncond": 59.3,
+   "family": 68.3
+  },
+  "endb": {
+   "none": 50.85,
+   "uncond": 52.31,
+   "family": 55.09
+  },
+  "nab": {
+   "none": 42.59,
+   "uncond": 50.78,
+   "family": 52.98
+  }
+ }
+}

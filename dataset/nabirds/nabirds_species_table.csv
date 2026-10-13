@@ -1,0 +1,406 @@
+﻿species_id,class_name,genus,split_genus_stratified,split_unseen_genus,n_train,n_test,n_total
+0,Abert's Towhee,Melozone,Novel,Base,35,29,64
+1,Acorn Woodpecker,Melanerpes,Base,Base,41,58,99
+2,Allen's Hummingbird,Selasphorus,Base,Novel,76,101,177
+3,American Avocet,Recurvirostra,Base,Novel,48,54,102
+4,American Black Duck,Anas,Base,Base,28,37,65
+5,American Coot,Fulica,Base,Base,60,60,120
+6,American Crow,Corvus,Novel,Base,60,57,117
+7,American Dipper,Cinclus,Base,Base,51,31,82
+8,American Goldfinch,Spinus,Base,Base,120,120,240
+9,American Kestrel,Falco,Base,Base,115,115,230
+10,American Oystercatcher,Haematopus,Novel,Novel,31,49,80
+11,American Pipit,Anthus,Base,Base,60,58,118
+12,American Redstart,Setophaga,Novel,Base,103,119,222
+13,American Robin,Turdus,Base,Novel,115,119,234
+14,American Tree Sparrow,Spizelloides,Base,Novel,51,59,110
+15,American White Pelican,Pelecanus,Base,Novel,36,28,64
+16,American Wigeon,Mareca,Novel,Novel,73,64,137
+17,American Woodcock,Scolopax,Base,Novel,24,30,54
+18,Anhinga,Anhinga,Base,Base,60,60,120
+19,Anna's Hummingbird,Calypte,Novel,Base,116,106,222
+20,Ash-throated Flycatcher,Myiarchus,Novel,Novel,41,41,82
+21,Bald Eagle,Haliaeetus,Base,Base,120,103,223
+22,Baltimore Oriole,Icterus,Novel,Base,100,107,207
+23,Band-tailed Pigeon,Patagioenas,Base,Novel,35,40,75
+24,Bank Swallow,Riparia,Base,Novel,8,27,35
+25,Barn Owl,Tyto,Base,Base,57,52,109
+26,Barn Swallow,Hirundo,Base,Novel,49,57,106
+27,Barred Owl,Strix,Base,Base,60,60,120
+28,Barrow's Goldeneye,Bucephala,Base,Base,17,60,77
+29,Bay-breasted Warbler,Setophaga,Novel,Base,46,62,108
+30,Bell's Vireo,Vireo,Novel,Base,28,29,57
+31,Belted Kingfisher,Megaceryle,Base,Novel,49,60,109
+32,Bewick's Wren,Thryomanes,Base,Base,60,58,118
+33,Black Guillemot,Cepphus,Base,Novel,46,32,78
+34,Black Oystercatcher,Haematopus,Base,Novel,16,49,65
+35,Black Phoebe,Sayornis,Novel,Novel,60,60,120
+36,Black Rosy-Finch,Leucosticte,Novel,Base,33,26,59
+37,Black Scoter,Melanitta,Novel,Novel,40,41,81
+38,Black Skimmer,Rynchops,Base,Novel,39,53,92
+39,Black Tern,Chlidonias,Base,Novel,28,35,63
+40,Black Turnstone,Arenaria,Novel,Novel,39,47,86
+41,Black Vulture,Coragyps,Base,Base,49,48,97
+42,Black-and-white Warbler,Mniotilta,Base,Base,60,60,120
+43,Black-bellied Plover,Pluvialis,Base,Base,88,77,165
+44,Black-bellied Whistling-Duck,Dendrocygna,Base,Novel,31,20,51
+45,Black-billed Cuckoo,Coccyzus,Novel,Base,39,32,71
+46,Black-billed Magpie,Pica,Base,Novel,60,38,98
+47,Black-capped Chickadee,Poecile,Novel,Base,36,60,96
+48,Black-chinned Hummingbird,Archilochus,Novel,Novel,111,109,220
+49,Black-crested Titmouse,Baeolophus,Base,Base,37,33,70
+50,Black-crowned Night-Heron,Nycticorax,Base,Novel,105,114,219
+51,Black-headed Grosbeak,Pheucticus,Novel,Novel,92,106,198
+52,Black-legged Kittiwake,Rissa,Base,Base,65,42,107
+53,Black-necked Stilt,Himantopus,Base,Base,41,33,74
+54,Black-tailed Gnatcatcher,Polioptila,Novel,Base,32,22,54
+55,Black-throated Blue Warbler,Setophaga,Base,Base,100,91,191
+56,Black-throated Gray Warbler,Setophaga,Base,Base,34,41,75
+57,Black-throated Green Warbler,Setophaga,Base,Base,60,60,120
+58,Blackburnian Warbler,Setophaga,Base,Base,60,51,111
+59,Blackpoll Warbler,Setophaga,Base,Base,99,103,202
+60,Blue Grosbeak,Passerina,Base,Base,92,100,192
+61,Blue Jay,Cyanocitta,Base,Base,60,60,120
+62,Blue-gray Gnatcatcher,Polioptila,Base,Base,60,60,120
+63,Blue-headed Vireo,Vireo,Novel,Base,48,52,100
+64,Blue-winged Teal,Spatula,Novel,Base,57,59,116
+65,Blue-winged Warbler,Vermivora,Base,Base,36,38,74
+66,Boat-tailed Grackle,Quiscalus,Base,Base,54,60,114
+67,Bobolink,Dolichonyx,Base,Base,96,88,184
+68,Bohemian Waxwing,Bombycilla,Base,Base,19,60,79
+69,Bonaparte's Gull,Chroicocephalus,Base,Base,60,58,118
+70,Boreal Chickadee,Poecile,Base,Base,6,42,48
+71,Brandt's Cormorant,Urile,Novel,Novel,33,33,66
+72,Brant,Branta,Novel,Novel,20,32,52
+73,Brewer's Blackbird,Euphagus,Novel,Novel,95,91,186
+74,Brewer's Sparrow,Spizella,Base,Base,43,35,78
+75,Bridled Titmouse,Baeolophus,Base,Base,28,31,59
+76,Broad-billed Hummingbird,Cynanthus,Base,Base,60,71,131
+77,Broad-tailed Hummingbird,Selasphorus,Novel,Novel,64,73,137
+78,Broad-winged Hawk,Buteo,Base,Base,50,55,105
+79,Bronzed Cowbird,Molothrus,Novel,Novel,39,32,71
+80,Brown Creeper,Certhia,Base,Base,59,58,117
+81,Brown Pelican,Pelecanus,Novel,Novel,31,34,65
+82,Brown Thrasher,Toxostoma,Novel,Base,54,57,111
+83,Brown-capped Rosy-Finch,Leucosticte,Novel,Base,16,34,50
+84,Brown-headed Cowbird,Molothrus,Base,Novel,114,109,223
+85,Brown-headed Nuthatch,Sitta,Base,Base,34,38,72
+86,Bufflehead,Bucephala,Novel,Base,78,93,171
+87,Bullock's Oriole,Icterus,Base,Base,75,87,162
+88,Burrowing Owl,Athene,Base,Novel,56,43,99
+89,Bushtit,Psaltriparus,Base,Novel,60,60,120
+90,Cackling Goose,Branta,Base,Novel,17,14,31
+91,Cactus Wren,Campylorhynchus,Base,Novel,43,43,86
+92,California Gull,Larus,Base,Base,64,66,130
+93,California Quail,Callipepla,Base,Base,89,78,167
+94,California Thrasher,Toxostoma,Novel,Base,43,32,75
+95,California Towhee,Melozone,Base,Base,48,44,92
+96,Calliope Hummingbird,Selasphorus,Base,Novel,97,89,186
+97,Canada Goose,Branta,Novel,Novel,30,31,61
+98,Canada Warbler,Cardellina,Base,Novel,58,60,118
+99,Canvasback,Aythya,Novel,Base,58,72,130
+100,Canyon Towhee,Melozone,Novel,Base,38,46,84
+101,Canyon Wren,Catherpes,Base,Base,38,26,64
+102,Cape May Warbler,Setophaga,Base,Base,43,60,103
+103,Carolina Chickadee,Poecile,Novel,Base,60,58,118
+104,Carolina Wren,Thryothorus,Base,Base,60,60,120
+105,Caspian Tern,Hydroprogne,Base,Base,44,49,93
+106,Cassin's Finch,Haemorhous,Base,Novel,73,62,135
+107,Cassin's Kingbird,Tyrannus,Novel,Base,45,35,80
+108,Cassin's Vireo,Vireo,Base,Base,37,36,73
+109,Cattle Egret,Ardea,Novel,Base,59,49,108
+110,Cave Swallow,Petrochelidon,Novel,Novel,28,34,62
+111,Cedar Waxwing,Bombycilla,Novel,Base,43,54,97
+112,Chestnut-backed Chickadee,Poecile,Base,Base,60,54,114
+113,Chestnut-sided Warbler,Setophaga,Base,Base,99,95,194
+114,Chihuahuan Raven,Corvus,Base,Base,22,27,49
+115,Chimney Swift,Chaetura,Base,Novel,24,33,57
+116,Chipping Sparrow,Spizella,Base,Base,112,106,218
+117,Cinnamon Teal,Spatula,Base,Base,63,75,138
+118,Clark's Grebe,Aechmophorus,Novel,Base,44,38,82
+119,Clark's Nutcracker,Nucifraga,Base,Novel,43,46,89
+120,Clay-colored Sparrow,Spizella,Novel,Base,49,60,109
+121,Cliff Swallow,Petrochelidon,Base,Novel,44,30,74
+122,Common Eider,Somateria,Base,Base,66,73,139
+123,Common Gallinule,Gallinula,Base,Base,68,64,132
+124,Common Goldeneye,Bucephala,Novel,Base,79,84,163
+125,Common Grackle,Quiscalus,Novel,Base,60,58,118
+126,Common Ground-Dove,Columbina,Novel,Base,40,35,75
+127,Common Loon,Gavia,Novel,Base,94,120,214
+128,Common Merganser,Mergus,Novel,Base,76,74,150
+129,Common Nighthawk,Chordeiles,Base,Base,47,39,86
+130,Common Raven,Corvus,Novel,Base,59,57,116
+131,Common Redpoll,Acanthis,Novel,Novel,35,40,75
+132,Common Tern,Sterna,Novel,Base,60,60,120
+133,Common Yellowthroat,Geothlypis,Base,Novel,116,120,236
+134,Cooper's Hawk,Astur,Base,Novel,120,117,237
+135,Cordilleran Flycatcher,Empidonax,Novel,Novel,39,31,70
+136,Costa's Hummingbird,Calypte,Base,Base,58,58,116
+137,Crested Caracara,Caracara,Base,Base,58,54,112
+138,Curve-billed Thrasher,Toxostoma,Base,Base,32,46,78
+139,Dark-eyed Junco,Junco,Base,Base,170,192,362
+140,Dickcissel,Spiza,Base,Novel,56,60,116
+141,Double-crested Cormorant,Nannopterum,Base,Base,104,106,210
+142,Downy Woodpecker,Dryobates,Base,Base,60,60,120
+143,Dunlin,Calidris,Novel,Base,101,93,194
+144,Eared Grebe,Podiceps,Novel,Base,57,80,137
+145,Eastern Bluebird,Sialia,Novel,Novel,60,60,120
+146,Eastern Kingbird,Tyrannus,Base,Base,60,60,120
+147,Eastern Meadowlark,Sturnella,Novel,Novel,36,40,76
+148,Eastern Phoebe,Sayornis,Base,Novel,60,60,120
+149,Eastern Screech-Owl,Megascops,Base,Novel,44,50,94
+150,Eastern Towhee,Pipilo,Base,Base,56,54,110
+151,Eastern Wood-Pewee,Contopus,Novel,Novel,59,49,108
+152,Eurasian Collared-Dove,Streptopelia,Base,Base,58,59,117
+153,Eurasian Eagle-Owl,Bubo,Base,Base,32,24,56
+154,European Starling,Sturnus,Base,Novel,154,154,308
+155,Evening Grosbeak,Hesperiphona,Base,Base,80,120,200
+156,Field Sparrow,Spizella,Novel,Base,52,51,103
+157,Fish Crow,Corvus,Base,Base,31,30,61
+158,Florida Scrub-Jay,Aphelocoma,Novel,Base,29,26,55
+159,Forster's Tern,Sterna,Base,Base,60,60,120
+160,Fox Sparrow,Passerella,Base,Base,96,119,215
+161,Gadwall,Mareca,Base,Novel,80,75,155
+162,Gambel's Quail,Callipepla,Novel,Base,55,52,107
+163,Gila Woodpecker,Melanerpes,Base,Base,47,50,97
+164,Glaucous-winged Gull,Larus,Base,Base,67,60,127
+165,Glossy Ibis,Plegadis,Base,Base,54,44,98
+166,Golden Eagle,Aquila,Base,Base,65,72,137
+167,Golden-crowned Kinglet,Regulus,Base,Base,23,51,74
+168,Golden-crowned Sparrow,Zonotrichia,Base,Novel,99,102,201
+169,Golden-fronted Woodpecker,Melanerpes,Base,Base,44,33,77
+170,Gray Catbird,Dumetella,Base,Novel,60,60,120
+171,Gray Jay,Aphelocoma,Base,Base,42,54,96
+172,Gray-crowned Rosy-Finch,Leucosticte,Base,Base,27,37,64
+173,Great Black-backed Gull,Larus,Novel,Base,74,73,147
+174,Great Blue Heron,Ardea,Base,Base,42,60,102
+175,Great Cormorant,Phalacrocorax,Base,Base,53,64,117
+176,Great Crested Flycatcher,Myiarchus,Base,Novel,60,53,113
+177,Great Egret,Ardea,Novel,Base,51,60,111
+178,Great Horned Owl,Bubo,Novel,Base,57,46,103
+179,Great-tailed Grackle,Quiscalus,Novel,Base,60,60,120
+180,Greater Roadrunner,Geococcyx,Base,Novel,31,34,65
+181,Greater Scaup,Aythya,Novel,Base,38,73,111
+182,Greater White-fronted Goose,Anser,Novel,Base,38,33,71
+183,Greater Yellowlegs,Tringa,Novel,Base,54,59,113
+184,Green Heron,Butorides,Base,Base,60,60,120
+185,Green-tailed Towhee,Pipilo,Novel,Base,34,28,62
+186,Green-winged Teal,Anas,Novel,Base,73,71,144
+187,Hairy Woodpecker,Leuconotopicus,Base,Base,58,60,118
+188,Harlequin Duck,Histrionicus,Base,Novel,54,65,119
+189,Harris's Hawk,Parabuteo,Base,Base,52,43,95
+190,Harris's Sparrow,Zonotrichia,Novel,Novel,70,61,131
+191,Heermann's Gull,Larus,Base,Base,73,61,134
+192,Hermit Thrush,Catharus,Novel,Base,60,60,120
+193,Hermit Warbler,Setophaga,Base,Base,29,37,66
+194,Herring Gull,Larus,Base,Base,117,101,218
+195,Hoary Redpoll,Acanthis,Base,Novel,31,29,60
+196,Hooded Merganser,Lophodytes,Base,Base,86,86,172
+197,Hooded Oriole,Icterus,Base,Base,84,78,162
+198,Hooded Warbler,Setophaga,Novel,Base,60,49,109
+199,Horned Grebe,Podiceps,Novel,Base,101,95,196
+200,Horned Lark,Eremophila,Base,Base,53,60,113
+201,House Finch,Haemorhous,Novel,Novel,120,112,232
+202,House Sparrow,Passer,Base,Base,120,116,236
+203,House Wren,Troglodytes,Novel,Novel,60,54,114
+204,Hutton's Vireo,Vireo,Base,Base,46,39,85
+205,Inca Dove,Columbina,Base,Base,53,50,103
+206,Indigo Bunting,Passerina,Base,Base,109,99,208
+207,Juniper Titmouse,Baeolophus,Base,Base,22,25,47
+208,Killdeer,Charadrius,Novel,Novel,60,60,120
+209,Ladder-backed Woodpecker,Dryobates,Novel,Base,49,50,99
+210,Lark Bunting,Calamospiza,Base,Base,46,51,97
+211,Lark Sparrow,Chondestes,Base,Base,53,59,112
+212,Laughing Gull,Leucophaeus,Base,Base,101,104,205
+213,Lazuli Bunting,Passerina,Novel,Base,78,68,146
+214,Least Flycatcher,Empidonax,Novel,Novel,53,60,113
+215,Least Sandpiper,Calidris,Base,Base,60,60,120
+216,Lesser Goldfinch,Spinus,Novel,Base,97,95,192
+217,Lesser Scaup,Aythya,Base,Base,68,79,147
+218,Lesser Yellowlegs,Tringa,Base,Base,60,60,120
+219,Lincoln's Sparrow,Melospiza,Novel,Novel,56,60,116
+220,Little Blue Heron,Egretta,Base,Novel,110,97,207
+221,Loggerhead Shrike,Lanius,Base,Base,60,60,120
+222,Long-billed Curlew,Numenius,Novel,Novel,43,53,96
+223,Long-tailed Duck,Clangula,Base,Base,71,65,136
+224,Louisiana Waterthrush,Parkesia,Base,Novel,44,42,86
+225,MacGillivray's Warbler,Geothlypis,Novel,Novel,20,46,66
+226,Magnolia Warbler,Setophaga,Base,Base,99,105,204
+227,Mallard,Anas,Novel,Base,118,120,238
+228,Marbled Godwit,Limosa,Base,Base,56,60,116
+229,Marsh Wren,Cistothorus,Base,Novel,60,60,120
+230,Merlin,Falco,Novel,Base,60,58,118
+231,Mew Gull,Larus,Base,Base,32,23,55
+232,Mexican Jay,Aphelocoma,Novel,Base,35,26,61
+233,Mississippi Kite,Ictinia,Base,Novel,30,50,80
+234,Monk Parakeet,Myiopsitta,Base,Novel,18,28,46
+235,Mottled Duck,Anas,Base,Base,31,29,60
+236,Mountain Bluebird,Sialia,Novel,Novel,52,49,101
+237,Mountain Chickadee,Poecile,Base,Base,56,53,109
+238,Mourning Dove,Zenaida,Novel,Novel,60,60,120
+239,Mourning Warbler,Geothlypis,Novel,Novel,25,52,77
+240,Mute Swan,Cygnus,Base,Novel,57,60,117
+241,Nashville Warbler,Leiothlypis,Base,Base,59,60,119
+242,Neotropic Cormorant,Nannopterum,Novel,Base,27,38,65
+243,Northern Bobwhite,Colinus,Base,Base,27,32,59
+244,Northern Cardinal,Cardinalis,Novel,Novel,120,120,240
+245,Northern Flicker,Colaptes,Base,Base,120,118,238
+246,Northern Gannet,Morus,Base,Base,65,80,145
+247,Northern Harrier,Circus,Base,Novel,95,120,215
+248,Northern Mockingbird,Mimus,Base,Base,60,60,120
+249,Northern Parula,Setophaga,Base,Base,60,60,120
+250,Northern Pintail,Anas,Base,Base,68,66,134
+251,Northern Pygmy-Owl,Glaucidium,Base,Base,53,50,103
+252,Northern Rough-winged Swallow,Stelgidopteryx,Base,Base,35,42,77
+253,Northern Saw-whet Owl,Aegolius,Base,Novel,53,45,98
+254,Northern Shoveler,Spatula,Novel,Base,99,100,199
+255,Northern Shrike,Lanius,Novel,Base,60,60,120
+256,Northern Waterthrush,Parkesia,Novel,Novel,55,56,111
+257,Northwestern Crow,,Base,Base,17,19,36
+258,Nuttall's Woodpecker,Dryobates,Novel,Base,47,45,92
+259,Oak Titmouse,Baeolophus,Novel,Base,45,37,82
+260,Orange-crowned Warbler,Leiothlypis,Novel,Base,56,58,114
+261,Orchard Oriole,Icterus,Novel,Base,99,93,192
+262,Osprey,Pandion,Base,Novel,54,52,106
+263,Ovenbird,Seiurus,Base,Novel,43,60,103
+264,Pacific Loon,Gavia,Novel,Base,38,47,85
+265,Pacific Wren,Troglodytes,Base,Novel,16,21,37
+266,Pacific-slope Flycatcher,Empidonax,Base,Novel,60,59,119
+267,Painted Bunting,Passerina,Novel,Base,108,98,206
+268,Palm Warbler,Setophaga,Base,Base,60,44,104
+269,Pelagic Cormorant,Urile,Base,Novel,36,26,62
+270,Peregrine Falcon,Falco,Novel,Base,53,77,130
+271,Phainopepla,Phainopepla,Base,Novel,53,53,106
+272,Pied-billed Grebe,Podilymbus,Base,Base,56,60,116
+273,Pigeon Guillemot,Cepphus,Novel,Novel,59,59,118
+274,Pileated Woodpecker,Dryocopus,Base,Novel,59,60,119
+275,Pine Grosbeak,Pinicola,Base,Novel,59,74,133
+276,Pine Siskin,Spinus,Novel,Base,48,60,108
+277,Pine Warbler,Setophaga,Base,Base,60,48,108
+278,Plumbeous Vireo,Vireo,Base,Base,34,41,75
+279,Prairie Falcon,Falco,Base,Base,44,42,86
+280,Prairie Warbler,Setophaga,Novel,Base,60,60,120
+281,Prothonotary Warbler,Protonotaria,Base,Base,57,46,103
+282,Purple Finch,Haemorhous,Novel,Novel,97,97,194
+283,Purple Gallinule,Porphyrio,Base,Base,44,51,95
+284,Purple Martin,Progne,Base,Base,66,71,137
+285,Pygmy Nuthatch,Sitta,Novel,Base,42,38,80
+286,Pyrrhuloxia,Cardinalis,Base,Novel,42,48,90
+287,Red Crossbill,Loxia,Novel,Novel,73,59,132
+288,Red-bellied Woodpecker,Melanerpes,Novel,Base,60,60,120
+289,Red-breasted Merganser,Mergus,Base,Base,70,85,155
+290,Red-breasted Nuthatch,Sitta,Base,Base,60,60,120
+291,Red-breasted Sapsucker,Sphyrapicus,Base,Base,43,42,85
+292,Red-eyed Vireo,Vireo,Base,Base,60,60,120
+293,Red-headed Woodpecker,Melanerpes,Novel,Base,97,94,191
+294,Red-naped Sapsucker,Sphyrapicus,Novel,Base,44,54,98
+295,Red-necked Grebe,Podiceps,Base,Base,56,60,116
+296,Red-shouldered Hawk,Buteo,Novel,Base,75,76,151
+297,Red-tailed Hawk,Buteo,Base,Base,148,150,298
+298,Red-throated Loon,Gavia,Base,Base,58,59,117
+299,Red-winged Blackbird,Agelaius,Base,Base,120,119,239
+300,Reddish Egret,Egretta,Novel,Novel,81,75,156
+301,Redhead,Aythya,Base,Base,56,44,100
+302,Ring-billed Gull,Larus,Novel,Base,104,96,200
+303,Ring-necked Duck,Aythya,Base,Base,64,68,132
+304,Ring-necked Pheasant,Phasianus,Base,Novel,64,61,125
+305,Rock Pigeon,Columba,Base,Novel,47,58,105
+306,Rose-breasted Grosbeak,Pheucticus,Base,Novel,113,108,221
+307,Roseate Spoonbill,Platalea,Base,Novel,31,29,60
+308,Ross's Goose,Anser,Base,Base,23,23,46
+309,Rough-legged Hawk,Buteo,Base,Base,72,64,136
+310,Royal Tern,Thalasseus,Base,Novel,38,38,76
+311,Ruby-crowned Kinglet,Corthylio,Base,Base,60,60,120
+312,Ruby-throated Hummingbird,Archilochus,Base,Novel,106,114,220
+313,Ruddy Duck,Oxyura,Base,Base,105,106,211
+314,Ruddy Turnstone,Arenaria,Base,Novel,53,55,108
+315,Ruffed Grouse,Bonasa,Base,Novel,35,40,75
+316,Rufous Hummingbird,Selasphorus,Novel,Novel,76,87,163
+317,Rufous-crowned Sparrow,Aimophila,Base,Novel,39,41,80
+318,Rusty Blackbird,Euphagus,Base,Novel,42,48,90
+319,Sanderling,Calidris,Base,Base,58,68,126
+320,Sandhill Crane,Antigone,Base,Base,25,25,50
+321,Savannah Sparrow,Passerculus,Base,Novel,60,60,120
+322,Say's Phoebe,Sayornis,Novel,Novel,60,58,118
+323,Scaled Quail,Callipepla,Novel,Base,20,19,39
+324,Scarlet Tanager,Piranga,Novel,Novel,86,77,163
+325,Scissor-tailed Flycatcher,Tyrannus,Base,Base,40,37,77
+326,Semipalmated Plover,Charadrius,Base,Novel,57,54,111
+327,Semipalmated Sandpiper,Calidris,Novel,Base,45,60,105
+328,Sharp-shinned Hawk,Accipiter,Base,Novel,111,116,227
+329,Short-billed Dowitcher,Limnodromus,Base,Base,60,60,120
+330,Snow Bunting,Plectrophenax,Base,Base,64,64,128
+331,Snow Goose,Anser,Novel,Base,42,54,96
+332,Snowy Egret,Egretta,Base,Novel,55,49,104
+333,Snowy Owl,Bubo,Novel,Base,26,46,72
+334,Solitary Sandpiper,Tringa,Novel,Base,60,56,116
+335,Song Sparrow,Melospiza,Novel,Novel,60,60,120
+336,Spotted Sandpiper,Actitis,Base,Base,108,98,206
+337,Spotted Towhee,Pipilo,Novel,Base,60,60,120
+338,Steller's Jay,Cyanocitta,Novel,Base,60,60,120
+339,Summer Tanager,Piranga,Novel,Novel,89,100,189
+340,Surf Scoter,Melanitta,Novel,Novel,53,61,114
+341,Surfbird,Calidris,Base,Base,23,40,63
+342,Swainson's Hawk,Buteo,Novel,Base,95,93,188
+343,Swainson's Thrush,Catharus,Novel,Base,49,58,107
+344,Swallow-tailed Kite,Elanoides,Base,Novel,24,29,53
+345,Swamp Sparrow,Melospiza,Base,Novel,53,60,113
+346,Tennessee Warbler,Leiothlypis,Novel,Base,56,60,116
+347,Townsend's Solitaire,Myadestes,Base,Novel,52,37,89
+348,Townsend's Warbler,Setophaga,Novel,Base,60,60,120
+349,Tree Swallow,Tachycineta,Novel,Novel,60,56,116
+350,Tricolored Heron,Egretta,Novel,Novel,60,60,120
+351,Trumpeter Swan,Cygnus,Novel,Novel,43,37,80
+352,Tufted Titmouse,Baeolophus,Novel,Base,60,60,120
+353,Tundra Swan,Cygnus,Novel,Novel,27,28,55
+354,Turkey Vulture,Cathartes,Base,Base,49,59,108
+355,Varied Thrush,Ixoreus,Base,Base,60,56,116
+356,Vaux's Swift,Chaetura,Novel,Novel,25,28,53
+357,Veery,Catharus,Base,Base,46,41,87
+358,Verdin,Auriparus,Base,Base,51,32,83
+359,Vermilion Flycatcher,Pyrocephalus,Base,Novel,100,89,189
+360,Vesper Sparrow,Pooecetes,Base,Base,55,60,115
+361,Violet-green Swallow,Tachycineta,Base,Novel,38,37,75
+362,Warbling Vireo,Vireo,Novel,Base,52,60,112
+363,Western Bluebird,Sialia,Base,Novel,47,59,106
+364,Western Grebe,Aechmophorus,Base,Base,33,42,75
+365,Western Gull,Larus,Base,Base,65,59,124
+366,Western Kingbird,Tyrannus,Novel,Base,57,52,109
+367,Western Meadowlark,Sturnella,Base,Novel,60,60,120
+368,Western Sandpiper,Calidris,Base,Base,41,51,92
+369,Western Screech-Owl,Megascops,Novel,Novel,40,34,74
+370,Western Scrub-Jay,Aphelocoma,Base,Base,60,60,120
+371,Western Tanager,Piranga,Base,Novel,73,86,159
+372,Western Wood-Pewee,Contopus,Base,Novel,56,49,105
+373,Whimbrel,Numenius,Base,Novel,50,51,101
+374,White Ibis,Eudocimus,Base,Novel,90,91,181
+375,White-breasted Nuthatch,Sitta,Novel,Base,60,60,120
+376,White-crowned Sparrow,Zonotrichia,Novel,Novel,119,120,239
+377,White-eyed Vireo,Vireo,Base,Base,37,57,94
+378,White-faced Ibis,Plegadis,Novel,Base,32,34,66
+379,White-tailed Kite,Elanus,Base,Novel,59,13,72
+380,White-throated Sparrow,Zonotrichia,Base,Novel,98,104,202
+381,White-throated Swift,Aeronautes,Base,Base,26,40,66
+382,White-winged Crossbill,Loxia,Base,Novel,59,52,111
+383,White-winged Dove,Zenaida,Base,Novel,60,57,117
+384,White-winged Scoter,Melanitta,Base,Novel,35,57,92
+385,Wild Turkey,Meleagris,Base,Base,60,60,120
+386,Willet,Tringa,Base,Base,60,60,120
+387,Wilson's Phalarope,Phalaropus,Base,Base,68,81,149
+388,Wilson's Snipe,Gallinago,Base,Novel,55,55,110
+389,Wilson's Warbler,Cardellina,Novel,Novel,60,60,120
+390,Winter Wren,Troglodytes,Novel,Novel,50,54,104
+391,Wood Duck,Aix,Base,Novel,110,106,216
+392,Wood Stork,Mycteria,Base,Base,48,56,104
+393,Wood Thrush,Hylocichla,Base,Base,47,46,93
+394,Wrentit,Chamaea,Base,Novel,27,37,64
+395,Yellow Warbler,Setophaga,Novel,Base,60,60,120
+396,Yellow-bellied Sapsucker,Sphyrapicus,Novel,Base,60,59,119
+397,Yellow-billed Cuckoo,Coccyzus,Base,Base,47,47,94
+398,Yellow-billed Magpie,Pica,Novel,Novel,32,27,59
+399,Yellow-breasted Chat,Icteria,Base,Novel,55,60,115
+400,Yellow-crowned Night-Heron,Nyctanassa,Base,Base,81,99,180
+401,Yellow-headed Blackbird,Xanthocephalus,Base,Base,80,83,163
+402,Yellow-rumped Warbler,Setophaga,Base,Base,221,214,435
+403,Yellow-throated Vireo,Vireo,Base,Base,31,38,69
+404,Yellow-throated Warbler,Setophaga,Novel,Base,43,60,103

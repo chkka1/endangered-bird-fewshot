@@ -1,0 +1,26 @@
+﻿group cub_novel  n=1627
+group cub_base   n=4348
+group endb       n=1673
+================================================================================
+MODEL genus_center (cub_cosine_multitask_genus_center.pth)
+python.exe : Traceback (most recent call last):
+所在位置 行:25 字符: 1
++ & $py "$R\_tools\cache_features.py" 2>&1 | Out-File "$R\_tools\final_ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "\_tools\cache_features.py", line 206, in <module>
+    main()
+  File "\_tools\cache_features.py", line 186, in main
+    model = build_model(weight)
+  File "\_tools\cache_features.py", line 139, in build_model
+    sd = torch.load(path, map_location=DEVICE, weights_only=True)
+  File "<PY_ENV>\lib\site-packages\torch\serialization.py", line 1319, in load
+    with _open_file_like(f, "rb") as opened_file:
+  File "<PY_ENV>\lib\site-packages\torch\serialization.py", line 659, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "<PY_ENV>\lib\site-packages\torch\serialization.py", line 640, in __init__
+    super().__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'checkpoints\\cub_cosine_multitask_genu
+s_center.pth'

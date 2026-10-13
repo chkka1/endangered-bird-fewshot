@@ -1,0 +1,10 @@
+﻿group cub_novel  n=1627
+group cub_base   n=4348
+group endb       n=1673
+================================================================================
+MODEL clip_vitb16 (vit_base_patch16_clip_224.openai)
+  vit_base_patch16_clip_224.openai | params 85.8M | input=(3, 224, 224) | mean=[0.481, 0.458, 0.408] std=[0.269, 0.261, 0.276]
+  skip existing cub_novel__clip_vitb16.npz
+  skip existing cub_base__clip_vitb16.npz
+  skip existing endb__clip_vitb16.npz
+DONE

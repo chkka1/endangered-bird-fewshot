@@ -1,0 +1,108 @@
+﻿==============================================================================
+A. 泄漏风险
+==============================================================================
+检查 1：训练脚本是否只读 Base 类的 train 分割
+   读取 split json 限定 base_ids        OK
+   按 is_train 过滤                    OK
+   未使用 ImageFolder                  OK
+   未遍历 images/base 目录               OK
+
+检查 2：是否存在其它会遍历图像目录的训练脚本
+   train_base_clean.py            OK
+
+==============================================================================
+B. 协议完整性
+==============================================================================
+检查 3：调参块与评测块种子是否分离
+   (导入 rerun_ablation 失败: ModuleNotFoundError)
+   (导入 improve_methods 失败: ModuleNotFoundError)
+   (导入 final_eval 失败: ModuleNotFoundError)
+   TUNE_SEEDS = 未找到
+   EVAL_SEEDS = 未找到
+
+检查 4：白化矩阵是否只用 Base 特征拟合
+   final_eval.py: W = fit_whitening(bf)
+   fit_whitening 的输入来自 base 组（bf）：OK
+
+检查 5：episode 是否可能同时落入调参与评测
+   build_episodes(species, shot, EVAL_SEEDS)
+
+==============================================================================
+C. 可复现性
+==============================================================================
+检查 6：硬编码绝对路径（妨碍他人复现）
+   audit_code.py                     0 处
+   audit_splits.py                   0 处
+   build_endangered_expansion_plan.py  0 处
+   build_nabirds_metadata.py         0 处
+   build_nabirds_taxonomy.py         0 处
+   build_paper_v2.py                 0 处
+   build_revised_paper.py            0 处
+   cache_features.py                 0 处
+   cache_nabirds_features.py         0 处
+   cache_unseen_features.py          0 处
+   check_leakage.py                  0 处
+   check_protocol_overlap.py         0 处
+   check_protocol_premise.py         0 处
+   clip_recent_baselines.py          0 处
+   collect_endangered_images.py      0 处
+   dataset_inventory.py              0 处
+   dedupe_by_source.py               0 处
+   dedupe_endangered.py              0 处
+   extract_nabirds.py                0 处
+   finalize_endangered_dataset.py    0 处
+   make_figures.py                   0 处
+   patch_cub_path_resolution.py      0 处
+   patch_equations.py                0 处
+   quarantine_unprovenanced.py       0 处
+   recover_expansion_images.py       0 处
+   reorg_cub_dirs.py                 0 处
+   rerun_ablation.py                 0 处
+   split_cub_unseen_genus.py         0 处
+   split_nabirds_by_genus.py         0 处
+   topup_endangered.py               0 处
+   train_base_clean.py               0 处
+   verify_reorg.py                   0 处
+   合计 32 个脚本含绝对路径
+
+检查 7：关键输入与产物是否齐全
+   cub_parsed/dataset_split_by_genus.json         OK  属分层划分
+   cub_parsed/dataset_split_unseen_genus.json     OK  未见属划分
+   cub_parsed/cub_metadata.json                   OK  CUB 元数据
+   data/NABirds/nabirds_metadata.json             OK  NABirds 元数据
+   data/NABirds/dataset_split_by_genus.json       OK  NABirds 划分
+   data/endangered_birds/image_sources.csv        OK  濒危集来源清单
+   _tools/final_out/final_main_table.csv          OK  主结果
+   _tools/final_out/final_significance.csv        OK  显著性
+   _tools/final_out/bwc_criterion.csv             OK  BWC 判据
+   _tools/final_out/recent_baselines.csv          OK  近年基线
+   _tools/final_out/tip_cache_branch.csv          OK  缓存分支消融
+   README.md                                      OK  README
+   决策日志.md                                        OK  决策日志
+
+==============================================================================
+D. 残留物
+==============================================================================
+   audit_code.py:10  D. leftovers          - placeholders, debug flags, dead defaults
+   audit_code.py:180  pat = re.compile(r"TODO|FIXME|XXX|待补|placeholder|HACK")
+   audit_code.py:190  add("LOW", "D1", "%d 处 TODO/待补标记" % found)
+   build_revised_paper.py:479  "［待补：细粒度图像识别综述 1 篇］.",
+   build_revised_paper.py:480  "［待补：小样本学习综述 / episodic training 代表工作 1~2 篇］.",
+   build_revised_paper.py:481  "［待补：测试时增强与推理期增强相关工作 1 篇］.",
+   build_revised_paper.py:482  "［待补：层级/树状标签分类相关工作 1 篇］.",
+   build_revised_paper.py:483  "［待补：基于视觉-语言预训练模型的免训练小样本方法 1~2 篇］.",
+   共 8 处
+
+==============================================================================
+汇总
+==============================================================================
+[HIGH] A1   疑似按目录递归加载图像：audit_code.py:39  LEAK_PAT = re.compile(r"ImageFolder|ImageFolder\(|datasets\.ImageFolder|"
+[HIGH] A1   疑似按目录递归加载图像：audit_code.py:53  "未使用 ImageFolder": "ImageFolder" not in src,
+[HIGH] A1   疑似按目录递归加载图像：build_paper_v2.py:497  "ImageFolder(目录) 之类的按目录递归方式加载数据时，加载器读取的是**目录内容**而非划分标记，"
+[HIGH] A1   疑似按目录递归加载图像：diag_group_all.py:7  ImageFolder(images/base) -- including train_cub_pretrain.py, which loads
+[HIGH] A1   疑似按目录递归加载图像：patch_cub_path_resolution.py:97  for dirpath, _, files in os.walk(ROOT):
+[HIGH] A1   疑似按目录递归加载图像：reorg_cub_dirs.py:68  return sum(len(files) for _, _, files in os.walk(p))
+[HIGH] B3   无法解析种子定义
+[MED] C1   32 个脚本硬编码了绝对路径（公开前应改为相对路径或配置项）
+
+HIGH 7 / MED 1 / LOW 0

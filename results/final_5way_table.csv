@@ -1,0 +1,73 @@
+﻿dataset,backbone,protocol,key,method,acc_mean,acc_std,episodes
+cub,clean_multitask,5-way 5-shot,protonet,ProtoNet（无校准）,90.591,6.983,50
+cub,clean_multitask,5-way 5-shot,uncond_protonet,无条件白化 + ProtoNet,93.017,5.179,50
+cub,clean_multitask,5-way 5-shot,cal_protonet,校准方法族 + ProtoNet,93.214,5.061,50
+cub,clean_multitask,5-way 5-shot,linearprobe,线性探针（无校准）,91.584,5.151,50
+cub,clean_multitask,5-way 5-shot,uncond_linearprobe,无条件白化 + 线性探针,93.054,4.198,50
+cub,clean_multitask,5-way 5-shot,cal_linearprobe,校准方法族 + 线性探针,93.183,4.071,50
+cub,clean_species,5-way 5-shot,protonet,ProtoNet（无校准）,91.821,5.602,50
+cub,clean_species,5-way 5-shot,uncond_protonet,无条件白化 + ProtoNet,93.688,4.255,50
+cub,clean_species,5-way 5-shot,cal_protonet,校准方法族 + ProtoNet,93.688,4.255,50
+cub,clean_species,5-way 5-shot,linearprobe,线性探针（无校准）,91.943,4.941,50
+cub,clean_species,5-way 5-shot,uncond_linearprobe,无条件白化 + 线性探针,93.250,3.815,50
+cub,clean_species,5-way 5-shot,cal_linearprobe,校准方法族 + 线性探针,93.250,3.815,50
+cub,clip_vitb16,5-way 5-shot,protonet,ProtoNet（无校准）,95.736,4.045,50
+cub,clip_vitb16,5-way 5-shot,uncond_protonet,无条件白化 + ProtoNet,86.288,8.129,50
+cub,clip_vitb16,5-way 5-shot,cal_protonet,校准方法族 + ProtoNet,97.275,2.658,50
+cub,clip_vitb16,5-way 5-shot,linearprobe,线性探针（无校准）,96.070,3.548,50
+cub,clip_vitb16,5-way 5-shot,uncond_linearprobe,无条件白化 + 线性探针,91.023,5.506,50
+cub,clip_vitb16,5-way 5-shot,cal_linearprobe,校准方法族 + 线性探针,95.587,3.715,50
+cub,dinov2_vitb14,5-way 5-shot,protonet,ProtoNet（无校准）,98.961,1.333,50
+cub,dinov2_vitb14,5-way 5-shot,uncond_protonet,无条件白化 + ProtoNet,97.631,2.018,50
+cub,dinov2_vitb14,5-way 5-shot,cal_protonet,校准方法族 + ProtoNet,99.042,1.197,50
+cub,dinov2_vitb14,5-way 5-shot,linearprobe,线性探针（无校准）,98.914,1.391,50
+cub,dinov2_vitb14,5-way 5-shot,uncond_linearprobe,无条件白化 + 线性探针,97.695,1.817,50
+cub,dinov2_vitb14,5-way 5-shot,cal_linearprobe,校准方法族 + 线性探针,98.883,1.303,50
+nab,clean_multitask,5-way 5-shot,protonet,ProtoNet（无校准）,92.609,5.956,50
+nab,clean_multitask,5-way 5-shot,uncond_protonet,无条件白化 + ProtoNet,91.544,5.011,50
+nab,clean_multitask,5-way 5-shot,cal_protonet,校准方法族 + ProtoNet,94.335,4.537,50
+nab,clean_multitask,5-way 5-shot,linearprobe,线性探针（无校准）,92.474,5.817,50
+nab,clean_multitask,5-way 5-shot,uncond_linearprobe,无条件白化 + 线性探针,89.972,4.698,50
+nab,clean_multitask,5-way 5-shot,cal_linearprobe,校准方法族 + 线性探针,93.123,4.361,50
+nab,clean_species,5-way 5-shot,protonet,ProtoNet（无校准）,92.394,6.100,50
+nab,clean_species,5-way 5-shot,uncond_protonet,无条件白化 + ProtoNet,91.509,4.892,50
+nab,clean_species,5-way 5-shot,cal_protonet,校准方法族 + ProtoNet,90.740,4.947,50
+nab,clean_species,5-way 5-shot,linearprobe,线性探针（无校准）,92.102,5.394,50
+nab,clean_species,5-way 5-shot,uncond_linearprobe,无条件白化 + 线性探针,90.101,4.928,50
+nab,clean_species,5-way 5-shot,cal_linearprobe,校准方法族 + 线性探针,89.234,4.897,50
+nab,clip_vitb16,5-way 5-shot,protonet,ProtoNet（无校准）,97.294,3.629,50
+nab,clip_vitb16,5-way 5-shot,uncond_protonet,无条件白化 + ProtoNet,89.203,5.878,50
+nab,clip_vitb16,5-way 5-shot,cal_protonet,校准方法族 + ProtoNet,97.963,2.631,50
+nab,clip_vitb16,5-way 5-shot,linearprobe,线性探针（无校准）,97.509,3.232,50
+nab,clip_vitb16,5-way 5-shot,uncond_linearprobe,无条件白化 + 线性探针,92.457,3.932,50
+nab,clip_vitb16,5-way 5-shot,cal_linearprobe,校准方法族 + 线性探针,95.767,3.136,50
+nab,dinov2_vitb14,5-way 5-shot,protonet,ProtoNet（无校准）,99.212,3.757,50
+nab,dinov2_vitb14,5-way 5-shot,uncond_protonet,无条件白化 + ProtoNet,98.799,1.765,50
+nab,dinov2_vitb14,5-way 5-shot,cal_protonet,校准方法族 + ProtoNet,99.601,1.325,50
+nab,dinov2_vitb14,5-way 5-shot,linearprobe,线性探针（无校准）,99.382,2.676,50
+nab,dinov2_vitb14,5-way 5-shot,uncond_linearprobe,无条件白化 + 线性探针,98.783,1.705,50
+nab,dinov2_vitb14,5-way 5-shot,cal_linearprobe,校准方法族 + 线性探针,99.587,1.236,50
+endb,clean_multitask,5-way 5-shot,protonet,ProtoNet（无校准）,79.784,8.227,50
+endb,clean_multitask,5-way 5-shot,uncond_protonet,无条件白化 + ProtoNet,81.665,7.315,50
+endb,clean_multitask,5-way 5-shot,cal_protonet,校准方法族 + ProtoNet,81.682,7.520,50
+endb,clean_multitask,5-way 5-shot,linearprobe,线性探针（无校准）,79.226,8.538,50
+endb,clean_multitask,5-way 5-shot,uncond_linearprobe,无条件白化 + 线性探针,80.656,7.629,50
+endb,clean_multitask,5-way 5-shot,cal_linearprobe,校准方法族 + 线性探针,80.774,7.555,50
+endb,clean_species,5-way 5-shot,protonet,ProtoNet（无校准）,78.218,8.007,50
+endb,clean_species,5-way 5-shot,uncond_protonet,无条件白化 + ProtoNet,81.370,6.600,50
+endb,clean_species,5-way 5-shot,cal_protonet,校准方法族 + ProtoNet,81.370,6.600,50
+endb,clean_species,5-way 5-shot,linearprobe,线性探针（无校准）,77.635,7.569,50
+endb,clean_species,5-way 5-shot,uncond_linearprobe,无条件白化 + 线性探针,80.523,7.752,50
+endb,clean_species,5-way 5-shot,cal_linearprobe,校准方法族 + 线性探针,80.523,7.752,50
+endb,clip_vitb16,5-way 5-shot,protonet,ProtoNet（无校准）,91.268,4.720,50
+endb,clip_vitb16,5-way 5-shot,uncond_protonet,无条件白化 + ProtoNet,77.601,8.285,50
+endb,clip_vitb16,5-way 5-shot,cal_protonet,校准方法族 + ProtoNet,92.533,4.442,50
+endb,clip_vitb16,5-way 5-shot,linearprobe,线性探针（无校准）,92.038,4.402,50
+endb,clip_vitb16,5-way 5-shot,uncond_linearprobe,无条件白化 + 线性探针,84.503,6.586,50
+endb,clip_vitb16,5-way 5-shot,cal_linearprobe,校准方法族 + 线性探针,91.226,4.366,50
+endb,dinov2_vitb14,5-way 5-shot,protonet,ProtoNet（无校准）,97.275,3.056,50
+endb,dinov2_vitb14,5-way 5-shot,uncond_protonet,无条件白化 + ProtoNet,95.652,3.479,50
+endb,dinov2_vitb14,5-way 5-shot,cal_protonet,校准方法族 + ProtoNet,97.160,3.042,50
+endb,dinov2_vitb14,5-way 5-shot,linearprobe,线性探针（无校准）,97.217,2.665,50
+endb,dinov2_vitb14,5-way 5-shot,uncond_linearprobe,无条件白化 + 线性探针,95.412,3.587,50
+endb,dinov2_vitb14,5-way 5-shot,cal_linearprobe,校准方法族 + 线性探针,96.747,2.795,50

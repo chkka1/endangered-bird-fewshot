@@ -1,0 +1,48 @@
+﻿复用调参结果（仅在调参块上选出）: proto fw=0.60 p1=1.005 top_k=10 cand=8 | sample b1=1.06 top_k=10 cand=8
+============================================================================================
+backbone = genus_center
+============================================================================================
+  [cub/genus_center] whitening fitted on cub_base (4348 imgs, 1280-d) 0.3s
+  [cub/genus_center/1-shot] done
+  [cub/genus_center/5-shot] done
+  [endb/genus_center] whitening fitted on cub_base (4348 imgs, 1280-d) 0.3s
+  [endb/genus_center/5-shot] done
+
+============================================================================================================
+摘要（只列关键行；完整表见 final_out/final_main_table.csv）
+============================================================================================================
+
+cub | 5-shot
+方法                         genus_center    
+NN 基线（余弦 kNN）              76.913%         
+ProtoNet（类原型均值）            78.320%         
+SimpleShot（欧氏最近类均值）        78.673%         
+仅原型-实例融合（无属先验）             79.151%         
+GWP/ProtoPrior（属先验版）       79.034%         
+★白化＋ProtoNet               85.330%         
+★白化＋线性探针                   85.703%         
+线性探针                       81.623%         
+
+cub | 1-shot
+方法                         genus_center    
+NN 基线（余弦 kNN）              62.971%         
+ProtoNet（类原型均值）            62.971%         
+SimpleShot（欧氏最近类均值）        62.971%         
+仅原型-实例融合（无属先验）             62.971%         
+GWP/ProtoPrior（属先验版）       62.978%         
+★白化＋ProtoNet               70.018%         
+★白化＋线性探针                   70.173%         
+线性探针                       63.537%         
+
+endb | 5-shot
+方法                         genus_center    
+NN 基线（余弦 kNN）              73.733%         
+ProtoNet（类原型均值）            75.520%         
+SimpleShot（欧氏最近类均值）        75.640%         
+仅原型-实例融合（无属先验）             75.933%         
+GWP/ProtoPrior（属先验版）       75.920%         
+★白化＋ProtoNet               80.800%         
+★白化＋线性探针                   82.520%         
+线性探针                       78.853%         
+
+saved: \_tools\final_out\final_main_table.csv

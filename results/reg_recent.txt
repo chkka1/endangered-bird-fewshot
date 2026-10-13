@@ -1,0 +1,25 @@
+﻿python.exe : <PY_ENV>\lib\site-packages\open_clip\factory.py:450: UserWarning: QuickGELU misma
+tch between final model config (quick_gelu=False) and pretrained tag 'openai' (quick_gelu=True).
+所在位置 行:15 字符: 1
++ & $py "$R\_tools\clip_recent_baselines.py" --eval 2>&1 | Out-File "$f ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (<PATH>\Anacond...ick_gelu=True).:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  warnings.warn(
+  cub            1-shot zeroshot       64.44%
+  cub            1-shot tip_adapter    68.15%
+  cub            1-shot clip_adapter   56.75%
+  cub            5-shot zeroshot       64.58%
+  cub            5-shot tip_adapter    70.35%
+  cub            5-shot clip_adapter   75.88%
+  endb           5-shot zeroshot       47.29%
+  endb           5-shot tip_adapter    55.77%
+  endb           5-shot clip_adapter   64.19%
+  nab            1-shot zeroshot       58.60%
+  nab            1-shot tip_adapter    59.91%
+  nab            1-shot clip_adapter   45.13%
+  nab            5-shot zeroshot       58.64%
+  nab            5-shot tip_adapter    60.52%
+  nab            5-shot clip_adapter   59.83%
+saved: \_tools\final_out\recent_baselines.csv

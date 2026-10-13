@@ -1,0 +1,16 @@
+﻿dataset,backbone,shot,method,acc_mean,acc_std
+cub,clipopenai,1,zeroshot,64.436,0.191
+cub,clipopenai,1,tip_adapter,68.150,1.073
+cub,clipopenai,1,clip_adapter,56.754,1.994
+cub,clipopenai,5,zeroshot,64.578,0.523
+cub,clipopenai,5,tip_adapter,70.346,0.763
+cub,clipopenai,5,clip_adapter,75.877,1.256
+endb,clipopenai,5,zeroshot,47.293,0.599
+endb,clipopenai,5,tip_adapter,55.767,1.023
+endb,clipopenai,5,clip_adapter,64.193,1.194
+nab,clipopenai,1,zeroshot,58.603,0.058
+nab,clipopenai,1,tip_adapter,59.908,0.334
+nab,clipopenai,1,clip_adapter,45.125,1.233
+nab,clipopenai,5,zeroshot,58.637,0.109
+nab,clipopenai,5,tip_adapter,60.518,0.202
+nab,clipopenai,5,clip_adapter,59.832,0.728

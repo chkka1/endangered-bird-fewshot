@@ -1,0 +1,15 @@
+﻿dataset,backbone,base_plain_acc,base_best_eps,base_best_acc,delta_base,BWC_decision,actual_novel_gain,decision_correct
+cub,clean_multitask,98.02,0.05,98.58,0.56,启用白化,9.80,是
+cub,clean_species,94.42,0.05,95.93,1.50,启用白化,10.07,是
+cub,clip_vitb16,69.67,0.4,62.15,-7.52,不启用,-15.59,是
+cub,dinov2_vitb14,83.86,0.4,85.33,1.47,启用白化,-0.59,否
+endb,clean_multitask,98.02,0.05,98.58,0.56,启用白化,8.57,是
+endb,clean_species,94.42,0.05,95.93,1.50,启用白化,9.60,是
+endb,clip_vitb16,69.67,0.4,62.15,-7.52,不启用,-14.48,是
+endb,dinov2_vitb14,83.86,0.4,85.33,1.47,启用白化,-1.38,否
+nab,clean_multitask,33.56,0.05,44.64,11.07,启用白化,7.32,是
+nab,clean_species,31.88,0.05,44.82,12.94,启用白化,8.87,是
+nab,clip_vitb16,61.09,0.4,57.30,-3.80,不启用,-7.20,是
+nab,dinov2_vitb14,84.32,0.2,86.49,2.17,启用白化,3.26,是
+cubunseen,unseen_multitask,98.33,0.05,97.90,-0.43,不启用,3.30,否
+cubunseen,unseen_species,97.64,0.1,97.57,-0.07,不启用,4.18,否

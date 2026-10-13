@@ -1,0 +1,25 @@
+﻿dataset,backbone,shot,key,method,acc_mean,acc_std,total_err,cross_genus_err,same_genus_err,cross_share_pct,episodes
+cub,clean_multitask,5,uncond_protonet,无条件白化 + ProtoNet,70.714,1.020,,,,,50
+cub,clean_multitask,5,uncond_linearprobe,无条件白化 + 线性探针,72.824,1.015,,,,,50
+cub,clean_species,5,uncond_protonet,无条件白化 + ProtoNet,72.257,1.136,,,,,50
+cub,clean_species,5,uncond_linearprobe,无条件白化 + 线性探针,73.460,1.043,,,,,50
+cub,clip_vitb16,5,uncond_protonet,无条件白化 + ProtoNet,62.675,1.776,,,,,50
+cub,clip_vitb16,5,uncond_linearprobe,无条件白化 + 线性探针,71.865,1.209,,,,,50
+cub,dinov2_vitb14,5,uncond_protonet,无条件白化 + ProtoNet,92.250,0.654,,,,,50
+cub,dinov2_vitb14,5,uncond_linearprobe,无条件白化 + 线性探针,92.491,0.592,,,,,50
+nab,clean_multitask,5,uncond_protonet,无条件白化 + ProtoNet,52.262,0.778,,,,,50
+nab,clean_multitask,5,uncond_linearprobe,无条件白化 + 线性探针,55.293,0.803,,,,,50
+nab,clean_species,5,uncond_protonet,无条件白化 + ProtoNet,52.580,0.766,,,,,50
+nab,clean_species,5,uncond_linearprobe,无条件白化 + 线性探针,55.282,0.832,,,,,50
+nab,clip_vitb16,5,uncond_protonet,无条件白化 + ProtoNet,54.007,0.917,,,,,50
+nab,clip_vitb16,5,uncond_linearprobe,无条件白化 + 线性探针,57.880,0.781,,,,,50
+nab,dinov2_vitb14,5,uncond_protonet,无条件白化 + ProtoNet,84.439,0.693,,,,,50
+nab,dinov2_vitb14,5,uncond_linearprobe,无条件白化 + 线性探针,85.823,0.714,,,,,50
+endb,clean_multitask,5,uncond_protonet,无条件白化 + ProtoNet,43.249,1.134,,,,,50
+endb,clean_multitask,5,uncond_linearprobe,无条件白化 + 线性探针,45.646,1.077,,,,,50
+endb,clean_species,5,uncond_protonet,无条件白化 + ProtoNet,42.949,1.227,,,,,50
+endb,clean_species,5,uncond_linearprobe,无条件白化 + 线性探针,45.703,1.086,,,,,50
+endb,clip_vitb16,5,uncond_protonet,无条件白化 + ProtoNet,47.440,1.756,,,,,50
+endb,clip_vitb16,5,uncond_linearprobe,无条件白化 + 线性探针,56.665,1.420,,,,,50
+endb,dinov2_vitb14,5,uncond_protonet,无条件白化 + ProtoNet,80.150,1.124,,,,,50
+endb,dinov2_vitb14,5,uncond_linearprobe,无条件白化 + 线性探针,82.317,0.965,,,,,50

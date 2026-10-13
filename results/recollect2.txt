@@ -1,0 +1,59 @@
+﻿标记文件不存在（已归档），跳过隔离步骤，直接补采
+待隔离 0 张
+已隔离 0 张 -> \data\endangered_birds\quarantine_quality
+
+建立哈希索引 ...
+现有 1579 张，索引完成
+
+003.Aythya_baeri                   现有 22 / 目标 25  需补 3
+      补入 3 张
+
+004.Aythya_nyroca                  现有 24 / 目标 25  需补 1
+      补入 1 张
+
+005.Calidris_pygmaea               现有 22 / 目标 25  需补 3
+      补入 3 张
+
+006.Calidris_tenuirostris          现有 24 / 目标 25  需补 1
+      补入 1 张
+
+013.Grus_japonensis                现有 23 / 目标 25  需补 2
+      补入 2 张
+
+028.Tragopan_caboti                现有 24 / 目标 25  需补 1
+      补入 1 张
+
+029.Tragopan_temminckii            现有 23 / 目标 25  需补 2
+      补入 2 张
+
+032.Tringa_flavipes                现有 23 / 目标 25  需补 2
+      补入 2 张
+
+033.Anas_laysanensis               现有 22 / 目标 25  需补 3
+      补入 2 张
+
+034.Ardea_insignis                 现有 23 / 目标 25  需补 2
+      补入 0 张
+
+036.Corvus_kubaryi                 现有 24 / 目标 25  需补 1
+      补入 0 张
+
+037.Corvus_unicolor                现有 22 / 目标 25  需补 3
+      补入 0 张
+
+039.Myadestes_palmeri              现有 19 / 目标 20  需补 1
+      补入 1 张
+
+041.Agelaius_tricolor              现有 24 / 目标 25  需补 1
+      补入 0 张
+
+042.Agelaius_xanthomus             现有 23 / 目标 25  需补 2
+      补入 2 张
+
+043.Anas_bernieri                  现有 19 / 目标 25  需补 6
+      补入 6 张
+
+044.Anthus_sokokensis              现有 10 / 目标 25  需补 15
+      补入 0 张
+
+045.Ardea_humbloti                 现有 24 / 目标 25  需补 1

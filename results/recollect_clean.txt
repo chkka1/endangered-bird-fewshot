@@ -1,0 +1,94 @@
+﻿待隔离 145 张（重复 182 + 含人物 64，去重后）
+已隔离 145 张 -> \data\endangered_birds\quarantine_quality
+
+建立哈希索引 ...
+现有 1528 张，索引完成
+
+003.Aythya_baeri                   现有 21 / 目标 25  需补 4
+      补入 4 张
+
+004.Aythya_nyroca                  现有 23 / 目标 25  需补 2
+      补入 2 张
+
+005.Calidris_pygmaea               现有 21 / 目标 25  需补 4
+      补入 4 张
+
+006.Calidris_tenuirostris          现有 22 / 目标 25  需补 3
+      补入 3 张
+
+010.Egretta_eulophotes             现有 24 / 目标 25  需补 1
+      补入 1 张
+
+011.Emberiza_aureola               现有 24 / 目标 25  需补 1
+      补入 1 张
+
+012.Emberiza_jankowskii            现有 14 / 目标 25  需补 11
+      补入 11 张
+
+013.Grus_japonensis                现有 23 / 目标 25  需补 2
+      补入 2 张
+
+019.Lophura_swinhoii               现有 24 / 目标 25  需补 1
+      补入 1 张
+
+025.Platalea_minor                 现有 16 / 目标 20  需补 4
+      补入 4 张
+
+028.Tragopan_caboti                现有 24 / 目标 25  需补 1
+      补入 1 张
+
+029.Tragopan_temminckii            现有 23 / 目标 25  需补 2
+      补入 2 张
+
+032.Tringa_flavipes                现有 23 / 目标 25  需补 2
+      补入 2 张
+
+033.Anas_laysanensis               现有 23 / 目标 25  需补 2
+      补入 0 张
+
+034.Ardea_insignis                 现有 22 / 目标 25  需补 3
+      补入 3 张
+
+036.Corvus_kubaryi                 现有 19 / 目标 25  需补 6
+      补入 6 张
+
+037.Corvus_unicolor                现有 19 / 目标 25  需补 6
+      补入 4 张
+
+039.Myadestes_palmeri              现有 17 / 目标 20  需补 3
+      补入 3 张
+
+041.Agelaius_tricolor              现有 24 / 目标 25  需补 1
+      补入 1 张
+
+042.Agelaius_xanthomus             现有 23 / 目标 25  需补 2
+      补入 2 张
+
+043.Anas_bernieri                  现有 19 / 目标 25  需补 6
+      补入 6 张
+
+044.Anthus_sokokensis              现有  9 / 目标 25  需补 16
+      补入 1 张
+
+045.Ardea_humbloti                 现有 24 / 目标 25  需补 1
+      补入 1 张
+
+046.Charadrius_mongolus            现有 24 / 目标 25  需补 1
+      补入 1 张
+
+047.Coccyzus_rufigularis           现有 18 / 目标 25  需补 7
+      补入 7 张
+
+049.Icterus_northropi              现有 15 / 目标 25  需补 10
+      补入 9 张
+
+050.Mimus_trifasciatus             现有 21 / 目标 25  需补 4
+      补入 4 张
+
+051.Phalacrocorax_capensis         现有 24 / 目标 25  需补 1
+      补入 1 张
+
+055.Setophaga_chrysoparia          现有 24 / 目标 25  需补 1
+      补入 1 张
+
+058.Turdus_helleri                 现有 12 / 目标 20  需补 8

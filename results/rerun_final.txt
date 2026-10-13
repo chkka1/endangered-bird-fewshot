@@ -1,0 +1,8 @@
+﻿复用调参结果（仅在调参块上选出）: proto fw=0.60 p1=1.005 top_k=10 cand=8 | sample b1=1.06 top_k=10 cand=8
+============================================================================================
+backbone = clean_multitask
+============================================================================================
+  [cub/clean_multitask] whitening fitted on cub_base (4348 imgs, 1280-d) 0.3s
+  [cub/clean_multitask/1-shot] done
+  [cub/clean_multitask/5-shot] done
+  [endb/clean_multitask] whitening fitted on cub_base (4348 imgs, 1280-d) 0.2s

@@ -1,0 +1,7 @@
+﻿dataset,backbone,ncc_pick,lr_pick,same,delta
+CUB-200,领域微调,zca/0.05,within/0.10,不同,-10.17
+CUB-200,CLIP B/16,lda/0.40,within/0.40,不同,-3.87
+CUB-200,DINOv2 B/14,within/0.10,within/0.20,相同,+0.03
+NABirds,领域微调,within/0.05,within/0.05,相同,+0.00
+NABirds,CLIP B/16,lda/0.40,lda/0.40,相同,+0.00
+濒危,CLIP B/16,lda/0.40,within/0.40,不同,-6.61

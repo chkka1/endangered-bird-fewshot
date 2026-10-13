@@ -1,0 +1,152 @@
+[
+ {
+  "n": 1,
+  "title": "The Caltech-UCSD Birds-200-2011 Dataset",
+  "kind": "techreport",
+  "status": "未找到"
+ },
+ {
+  "n": 3,
+  "title": "Matching Networks for One Shot Learning",
+  "kind": "conf",
+  "arxiv": {
+   "title": "Matching Networks for One Shot Learning",
+   "id": "http://arxiv.org/abs/1606.04080v2",
+   "published": "2016-06-13",
+   "score": 1.0
+  },
+  "status": "已核实"
+ },
+ {
+  "n": 4,
+  "title": "Prototypical Networks for Few-shot Learning",
+  "kind": "conf",
+  "arxiv": {
+   "title": "Prototypical Networks for Few-shot Learning",
+   "id": "http://arxiv.org/abs/1703.05175v2",
+   "published": "2017-03-15",
+   "score": 1.0
+  },
+  "status": "已核实"
+ },
+ {
+  "n": 5,
+  "title": "SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning",
+  "kind": "arxiv",
+  "arxiv": {
+   "title": "SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning",
+   "id": "http://arxiv.org/abs/1911.04623v2",
+   "published": "2019-11-12",
+   "score": 1.0
+  },
+  "status": "已核实"
+ },
+ {
+  "n": 6,
+  "title": "Transductive Information Maximization for Few-Shot Learning",
+  "kind": "conf",
+  "arxiv": {
+   "title": "Transductive Information Maximization For Few-Shot Learning",
+   "id": "http://arxiv.org/abs/2008.11297v3",
+   "published": "2020-08-25",
+   "score": 1.0
+  },
+  "status": "已核实"
+ },
+ {
+  "n": 7,
+  "title": "LaplacianShot: Laplacian Regularized Few-Shot Learning",
+  "kind": "conf",
+  "status": "未找到"
+ },
+ {
+  "n": 9,
+  "title": "CLIP-FSSC: A transferable visual model for fish and shrimp species classification",
+  "kind": "journal",
+  "status": "未找到"
+ },
+ {
+  "n": 11,
+  "title": "CLIP-Adapter: Better Vision-Language Models with Feature Adapters",
+  "kind": "journal",
+  "arxiv": {
+   "title": "CLIP-Adapter: Better Vision-Language Models with Feature Adapters",
+   "id": "http://arxiv.org/abs/2110.04544v2",
+   "published": "2021-10-09",
+   "score": 1.0
+  },
+  "status": "已核实"
+ },
+ {
+  "n": 12,
+  "title": "EfficientNetV2: Smaller Models and Faster Training",
+  "kind": "arxiv",
+  "arxiv": {
+   "title": "EfficientNetV2: Smaller Models and Faster Training",
+   "id": "http://arxiv.org/abs/2104.00298v3",
+   "published": "2021-04-01",
+   "score": 1.0
+  },
+  "status": "已核实"
+ },
+ {
+  "n": 13,
+  "title": "DINOv2: Learning Robust Visual Features without Supervision",
+  "kind": "journal",
+  "arxiv": {
+   "title": "DINOv2: Learning Robust Visual Features without Supervision",
+   "id": "http://arxiv.org/abs/2304.07193v2",
+   "published": "2023-04-14",
+   "score": 1.0
+  },
+  "status": "已核实"
+ },
+ {
+  "n": 14,
+  "title": "小样本学习研究综述",
+  "kind": "cn",
+  "status": "需人工查期刊官网"
+ },
+ {
+  "n": 15,
+  "title": "基于深度卷积特征的细粒度图像分类研究综述",
+  "kind": "cn",
+  "status": "需人工查期刊官网"
+ },
+ {
+  "n": 16,
+  "title": "基于小样本学习的图像分类技术综述",
+  "kind": "cn",
+  "status": "需人工查期刊官网"
+ },
+ {
+  "n": 17,
+  "title": "基于特征变换和度量网络的小样本学习算法",
+  "kind": "cn",
+  "status": "需人工查期刊官网"
+ },
+ {
+  "n": 18,
+  "title": "基于TC-YOLO模型的北京珍稀鸟类识别方法",
+  "kind": "cn",
+  "status": "需人工查期刊官网"
+ },
+ {
+  "n": 19,
+  "title": "注意力集合表示的多尺度度量小样本图像分类",
+  "kind": "cn",
+  "status": "需人工查期刊官网"
+ },
+ {
+  "n": 20,
+  "title": "网络监督数据下的细粒度图像识别综述",
+  "kind": "cn",
+  "status": "需人工查期刊官网"
+ },
+ {
+  "n": 21,
+  "title": "融合弱监督目标定位的细粒度小样本学习",
+  "kind": "cn",
+  "status": "需人工查期刊官网"
+ }
+]

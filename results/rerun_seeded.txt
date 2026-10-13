@@ -1,0 +1,128 @@
+﻿复用调参结果（仅在调参块上选出）: proto fw=0.60 p1=1.005 top_k=10 cand=8 | sample b1=1.06 top_k=10 cand=8
+============================================================================================
+backbone = clean_multitask
+============================================================================================
+  [cub/clean_multitask] whitening fitted on cub_base (4348 imgs, 1280-d) 0.2s
+  [cub/clean_multitask/1-shot] done
+  [cub/clean_multitask/5-shot] done
+  [endb/clean_multitask] whitening fitted on cub_base (4348 imgs, 1280-d) 0.2s
+  [endb/clean_multitask/5-shot] done
+  [nab/clean_multitask] whitening fitted on nab_base (15483 imgs, 1280-d) 0.3s
+  [nab/clean_multitask/1-shot] done
+  [nab/clean_multitask/5-shot] done
+skip cubunseen/clean_multitask (no cache)
+============================================================================================
+backbone = clean_species
+============================================================================================
+  [cub/clean_species] whitening fitted on cub_base (4348 imgs, 1280-d) 0.2s
+  [cub/clean_species/1-shot] done
+  [cub/clean_species/5-shot] done
+  [endb/clean_species] whitening fitted on cub_base (4348 imgs, 1280-d) 0.2s
+  [endb/clean_species/5-shot] done
+  [nab/clean_species] whitening fitted on nab_base (15483 imgs, 1280-d) 0.3s
+  [nab/clean_species/1-shot] done
+  [nab/clean_species/5-shot] done
+skip cubunseen/clean_species (no cache)
+============================================================================================
+backbone = clip_vitb16
+============================================================================================
+  [cub/clip_vitb16] whitening fitted on cub_base (4348 imgs, 768-d) 0.1s
+  [cub/clip_vitb16/1-shot] done
+  [cub/clip_vitb16/5-shot] done
+  [endb/clip_vitb16] whitening fitted on cub_base (4348 imgs, 768-d) 0.1s
+  [endb/clip_vitb16/5-shot] done
+  [nab/clip_vitb16] whitening fitted on nab_base (15483 imgs, 768-d) 0.1s
+  [nab/clip_vitb16/1-shot] done
+  [nab/clip_vitb16/5-shot] done
+skip cubunseen/clip_vitb16 (no cache)
+============================================================================================
+backbone = dinov2_vitb14
+============================================================================================
+  [cub/dinov2_vitb14] whitening fitted on cub_base (4348 imgs, 768-d) 0.1s
+  [cub/dinov2_vitb14/1-shot] done
+  [cub/dinov2_vitb14/5-shot] done
+  [endb/dinov2_vitb14] whitening fitted on cub_base (4348 imgs, 768-d) 0.1s
+  [endb/dinov2_vitb14/5-shot] done
+  [nab/dinov2_vitb14] whitening fitted on nab_base (15483 imgs, 768-d) 0.1s
+  [nab/dinov2_vitb14/1-shot] done
+  [nab/dinov2_vitb14/5-shot] done
+skip cubunseen/dinov2_vitb14 (no cache)
+============================================================================================
+backbone = unseen_multitask
+============================================================================================
+skip cub/unseen_multitask (no cache)
+skip endb/unseen_multitask (no cache)
+skip nab/unseen_multitask (no cache)
+  [cubunseen/unseen_multitask] whitening fitted on cubunseen_base (4344 imgs, 1280-d) 0.2s
+  [cubunseen/unseen_multitask/1-shot] done
+  [cubunseen/unseen_multitask/5-shot] done
+============================================================================================
+backbone = unseen_species
+============================================================================================
+skip cub/unseen_species (no cache)
+skip endb/unseen_species (no cache)
+skip nab/unseen_species (no cache)
+  [cubunseen/unseen_species] whitening fitted on cubunseen_base (4344 imgs, 1280-d) 0.3s
+  [cubunseen/unseen_species/1-shot] done
+  [cubunseen/unseen_species/5-shot] done
+
+============================================================================================================
+摘要（只列关键行；完整表见 final_out/final_main_table.csv）
+============================================================================================================
+
+cub | 5-shot
+方法                         clean_multitask   clean_species     clip_vitb16       dinov2_vitb14     unseen_multitask  unseen_species  
+NN 基线（余弦 kNN）              60.490%           60.223%           68.343%           91.602%           -                 -               
+ProtoNet（类原型均值）            60.913%           62.185%           78.269%           92.839%           -                 -               
+SimpleShot（欧氏最近类均值）        61.188%           62.655%           78.348%           92.950%           -                 -               
+仅原型-实例融合（无属先验）             61.651%           62.845%           77.398%           93.124%           -                 -               
+GWP/ProtoPrior（属先验版）       61.513%           62.790%           76.695%           93.056%           -                 -               
+★白化＋ProtoNet               70.714%           72.257%           62.675%           92.250%           -                 -               
+★白化＋线性探针                   72.818%           73.469%           71.849%           92.481%           -                 -               
+线性探针                       66.857%           67.265%           79.966%           93.590%           -                 -               
+
+cub | 1-shot
+方法                         clean_multitask   clean_species     clip_vitb16       dinov2_vitb14     unseen_multitask  unseen_species  
+NN 基线（余弦 kNN）              49.438%           49.541%           50.319%           82.444%           -                 -               
+ProtoNet（类原型均值）            49.438%           49.541%           50.319%           82.444%           -                 -               
+SimpleShot（欧氏最近类均值）        49.438%           49.541%           50.319%           82.444%           -                 -               
+仅原型-实例融合（无属先验）             49.438%           49.541%           50.319%           82.444%           -                 -               
+GWP/ProtoPrior（属先验版）       49.354%           49.496%           50.443%           82.468%           -                 -               
+★白化＋ProtoNet               54.758%           55.434%           18.434%           77.393%           -                 -               
+★白化＋线性探针                   55.249%           55.710%           32.868%           78.122%           -                 -               
+线性探针                       49.692%           49.704%           52.688%           82.636%           -                 -               
+
+endb | 5-shot
+方法                         clean_multitask   clean_species     clip_vitb16       dinov2_vitb14     unseen_multitask  unseen_species  
+NN 基线（余弦 kNN）              64.187%           63.907%           83.120%           91.680%           -                 -               
+ProtoNet（类原型均值）            66.733%           65.987%           86.880%           88.347%           -                 -               
+SimpleShot（欧氏最近类均值）        66.813%           66.013%           86.987%           88.413%           -                 -               
+仅原型-实例融合（无属先验）             66.667%           66.013%           87.147%           89.920%           -                 -               
+GWP/ProtoPrior（属先验版）       66.600%           65.987%           86.840%           89.907%           -                 -               
+★白化＋ProtoNet               74.653%           74.427%           84.413%           89.000%           -                 -               
+★白化＋线性探针                   77.120%           76.560%           86.587%           93.013%           -                 -               
+线性探针                       70.293%           69.560%           89.147%           93.173%           -                 -               
+
+nab | 5-shot
+方法                         clean_multitask   clean_species     clip_vitb16       dinov2_vitb14     unseen_multitask  unseen_species  
+NN 基线（余弦 kNN）              46.502%           45.240%           53.973%           81.335%           -                 -               
+ProtoNet（类原型均值）            44.943%           43.707%           61.210%           81.181%           -                 -               
+SimpleShot（欧氏最近类均值）        45.000%           43.733%           61.300%           81.424%           -                 -               
+仅原型-实例融合（无属先验）             45.753%           44.624%           61.693%           82.711%           -                 -               
+GWP/ProtoPrior（属先验版）       45.566%           44.511%           61.652%           82.811%           -                 -               
+★白化＋ProtoNet               52.262%           52.580%           54.006%           84.439%           -                 -               
+★白化＋线性探针                   55.295%           55.287%           57.888%           85.828%           -                 -               
+线性探针                       50.075%           49.628%           64.161%           85.334%           -                 -               
+
+nab | 1-shot
+方法                         clean_multitask   clean_species     clip_vitb16       dinov2_vitb14     unseen_multitask  unseen_species  
+NN 基线（余弦 kNN）              35.534%           33.819%           36.266%           64.892%           -                 -               
+ProtoNet（类原型均值）            35.534%           33.819%           36.266%           64.892%           -                 -               
+SimpleShot（欧氏最近类均值）        35.534%           33.819%           36.266%           64.892%           -                 -               
+仅原型-实例融合（无属先验）             35.534%           33.819%           36.266%           64.892%           -                 -               
+GWP/ProtoPrior（属先验版）       34.789%           33.353%           36.565%           64.901%           -                 -               
+★白化＋ProtoNet               38.950%           37.805%           16.838%           64.611%           -                 -               
+★白化＋线性探针                   39.042%           37.841%           28.426%           65.213%           -                 -               
+线性探针                       36.157%           34.349%           37.633%           65.106%           -                 -               
+
+saved: \_tools\final_out\final_main_table.csv

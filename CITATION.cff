@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this benchmark or code, please cite the paper below."
+title: "面向濒危鸟类小样本识别的属分层基准与基类校准方法族"
+abstract: >-
+  属分层小样本评测基准与基类校准方法族的可复现材料：
+  代码、三个评测集的划分清单、濒危集逐张来源清单、全部结果文件与稿件图源。
+type: software
+license: MIT
+authors:
+  - family-names: "待补"
+    given-names: "待补"
+repository-code: "待补（仓库地址）"
+keywords:
+  - few-shot learning
+  - fine-grained image recognition
+  - endangered birds
+  - genus-stratified benchmark
+  - feature calibration
+# 论文正式发表后，取消下一段注释并补全卷期页
+# preferred-citation:
+#   type: article
+#   title: "面向濒危鸟类小样本识别的属分层基准与基类校准方法族"
+#   journal: "计算机工程与应用"
+#   authors:
+#     - family-names: "待补"
+#   year: 2026

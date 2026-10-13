@@ -1,0 +1,79 @@
+﻿清单 1650 条
+有 iNat 观察 id 的条目 1604 条，涉及 1539 个观察，批量核验中 ...
+   30/1539 观察  94s
+   180/1539 观察  344s
+   330/1539 观察  457s
+   480/1539 观察  648s
+   630/1539 观察  802s
+   780/1539 观察  996s
+   930/1539 观察  1051s
+   1080/1539 观察  1121s
+   1230/1539 观察  1206s
+   1380/1539 观察  1372s
+   1530/1539 观察  1440s
+   批量完成，用时 1446s
+
+剩余 46 条，其中 42 条有 photo id，逐条核验（较慢）...
+   25/42  86s
+
+======================================================================
+核验结果（1650 条）
+======================================================================
+  match           1514  (91.8%)
+  mismatch          79  (4.8%)
+  nonfree           37  (2.2%)
+  sa                16  (1.0%)
+  unverifiable       4  (0.2%)
+
+写入 \_tools\final_out\license_verification.csv
+
+nonfree（前 15）:
+   001.Aquila_chrysaetos/Aquila_chrysaetos_004.jpg  记录=CC-BY-NC 实际=CC-BY-NC-ND
+   001.Aquila_chrysaetos/Aquila_chrysaetos_019.jpg  记录=CC-BY-NC 实际=-
+   003.Aythya_baeri/Aythya_baeri_013.jpg  记录=CC-BY-NC 实际=-
+   009.Cyornis_hainanus/Cyornis_hainanus_016.jpeg  记录=CC-BY 实际=-
+   013.Grus_japonensis/Grus_japonensis_008.jpg  记录=CC-BY-NC 实际=-
+   014.Grus_monacha/Grus_monacha_008.jpg  记录=CC-BY-NC 实际=-
+   015.Grus_nigricollis/Grus_nigricollis_024.jpg  记录=CC0 实际=-
+   019.Lophura_swinhoii/Lophura_swinhoii_003.jpg  记录=CC-BY-NC 实际=CC-BY-NC-ND
+   025.Platalea_minor/Platalea_minor_001.jpg  记录=CC-BY-NC 实际=CC-BY-NC-ND
+   026.Thalasseus_bengalensis/Thalasseus_bengalensis_023.jpeg  记录=CC-BY-NC 实际=CC-BY-NC-ND
+   027.Thalasseus_bernsteini/Thalasseus_bernsteini_017.jpg  记录=CC-BY-NC 实际=-
+   029.Tragopan_temminckii/Tragopan_temminckii_012.jpeg  记录=CC-BY-NC 实际=-
+   029.Tragopan_temminckii/Tragopan_temminckii_015.jpeg  记录=CC-BY-NC 实际=-
+   029.Tragopan_temminckii/Tragopan_temminckii_016.jpeg  记录=CC-BY-NC 实际=-
+   035.Charadrius_obscurus/Charadrius_obscurus_003.jpeg  记录=CC-BY-NC 实际=-
+
+sa（前 15）:
+   003.Aythya_baeri/Aythya_baeri_011.jpeg  记录=CC-BY-NC 实际=CC-BY-NC-SA
+   015.Grus_nigricollis/Grus_nigricollis_001.jpg  记录=CC-BY 实际=CC-BY-SA
+   017.Haliaeetus_leucoryphus/Haliaeetus_leucoryphus_006.jpg  记录=CC-BY-NC 实际=CC-BY-NC-SA
+   017.Haliaeetus_leucoryphus/Haliaeetus_leucoryphus_009.jpeg  记录=CC-BY-NC 实际=CC-BY-SA
+   023.Paradoxornis_heudei/Paradoxornis_heudei_010.jpeg  记录=CC-BY-NC 实际=CC-BY-NC-SA
+   038.Mimus_graysoni/Mimus_graysoni_007.jpeg  记录=CC-BY-NC 实际=CC-BY-NC-SA
+   038.Mimus_graysoni/Mimus_graysoni_015.jpg  记录=CC-BY 实际=CC-BY-SA
+   038.Mimus_graysoni/Mimus_graysoni_017.jpg  记录=CC-BY 实际=CC-BY-SA
+   038.Mimus_graysoni/Mimus_graysoni_018.jpg  记录=CC-BY 实际=CC-BY-SA
+   038.Mimus_graysoni/Mimus_graysoni_021.jpg  记录=CC-BY-NC 实际=CC-BY-NC-SA
+   038.Mimus_graysoni/Mimus_graysoni_022.jpg  记录=CC-BY 实际=CC-BY-SA
+   038.Mimus_graysoni/Mimus_graysoni_024.jpg  记录=CC-BY 实际=CC-BY-SA
+   046.Charadrius_mongolus/Charadrius_mongolus_021.jpg  记录=CC-BY 实际=CC-BY-SA
+   059.Anthus_nattereri/Anthus_nattereri_014.jpg  记录=CC-BY-NC 实际=CC-BY-SA
+   060.Branta_ruficollis/Branta_ruficollis_005.jpg  记录=CC-BY 实际=CC-BY-SA
+
+mismatch（前 15）:
+   001.Aquila_chrysaetos/Aquila_chrysaetos_007.jpg  记录=CC-BY 实际=CC0
+   001.Aquila_chrysaetos/Aquila_chrysaetos_020.jpg  记录=CC-BY 实际=CC0
+   002.Aquila_heliaca/Aquila_heliaca_003.jpeg  记录=CC-BY-NC 实际=CC-BY
+   002.Aquila_heliaca/Aquila_heliaca_006.jpg  记录=CC0 实际=CC-BY-NC
+   004.Aythya_nyroca/Aythya_nyroca_011.jpg  记录=CC-BY-NC 实际=CC0
+   004.Aythya_nyroca/Aythya_nyroca_021.jpeg  记录=CC-BY-NC 实际=CC-BY
+   005.Calidris_pygmaea/Calidris_pygmaea_008.jpg  记录=CC-BY-NC 实际=CC-BY
+   006.Calidris_tenuirostris/Calidris_tenuirostris_010.jpg  记录=CC-BY 实际=CC0
+   006.Calidris_tenuirostris/Calidris_tenuirostris_024.jpg  记录=CC-BY-NC 实际=CC-BY
+   007.Crossoptilon_mantchuricum/Crossoptilon_mantchuricum_010.jpg  记录=CC-BY-NC 实际=CC-BY
+   008.Cyornis_brunneatus/Cyornis_brunneatus_014.jpg  记录=CC-BY-NC 实际=CC-BY
+   012.Emberiza_jankowskii/Emberiza_jankowskii_002.jpg  记录=CC-BY 实际=CC-BY-NC
+   013.Grus_japonensis/Grus_japonensis_001.jpg  记录=CC-BY 实际=CC-BY-NC
+   014.Grus_monacha/Grus_monacha_025.jpg  记录=CC-BY 实际=CC0
+   015.Grus_nigricollis/Grus_nigricollis_022.jpeg  记录=CC-BY-NC 实际=CC-BY

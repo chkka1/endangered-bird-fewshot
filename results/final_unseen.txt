@@ -1,0 +1,80 @@
+﻿复用调参结果（仅在调参块上选出）: proto fw=0.60 p1=1.005 top_k=10 cand=8 | sample b1=1.06 top_k=10 cand=8
+============================================================================================
+backbone = unseen_multitask
+============================================================================================
+skip cub/unseen_multitask (no cache)
+skip endb/unseen_multitask (no cache)
+skip nab/unseen_multitask (no cache)
+  [cubunseen/unseen_multitask] whitening fitted on cubunseen_base (4344 imgs, 1280-d) 0.2s
+  [cubunseen/unseen_multitask/1-shot] done
+  [cubunseen/unseen_multitask/5-shot] done
+============================================================================================
+backbone = unseen_species
+============================================================================================
+skip cub/unseen_species (no cache)
+skip endb/unseen_species (no cache)
+skip nab/unseen_species (no cache)
+  [cubunseen/unseen_species] whitening fitted on cubunseen_base (4344 imgs, 1280-d) 0.2s
+  [cubunseen/unseen_species/1-shot] done
+  [cubunseen/unseen_species/5-shot] done
+
+============================================================================================================
+摘要（只列关键行；完整表见 final_out/final_main_table.csv）
+============================================================================================================
+
+cub | 5-shot
+方法                         unseen_multitask  unseen_species  
+NN 基线（余弦 kNN）              -                 -               
+ProtoNet（类原型均值）            -                 -               
+SimpleShot（欧氏最近类均值）        -                 -               
+仅原型-实例融合（无属先验）             -                 -               
+GWP/ProtoPrior（属先验版）       -                 -               
+★白化＋ProtoNet               -                 -               
+★白化＋线性探针                   -                 -               
+线性探针                       -                 -               
+
+cub | 1-shot
+方法                         unseen_multitask  unseen_species  
+NN 基线（余弦 kNN）              -                 -               
+ProtoNet（类原型均值）            -                 -               
+SimpleShot（欧氏最近类均值）        -                 -               
+仅原型-实例融合（无属先验）             -                 -               
+GWP/ProtoPrior（属先验版）       -                 -               
+★白化＋ProtoNet               -                 -               
+★白化＋线性探针                   -                 -               
+线性探针                       -                 -               
+
+endb | 5-shot
+方法                         unseen_multitask  unseen_species  
+NN 基线（余弦 kNN）              -                 -               
+ProtoNet（类原型均值）            -                 -               
+SimpleShot（欧氏最近类均值）        -                 -               
+仅原型-实例融合（无属先验）             -                 -               
+GWP/ProtoPrior（属先验版）       -                 -               
+★白化＋ProtoNet               -                 -               
+★白化＋线性探针                   -                 -               
+线性探针                       -                 -               
+
+nab | 5-shot
+方法                         unseen_multitask  unseen_species  
+NN 基线（余弦 kNN）              -                 -               
+ProtoNet（类原型均值）            -                 -               
+SimpleShot（欧氏最近类均值）        -                 -               
+仅原型-实例融合（无属先验）             -                 -               
+GWP/ProtoPrior（属先验版）       -                 -               
+★白化＋ProtoNet               -                 -               
+★白化＋线性探针                   -                 -               
+线性探针                       -                 -               
+
+nab | 1-shot
+方法                         unseen_multitask  unseen_species  
+NN 基线（余弦 kNN）              -                 -               
+ProtoNet（类原型均值）            -                 -               
+SimpleShot（欧氏最近类均值）        -                 -               
+仅原型-实例融合（无属先验）             -                 -               
+GWP/ProtoPrior（属先验版）       -                 -               
+★白化＋ProtoNet               -                 -               
+★白化＋线性探针                   -                 -               
+线性探针                       -                 -               
+
+saved: \_tools\final_out\final_main_table.csv

@@ -1,0 +1,10 @@
+﻿数据集    主干               NCC 判据选出               线性探针判据选出               是否相同
+--------------------------------------------------------------------------------------------
+cub    clean_multitask  pca/eps=0.05           within/eps=0.10        不同   (novel 71.48 vs 61.31, 差 -10.17, 54s)
+cub    clip_vitb16      lda/eps=0.40           within/eps=0.40        不同   (novel 85.33 vs 81.45, 差 -3.87, 35s)
+cub    dinov2_vitb14    within/eps=0.10        within/eps=0.20        相同   (novel 94.15 vs 94.18, 差 +0.03, 34s)
+nab    clean_multitask  within/eps=0.05        within/eps=0.05        相同   (novel 53.95 vs 53.95, 差 +0.00, 1682s)
+nab    clip_vitb16      lda/eps=0.40           lda/eps=0.40           相同   (novel 68.02 vs 68.02, 差 +0.00, 18s)
+endb   clip_vitb16      lda/eps=0.40           within/eps=0.40        不同   (novel 66.95 vs 60.34, 差 -6.61, 11s)
+
+两判据选出相同成员的设定：3/6

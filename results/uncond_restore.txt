@@ -1,0 +1,19 @@
+﻿======================================================================
+cub / clean_multitask   (eps=0.10 固定)
+   uncond_protonet    novel 70.71 ± 1.02  (2s)
+   uncond_linearprobe novel 72.82 ± 1.02  (26s)
+======================================================================
+cub / clean_species   (eps=0.10 固定)
+   uncond_protonet    novel 72.26 ± 1.14  (2s)
+   uncond_linearprobe novel 73.46 ± 1.04  (27s)
+======================================================================
+cub / clip_vitb16   (eps=0.10 固定)
+   uncond_protonet    novel 62.67 ± 1.78  (1s)
+   uncond_linearprobe novel 71.87 ± 1.21  (34s)
+======================================================================
+cub / dinov2_vitb14   (eps=0.10 固定)
+   uncond_protonet    novel 92.25 ± 0.65  (1s)
+   uncond_linearprobe novel 92.49 ± 0.59  (37s)
+======================================================================
+nab / clean_multitask   (eps=0.10 固定)
+   uncond_protonet    novel 52.26 ± 0.78  (16s)

@@ -1,0 +1,17 @@
+{
+ "cub_random_mean": 31.79,
+ "cub_random_std": 5.72,
+ "cub_random_repeats": 200,
+ "cub_random_seed": 0,
+ "cub_random_scheme": "check_protocol_overlap.py (pool reset each iter)",
+ "cub_sequential_ov": 4,
+ "cub_sequential_te": 30,
+ "cub_sequential_pct": 13.3,
+ "cub_n_class": 200,
+ "cub_n_genus": 140,
+ "cub_sequential_cls_with_genus": 5,
+ "cub_sequential_cls_total": 50,
+ "cub_sequential_cls_pct": 10.0,
+ "cub_random_cls_mean": 33.39,
+ "cub_random_cls_std": 6.38
+}

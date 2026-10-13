@@ -1,0 +1,340 @@
+﻿磁盘图像数 = 1617
+GBIF/补采 运行中: 否
+NABirds 训练 运行中: 是（不影响濒危集刷新）
+过期缓存: clean_multitask, clean_species, clip_vitb16, dinov2_vitb14
+
+=> 可以刷新：python refresh_endangered.py --stage all
+
+==========================================================================
+>> 重编号 + 扩展名归一化 + 同步清单
+==========================================================================
+  001.Aquila_chrysaetos              21 张重编号
+  002.Aquila_heliaca                 6 张重编号
+  003.Aythya_baeri                   22 张重编号
+  004.Aythya_nyroca                  5 张重编号
+  005.Calidris_pygmaea               7 张重编号
+  006.Calidris_tenuirostris          11 张重编号
+  007.Crossoptilon_mantchuricum      2 张重编号
+  008.Cyornis_brunneatus             7 张重编号
+  009.Cyornis_hainanus               14 张重编号
+  010.Egretta_eulophotes             9 张重编号
+  011.Emberiza_aureola               6 张重编号
+  012.Emberiza_jankowskii            4 张重编号
+  013.Grus_japonensis                18 张重编号
+  014.Grus_monacha                   21 张重编号
+  015.Grus_nigricollis               23 张重编号
+  016.Antigone_vipio                 6 张重编号
+  017.Haliaeetus_leucoryphus         20 张重编号
+  018.Lophura_leucomelanos           6 张重编号
+  019.Lophura_swinhoii               24 张重编号
+  020.Mergus_squamatus               3 张重编号
+  021.Nipponia_nippon                8 张重编号
+  022.Oroanassa_magnifica            4 张重编号
+  023.Paradoxornis_heudei            19 张重编号
+  024.Pavo_muticus                   6 张重编号
+  025.Platalea_minor                 24 张重编号
+  026.Thalasseus_bengalensis         8 张重编号
+  027.Thalasseus_bernsteini          14 张重编号
+  028.Tragopan_caboti                3 张重编号
+  029.Tragopan_temminckii            12 张重编号
+  030.Tringa_guttifer                6 张重编号
+  031.Egretta_vinaceigula            6 张重编号
+  032.Tringa_flavipes                11 张重编号
+  033.Anas_laysanensis               3 张重编号
+  035.Charadrius_obscurus            20 张重编号
+  036.Corvus_kubaryi                 7 张重编号
+  037.Corvus_unicolor                8 张重编号
+  038.Mimus_graysoni                 11 张重编号
+  039.Myadestes_palmeri              4 张重编号
+  040.Phoebastria_irrorata           6 张重编号
+  041.Agelaius_tricolor              5 张重编号
+  042.Agelaius_xanthomus             2 张重编号
+  043.Anas_bernieri                  9 张重编号
+  045.Ardea_humbloti                 21 张重编号
+  046.Charadrius_mongolus            20 张重编号
+  047.Coccyzus_rufigularis           21 张重编号
+  048.Icterus_laudabilis             24 张重编号
+  049.Icterus_northropi              5 张重编号
+  050.Mimus_trifasciatus             6 张重编号
+  051.Phalacrocorax_capensis         10 张重编号
+  052.Phalacrocorax_featherstoni     21 张重编号
+  053.Phoebetria_fusca               9 张重编号
+  054.Setophaga_angelae              17 张重编号
+  055.Setophaga_chrysoparia          12 张重编号
+  056.Sitta_ledanti                  10 张重编号
+  057.Sterna_acuticauda              12 张重编号
+  058.Turdus_helleri                 20 张重编号
+  059.Anthus_nattereri               10 张重编号
+  060.Branta_ruficollis              17 张重编号
+  061.Bubo_blakistoni                5 张重编号
+  062.Bubo_philippensis              6 张重编号
+  063.Chaetura_pelagica              20 张重编号
+  064.Coccyzus_ferrugineus           7 张重编号
+  065.Euphagus_carolinus             10 张重编号
+  066.Fregata_andrewsi               16 张重编号
+  067.Fregata_aquila                 7 张重编号
+  068.Glaucidium_nubicola            9 张重编号
+  069.Junco_insularis                12 张重编号
+  070.Lanius_meridionalis            7 张重编号
+
+共重编号 765 个文件
+清单已同步：\data\endangered_birds\image_sources.csv（1617 条）
+验证：全部类编号连续 001..N
+  已删除过期缓存 endb__clean_multitask.npz
+  已删除过期缓存 endb__clean_species.npz
+  已删除过期缓存 endb__clip_vitb16.npz
+  已删除过期缓存 endb__dinov2_vitb14.npz
+共删除 4 个 endb 缓存（磁盘现有 1617 张）
+
+==========================================================================
+>> 重抽特征 clean_multitask（训练主干）
+==========================================================================
+group cub_novel  n=1627
+group cub_base   n=4348
+group endb       n=1617
+================================================================================
+MODEL clean_multitask (cub_base_multitask_clean.pth)
+  load cub_base_multitask_clean.pth | missing_in_backbone=0 | unexpected=0
+  skip existing cub_novel__clean_multitask.npz
+  skip existing cub_base__clean_multitask.npz
+  extracting endb ...
+    endb 32/1617  (0.8s)
+    endb 352/1617  (3490.1s)
+    endb 672/1617  (3494.0s)
+    endb 992/1617  (3497.7s)
+    endb 1312/1617  (3501.1s)
+    endb 1617/1617  (3504.5s)
+  saved endb__clean_multitask.npz  shape=(1617, 1280)
+DONE. cache dir = \_tools\feat_cache
+
+==========================================================================
+>> 重抽特征 clean_species（训练主干）
+==========================================================================
+group cub_novel  n=1627
+group cub_base   n=4348
+group endb       n=1617
+================================================================================
+MODEL clean_species (cub_base_species_only.pth)
+  load cub_base_species_only.pth | missing_in_backbone=0 | unexpected=0
+  skip existing cub_novel__clean_species.npz
+  skip existing cub_base__clean_species.npz
+  extracting endb ...
+    endb 32/1617  (0.5s)
+    endb 352/1617  (3.6s)
+    endb 672/1617  (7.4s)
+    endb 992/1617  (11.1s)
+    endb 1312/1617  (14.5s)
+    endb 1617/1617  (17.8s)
+  saved endb__clean_species.npz  shape=(1617, 1280)
+DONE. cache dir = \_tools\feat_cache
+
+==========================================================================
+>> 重抽特征 clip_vitb16（timm 主干）
+==========================================================================
+group cub_novel  n=1627
+group cub_base   n=4348
+group endb       n=1617
+================================================================================
+MODEL clip_vitb16 (vit_base_patch16_clip_224.openai)
+  vit_base_patch16_clip_224.openai | params 85.8M | input=(3, 224, 224) | mean=[0.481, 0.458, 0.408] std=[0.269, 0.261, 0.276]
+  skip existing cub_novel__clip_vitb16.npz
+  skip existing cub_base__clip_vitb16.npz
+    endb 32/1617 (0.6s, 57 img/s)
+    endb 672/1617 (9.9s, 68 img/s)
+    endb 1312/1617 (19.4s, 68 img/s)
+  saved endb__clip_vitb16.npz shape=(1617, 768)
+DONE
+
+==========================================================================
+>> 重抽特征 dinov2_vitb14（timm 主干）
+==========================================================================
+group cub_novel  n=1627
+group cub_base   n=4348
+group endb       n=1617
+================================================================================
+MODEL dinov2_vitb14 (vit_base_patch14_dinov2.lvd142m)
+  vit_base_patch14_dinov2.lvd142m | params 86.6M | input=(3, 518, 518) | mean=[0.485, 0.456, 0.406] std=[0.229, 0.224, 0.225]
+  skip existing cub_novel__dinov2_vitb14.npz
+  skip existing cub_base__dinov2_vitb14.npz
+    endb 32/1617 (3.5s, 9 img/s)
+    endb 672/1617 (76.2s, 9 img/s)
+    endb 1312/1617 (150.0s, 9 img/s)
+  saved endb__dinov2_vitb14.npz shape=(1617, 768)
+DONE
+磁盘图像数 = 1617
+  endb__clean_multitask.npz     1617 张 / 70 类  OK
+  endb__clean_species.npz       1617 张 / 70 类  OK
+  endb__clip_vitb16.npz         1617 张 / 70 类  OK
+  endb__dinov2_vitb14.npz       1617 张 / 70 类  OK
+验证：全部一致
+
+==========================================================================
+>> 重跑濒危集主表（方法族 + 无条件白化）
+==========================================================================
+======================================================================
+cub / clean_multitask   (novel 1627 张, base 4348 张)
+   cal_protonet     判据(ncc)→pca     eps=0.05 留出 98.58 | novel 71.48 ± 1.07 (9s)
+   cal_linearprobe  判据(lr)→pca     eps=0.05 留出 98.58 | novel 73.26 ± 1.09 (21s)
+======================================================================
+cub / clean_species   (novel 1627 张, base 4348 张)
+   cal_protonet     判据(ncc)→pca     eps=0.10 留出 97.10 | novel 72.26 ± 1.14 (9s)
+   cal_linearprobe  判据(lr)→pca     eps=0.10 留出 97.42 | novel 73.46 ± 1.04 (21s)
+======================================================================
+cub / clip_vitb16   (novel 1627 张, base 4348 张)
+   cal_protonet     判据(ncc)→lda     eps=0.40 留出 84.27 | novel 85.33 ± 1.08 (3s)
+   cal_linearprobe  判据(lr)→within  eps=0.40 留出 84.44 | novel 82.99 ± 0.95 (16s)
+======================================================================
+cub / dinov2_vitb14   (novel 1627 张, base 4348 张)
+   cal_protonet     判据(ncc)→within  eps=0.20 留出 90.74 | novel 94.18 ± 0.50 (4s)
+   cal_linearprobe  判据(lr)→within  eps=0.20 留出 91.78 | novel 94.32 ± 0.53 (16s)
+======================================================================
+nab / clean_multitask   (novel 8741 张, base 15483 张)
+   cal_protonet     判据(ncc)→within  eps=0.05 留出 55.04 | novel 53.95 ± 0.83 (27s)
+   cal_linearprobe  判据(lr)→within  eps=0.05 留出 58.23 | novel 56.60 ± 0.77 (30s)
+======================================================================
+nab / clean_species   (novel 8741 张, base 15483 张)
+   cal_protonet     判据(ncc)→pca     eps=0.05 留出 55.88 | novel 53.58 ± 0.79 (26s)
+   cal_linearprobe  判据(lr)→within  eps=0.05 留出 58.45 | novel 56.64 ± 0.79 (30s)
+======================================================================
+nab / clip_vitb16   (novel 8741 张, base 15483 张)
+   cal_protonet     判据(ncc)→lda     eps=0.40 留出 78.48 | novel 68.02 ± 0.68 (8s)
+   cal_linearprobe  判据(lr)→lda     eps=0.40 留出 76.50 | novel 66.87 ± 0.67 (19s)
+======================================================================
+nab / dinov2_vitb14   (novel 8741 张, base 15483 张)
+   cal_protonet     判据(ncc)→within  eps=0.05 留出 92.12 | novel 86.17 ± 0.71 (12s)
+   cal_linearprobe  判据(lr)→within  eps=0.10 留出 93.15 | novel 87.78 ± 0.64 (20s)
+======================================================================
+endb / clean_multitask   (novel 1617 张, base 4348 张)
+   cal_protonet     判据(ncc)→pca     eps=0.05 留出 98.58 | novel 44.02 ± 1.19 (10s)
+   cal_linearprobe  判据(lr)→pca     eps=0.05 留出 98.58 | novel 46.09 ± 1.15 (21s)
+======================================================================
+endb / clean_species   (novel 1617 张, base 4348 张)
+   cal_protonet     判据(ncc)→pca     eps=0.10 留出 97.10 | novel 42.95 ± 1.23 (10s)
+   cal_linearprobe  判据(lr)→pca     eps=0.10 留出 97.42 | novel 45.70 ± 1.09 (21s)
+======================================================================
+endb / clip_vitb16   (novel 1617 张, base 4348 张)
+   cal_protonet     判据(ncc)→lda     eps=0.40 留出 84.27 | novel 66.21 ± 1.34 (3s)
+   cal_linearprobe  判据(lr)→within  eps=0.40 留出 84.44 | novel 65.52 ± 1.34 (15s)
+======================================================================
+endb / dinov2_vitb14   (novel 1617 张, base 4348 张)
+   cal_protonet     判据(ncc)→within  eps=0.20 留出 90.74 | novel 81.38 ± 1.05 (4s)
+   cal_linearprobe  判据(lr)→within  eps=0.20 留出 91.78 | novel 83.62 ± 0.91 (16s)
+
+saved: \_tools\final_out\final_main_table_calibrated.csv  (714 行，其中校准行 24，移除 white_* 行 300)
+
+==========================================================================
+>> 重跑 5 路评测
+==========================================================================
+====================================================================
+cub / clean_multitask  (5-way 5-shot, novel 1627 张)
+   ProtoNet（无校准）          90.59 ± 6.98  (0s)
+   无条件白化 + ProtoNet       93.02 ± 5.18  (0s)
+   校准方法族 + ProtoNet       93.21 ± 5.06  (0s)
+   线性探针（无校准）              91.58 ± 5.15  (6s)
+   无条件白化 + 线性探针           93.05 ± 4.20  (5s)
+   校准方法族 + 线性探针           93.18 ± 4.07  (5s)
+====================================================================
+cub / clean_species  (5-way 5-shot, novel 1627 张)
+   ProtoNet（无校准）          91.82 ± 5.60  (0s)
+   无条件白化 + ProtoNet       93.69 ± 4.25  (0s)
+   校准方法族 + ProtoNet       93.69 ± 4.25  (0s)
+   线性探针（无校准）              91.94 ± 4.94  (5s)
+   无条件白化 + 线性探针           93.25 ± 3.82  (6s)
+   校准方法族 + 线性探针           93.25 ± 3.82  (6s)
+====================================================================
+cub / clip_vitb16  (5-way 5-shot, novel 1627 张)
+   ProtoNet（无校准）          95.74 ± 4.04  (0s)
+   无条件白化 + ProtoNet       86.29 ± 8.13  (0s)
+   校准方法族 + ProtoNet       97.28 ± 2.66  (0s)
+   线性探针（无校准）              96.07 ± 3.55  (5s)
+   无条件白化 + 线性探针           91.02 ± 5.51  (6s)
+   校准方法族 + 线性探针           95.59 ± 3.71  (5s)
+====================================================================
+cub / dinov2_vitb14  (5-way 5-shot, novel 1627 张)
+   ProtoNet（无校准）          98.96 ± 1.33  (0s)
+   无条件白化 + ProtoNet       97.63 ± 2.02  (0s)
+   校准方法族 + ProtoNet       99.04 ± 1.20  (0s)
+   线性探针（无校准）              98.91 ± 1.39  (5s)
+   无条件白化 + 线性探针           97.69 ± 1.82  (6s)
+   校准方法族 + 线性探针           98.88 ± 1.30  (6s)
+====================================================================
+nab / clean_multitask  (5-way 5-shot, novel 8741 张)
+   ProtoNet（无校准）          92.61 ± 5.96  (0s)
+   无条件白化 + ProtoNet       91.54 ± 5.01  (0s)
+   校准方法族 + ProtoNet       94.34 ± 4.54  (0s)
+   线性探针（无校准）              92.47 ± 5.82  (5s)
+   无条件白化 + 线性探针           89.97 ± 4.70  (6s)
+   校准方法族 + 线性探针           93.12 ± 4.36  (6s)
+====================================================================
+nab / clean_species  (5-way 5-shot, novel 8741 张)
+   ProtoNet（无校准）          92.39 ± 6.10  (0s)
+   无条件白化 + ProtoNet       91.51 ± 4.89  (0s)
+   校准方法族 + ProtoNet       90.74 ± 4.95  (0s)
+   线性探针（无校准）              92.10 ± 5.39  (5s)
+   无条件白化 + 线性探针           90.10 ± 4.93  (6s)
+   校准方法族 + 线性探针           89.23 ± 4.90  (6s)
+====================================================================
+nab / clip_vitb16  (5-way 5-shot, novel 8741 张)
+   ProtoNet（无校准）          97.29 ± 3.63  (0s)
+   无条件白化 + ProtoNet       89.20 ± 5.88  (0s)
+   校准方法族 + ProtoNet       97.96 ± 2.63  (0s)
+   线性探针（无校准）              97.51 ± 3.23  (5s)
+   无条件白化 + 线性探针           92.46 ± 3.93  (6s)
+   校准方法族 + 线性探针           95.77 ± 3.14  (6s)
+====================================================================
+nab / dinov2_vitb14  (5-way 5-shot, novel 8741 张)
+   ProtoNet（无校准）          99.21 ± 3.76  (0s)
+   无条件白化 + ProtoNet       98.80 ± 1.77  (0s)
+   校准方法族 + ProtoNet       99.60 ± 1.33  (0s)
+   线性探针（无校准）              99.38 ± 2.68  (5s)
+   无条件白化 + 线性探针           98.78 ± 1.71  (5s)
+   校准方法族 + 线性探针           99.59 ± 1.24  (6s)
+====================================================================
+endb / clean_multitask  (5-way 5-shot, novel 1617 张)
+   ProtoNet（无校准）          79.78 ± 8.23  (0s)
+   无条件白化 + ProtoNet       81.67 ± 7.32  (0s)
+   校准方法族 + ProtoNet       81.68 ± 7.52  (0s)
+   线性探针（无校准）              79.23 ± 8.54  (5s)
+   无条件白化 + 线性探针           80.66 ± 7.63  (6s)
+   校准方法族 + 线性探针           80.77 ± 7.56  (6s)
+====================================================================
+endb / clean_species  (5-way 5-shot, novel 1617 张)
+   ProtoNet（无校准）          78.22 ± 8.01  (0s)
+   无条件白化 + ProtoNet       81.37 ± 6.60  (0s)
+   校准方法族 + ProtoNet       81.37 ± 6.60  (0s)
+   线性探针（无校准）              77.64 ± 7.57  (5s)
+   无条件白化 + 线性探针           80.52 ± 7.75  (6s)
+   校准方法族 + 线性探针           80.52 ± 7.75  (6s)
+====================================================================
+endb / clip_vitb16  (5-way 5-shot, novel 1617 张)
+   ProtoNet（无校准）          91.27 ± 4.72  (0s)
+   无条件白化 + ProtoNet       77.60 ± 8.28  (0s)
+   校准方法族 + ProtoNet       92.53 ± 4.44  (0s)
+   线性探针（无校准）              92.04 ± 4.40  (5s)
+   无条件白化 + 线性探针           84.50 ± 6.59  (6s)
+   校准方法族 + 线性探针           91.23 ± 4.37  (5s)
+====================================================================
+endb / dinov2_vitb14  (5-way 5-shot, novel 1617 张)
+   ProtoNet（无校准）          97.27 ± 3.06  (0s)
+   无条件白化 + ProtoNet       95.65 ± 3.48  (0s)
+   校准方法族 + ProtoNet       97.16 ± 3.04  (0s)
+   线性探针（无校准）              97.22 ± 2.67  (5s)
+   无条件白化 + 线性探针           95.41 ± 3.59  (6s)
+   校准方法族 + 线性探针           96.75 ± 2.80  (6s)
+
+saved: \_tools\final_out\final_5way_table.csv (72 行)
+
+=== 5-way 汇总（12 设定均值）===
+   ProtoNet（无校准）          92.10
+   无条件白化 + ProtoNet       89.83
+   校准方法族 + ProtoNet       93.22
+   线性探针（无校准）              92.17
+   无条件白化 + 线性探针           90.62
+   校准方法族 + 线性探针           92.32
+
+==========================================================================
+>> 重建稿件
+==========================================================================
+saved: \paper_code\论文_修订稿v6_校准方法族.docx
+
+全部阶段完成。磁盘 1617 张。

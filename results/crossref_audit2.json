@@ -1,0 +1,247 @@
+[
+ {
+  "n": 1,
+  "ref": "Wah C, Branson S, Welinder P, et al. The Caltech-UCSD Birds-200-2011 Dataset[R]. CNS-TR-2011-001, California Institute of Technology, 2011.",
+  "title_guess": "The Caltech-UCSD Birds-200-2011 Dataset",
+  "status": "未收录",
+  "best_score": 0.404,
+  "best_title": "Table 4: Five classes classification report using FCNN model with UCSD dataset."
+ },
+ {
+  "n": 2,
+  "ref": "Van Horn G, Branson S, Farrell R, et al. Building a Bird Recognition App and Large Scale Dataset with Citizen Scientists[C]. CVPR, 2015: 595-604.",
+  "title_guess": "Building a Bird Recognition App and Large Scale Dataset with Citizen Scientists",
+  "status": "可疑",
+  "score": 0.764,
+  "title": "Building a bird recognition app and large scale dataset with citizen scientists: The fine print in fine-grained dataset collection",
+  "authors": "Van Horn, Branson, Farrell",
+  "year": 2015,
+  "venue": "2015 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+  "vol": "",
+  "issue": "",
+  "page": "595-604",
+  "doi": "10.1109/cvpr.2015.7298658"
+ },
+ {
+  "n": 3,
+  "ref": "Vinyals O, Blundell C, Lillicrap T, et al. Matching Networks for One Shot Learning[C]. NeurIPS, 2016: 3630-3638.",
+  "title_guess": "Matching Networks for One Shot Learning",
+  "status": "未收录",
+  "best_score": 0.468,
+  "best_title": "Optimization of Matching Networks with Transfer Learning in Few-Shot Pneumonia Detection"
+ },
+ {
+  "n": 4,
+  "ref": "Snell J, Swersky K, Zemel R S. Prototypical Networks for Few-shot Learning[C]. NeurIPS, 2017: 4077-4087.",
+  "title_guess": "Prototypical Networks for Few-shot Learning",
+  "status": "未收录",
+  "best_score": 0.476,
+  "best_title": "Few-Shot Keyword Spotting With Prototypical Networks"
+ },
+ {
+  "n": 5,
+  "ref": "Wang Y X, Chao W L, Weinberger K Q, et al. SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning[J]. arXiv:1911.04623, 2019.",
+  "title_guess": "SimpleShot: Revisiting Nearest-Neighbor Classification for Few-Shot Learning",
+  "status": "可疑",
+  "score": 0.554,
+  "title": "Metric-Based Learning for Nearest-Neighbor Few-Shot Image Classification",
+  "authors": "Lee, So",
+  "year": 2021,
+  "venue": "2021 International Conference on Information Networking (ICOIN)",
+  "vol": "",
+  "issue": "",
+  "page": "460-464",
+  "doi": "10.1109/icoin50884.2021.9333850"
+ },
+ {
+  "n": 6,
+  "ref": "Boudiaf M, Masud Z I, Rony J, et al. Transductive Information Maximization for Few-Shot Learning[C]. NeurIPS, 2020.",
+  "title_guess": "Transductive Information Maximization for Few-Shot Learning",
+  "status": "未收录",
+  "best_score": 0.507,
+  "best_title": "Transductive Meta-Learning with Enhanced Feature Ensemble for Few-shot Semantic Segmentation"
+ },
+ {
+  "n": 7,
+  "ref": "Ziko I M, Dolz J, Granger E, et al. LaplacianShot: Laplacian Regularized Few-Shot Learning[C]. ICML, 2020: 11660-11670.",
+  "title_guess": "LaplacianShot: Laplacian Regularized Few-Shot Learning",
+  "status": "未收录",
+  "best_score": 0.392,
+  "best_title": "Adaptive Regularized Warped Gradient Descent Enhances Model Generalization and Meta-learning for Few-shot Learning"
+ },
+ {
+  "n": 8,
+  "ref": "Hu Y, Gripon V, Pateux S. Leveraging the Feature Distribution in Transfer-based Few-Shot Learning[C]. ICANN, 2021.",
+  "title_guess": "Leveraging the Feature Distribution in Transfer-based Few-Shot Learning",
+  "status": "匹配",
+  "score": 1.0,
+  "title": "Leveraging the Feature Distribution in Transfer-Based Few-Shot Learning",
+  "authors": "Hu, Gripon, Pateux",
+  "year": 2021,
+  "venue": "Lecture Notes in Computer Science",
+  "vol": "",
+  "issue": "",
+  "page": "487-499",
+  "doi": "10.1007/978-3-030-86340-1_39"
+ },
+ {
+  "n": 9,
+  "ref": "Radford A, Kim J W, Hallacy C, et al. Learning Transferable Visual Models From Natural Language Supervision[C]. ICML, 2021: 8748-8763.",
+  "title_guess": "Learning Transferable Visual Models From Natural Language Supervision",
+  "status": "可疑",
+  "score": 0.659,
+  "title": "CLIP-FSSC: A transferable visual model for fish and shrimp species classification based on natural language supervision",
+  "authors": "Dai, Shao, Gong",
+  "year": 2024,
+  "venue": "Aquacultural Engineering",
+  "vol": "107",
+  "issue": "",
+  "page": "102460",
+  "doi": "10.1016/j.aquaeng.2024.102460"
+ },
+ {
+  "n": 10,
+  "ref": "Zhang R, Zhang W, Fang R, et al. Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification[C]. ECCV, 2022: 493-510.",
+  "title_guess": "Tip-Adapter: Training-free Adaption of CLIP for Few-shot Classification",
+  "status": "匹配",
+  "score": 1.0,
+  "title": "Tip-Adapter: Training-Free Adaption of CLIP for Few-Shot Classification",
+  "authors": "Zhang, Zhang, Fang",
+  "year": 2022,
+  "venue": "Lecture Notes in Computer Science",
+  "vol": "",
+  "issue": "",
+  "page": "493-510",
+  "doi": "10.1007/978-3-031-19833-5_29"
+ },
+ {
+  "n": 11,
+  "ref": "Gao P, Geng S, Zhang R, et al. CLIP-Adapter: Better Vision-Language Models with Feature Adapters[J]. IJCV, 2024, 132(2): 581-595.",
+  "title_guess": "CLIP-Adapter: Better Vision-Language Models with Feature Adapters",
+  "status": "查询失败",
+  "err": "HTTP Error 429: Too Many Requests"
+ },
+ {
+  "n": 12,
+  "ref": "Tan M, Le Q V. EfficientNetV2: Smaller Models and Faster Training[C]. ICML, 2021: 10096-10106.",
+  "title_guess": "EfficientNetV2: Smaller Models and Faster Training",
+  "status": "可疑",
+  "score": 0.55,
+  "title": "Figure 8: EfficientNetv2 training history.",
+  "authors": "",
+  "year": null,
+  "venue": "",
+  "vol": "",
+  "issue": "",
+  "page": "",
+  "doi": "10.7717/peerj-cs.3241/fig-8"
+ },
+ {
+  "n": 13,
+  "ref": "Oquab M, Darcet T, Moutakanni T, et al. DINOv2: Learning Robust Visual Features without Supervision[J]. TMLR, 2024.",
+  "title_guess": "DINOv2: Learning Robust Visual Features without Supervision",
+  "status": "查询失败",
+  "err": "HTTP Error 429: Too Many Requests"
+ },
+ {
+  "n": 14,
+  "ref": "赵凯琳, 靳小龙, 王元卓. 小样本学习研究综述[J]. 软件学报, 2021, 32(2): 349-369.",
+  "title_guess": "小样本学习研究综述",
+  "status": "未收录",
+  "best_score": 0.444,
+  "best_title": "大学生自主学习量化评价研究综述及展望"
+ },
+ {
+  "n": 15,
+  "ref": "罗建豪, 吴建鑫. 基于深度卷积特征的细粒度图像分类研究综述[J]. 自动化学报, 2017, 43(8): 1306-1318.",
+  "title_guess": "基于深度卷积特征的细粒度图像分类研究综述",
+  "status": "可疑",
+  "score": 0.579,
+  "title": "基于深度学习的工程图像识别与分类研究",
+  "authors": "金旭杨",
+  "year": 2025,
+  "venue": "工程学研究与实用",
+  "vol": "6",
+  "issue": "2",
+  "page": "169-171",
+  "doi": "10.37155/2717-5316-0602-57"
+ },
+ {
+  "n": 16,
+  "ref": "刘颖, 雷研博, 范九伦, 等. 基于小样本学习的图像分类技术综述[J]. 自动化学报, 2021, 47(2): 297-315.",
+  "title_guess": "基于小样本学习的图像分类技术综述",
+  "status": "未收录",
+  "best_score": 0.514,
+  "best_title": "基于机器学习的垃圾分类图像识别技术研究"
+ },
+ {
+  "n": 17,
+  "ref": "王多瑞, 杜杨, 董兰芳, 等. 基于特征变换和度量网络的小样本学习算法[J]. 自动化学报, 2024, 50(7): 1305-1314.",
+  "title_guess": "基于特征变换和度量网络的小样本学习算法",
+  "status": "未收录",
+  "best_score": 0.267,
+  "best_title": "基于深度学习的多模态大数据特征融合与智能分析算法研究"
+ },
+ {
+  "n": 18,
+  "ref": "李柏灿, 张军国, 张长春, 等. 基于TC-YOLO模型的北京珍稀鸟类识别方法[J]. 生物多样性, 2024, 32(5): 24056.",
+  "title_guess": "基于TC-YOLO模型的北京珍稀鸟类识别方法",
+  "status": "未收录",
+  "best_score": 0.14,
+  "best_title": "Intelligent recognition method of cervical cell cluster based on YOLO model"
+ },
+ {
+  "n": 19,
+  "ref": "赵勋, 王家宝, 李阳, 等. 注意力集合表示的多尺度度量小样本图像分类[J]. 中国图象图形学报, 2024, 29(11): 3371-3382.",
+  "title_guess": "注意力集合表示的多尺度度量小样本图像分类",
+  "status": "未收录",
+  "best_score": 0.5,
+  "best_title": "基于多尺度联合分布的小样本细粒度图像分类"
+ },
+ {
+  "n": 20,
+  "ref": "魏秀参, 许玉燕, 杨健. 网络监督数据下的细粒度图像识别综述[J]. 中国图象图形学报, 2022, 27(7): 2057-2077.",
+  "title_guess": "网络监督数据下的细粒度图像识别综述",
+  "status": "未收录",
+  "best_score": 0.378,
+  "best_title": "面向细粒度图像识别的通道注意力多分支网络"
+ },
+ {
+  "n": 21,
+  "ref": "贺小箭, 林金福. 融合弱监督目标定位的细粒度小样本学习[J]. 中国图象图形学报, 2022, 27(7): 2226-2239.",
+  "title_guess": "融合弱监督目标定位的细粒度小样本学习",
+  "status": "未收录",
+  "best_score": 0.205,
+  "best_title": "基于自监督学习的车辆相机-雷达里程计融合定位"
+ },
+ {
+  "n": 22,
+  "ref": "Ledoit O, Wolf M. A well-conditioned estimator for large-dimensional covariance matrices[J]. Journal of Multivariate Analysis, 2004, 88(2): 365-411.",
+  "title_guess": "A well-conditioned estimator for large-dimensional covariance matrices",
+  "status": "匹配",
+  "score": 1.0,
+  "title": "A well-conditioned estimator for large-dimensional covariance matrices",
+  "authors": "Ledoit, Wolf",
+  "year": 2004,
+  "venue": "Journal of Multivariate Analysis",
+  "vol": "88",
+  "issue": "2",
+  "page": "365-411",
+  "doi": "10.1016/s0047-259x(03)00096-4"
+ },
+ {
+  "n": 23,
+  "ref": "Kessy A, Lewin A, Strimmer K. Optimal Whitening and Decorrelation[J]. The American Statistician, 2018, 72(4): 309-314.",
+  "title_guess": "Optimal Whitening and Decorrelation",
+  "status": "匹配",
+  "score": 1.0,
+  "title": "Optimal Whitening and Decorrelation",
+  "authors": "Kessy, Lewin, Strimmer",
+  "year": 2018,
+  "venue": "The American Statistician",
+  "vol": "72",
+  "issue": "4",
+  "page": "309-314",
+  "doi": "10.1080/00031305.2016.1277159"
+ }
+]

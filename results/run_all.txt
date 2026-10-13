@@ -1,0 +1,80 @@
+﻿复用调参结果（仅在调参块上选出）: proto fw=0.60 p1=1.005 top_k=10 cand=8 | sample b1=1.06 top_k=10 cand=8
+============================================================================================
+backbone = clean_multitask
+============================================================================================
+  [cub/clean_multitask] whitening fitted on cub_base (4348 imgs, 1280-d) 0.2s
+  [cub/clean_multitask/1-shot] done
+  [cub/clean_multitask/5-shot] done
+  [endb/clean_multitask] whitening fitted on cub_base (4348 imgs, 1280-d) 0.2s
+  [endb/clean_multitask/5-shot] done
+============================================================================================
+backbone = clean_species
+============================================================================================
+  [cub/clean_species] whitening fitted on cub_base (4348 imgs, 1280-d) 0.2s
+  [cub/clean_species/1-shot] done
+  [cub/clean_species/5-shot] done
+  [endb/clean_species] whitening fitted on cub_base (4348 imgs, 1280-d) 0.2s
+  [endb/clean_species/5-shot] done
+============================================================================================
+backbone = genus_center
+============================================================================================
+  [cub/genus_center] whitening fitted on cub_base (4348 imgs, 1280-d) 0.2s
+  [cub/genus_center/1-shot] done
+  [cub/genus_center/5-shot] done
+  [endb/genus_center] whitening fitted on cub_base (4348 imgs, 1280-d) 0.2s
+  [endb/genus_center/5-shot] done
+============================================================================================
+backbone = clip_vitb16
+============================================================================================
+  [cub/clip_vitb16] whitening fitted on cub_base (4348 imgs, 768-d) 0.1s
+  [cub/clip_vitb16/1-shot] done
+  [cub/clip_vitb16/5-shot] done
+  [endb/clip_vitb16] whitening fitted on cub_base (4348 imgs, 768-d) 0.1s
+  [endb/clip_vitb16/5-shot] done
+============================================================================================
+backbone = dinov2_vitb14
+============================================================================================
+  [cub/dinov2_vitb14] whitening fitted on cub_base (4348 imgs, 768-d) 0.1s
+  [cub/dinov2_vitb14/1-shot] done
+  [cub/dinov2_vitb14/5-shot] done
+  [endb/dinov2_vitb14] whitening fitted on cub_base (4348 imgs, 768-d) 0.1s
+  [endb/dinov2_vitb14/5-shot] done
+
+============================================================================================================
+摘要（只列关键行；完整表见 final_out/final_main_table.csv）
+============================================================================================================
+
+cub | 5-shot
+方法                         clean_multitask   clean_species     genus_center      clip_vitb16       dinov2_vitb14   
+NN 基线（余弦 kNN）              60.490%           60.223%           76.913%           68.343%           91.602%         
+ProtoNet（类原型均值）            60.913%           62.185%           78.320%           78.269%           92.839%         
+SimpleShot（欧氏最近类均值）        61.188%           62.655%           78.673%           78.348%           92.950%         
+仅原型-实例融合（无属先验）             61.651%           62.845%           79.151%           77.398%           93.124%         
+GWP/ProtoPrior（属先验版）       61.513%           62.790%           79.034%           76.695%           93.056%         
+★白化＋ProtoNet               70.714%           72.257%           85.330%           62.675%           92.250%         
+★白化＋线性探针                   72.811%           73.464%           85.689%           71.870%           92.490%         
+线性探针                       66.845%           67.263%           81.621%           79.967%           93.598%         
+
+cub | 1-shot
+方法                         clean_multitask   clean_species     genus_center      clip_vitb16       dinov2_vitb14   
+NN 基线（余弦 kNN）              49.438%           49.541%           62.971%           50.319%           82.444%         
+ProtoNet（类原型均值）            49.438%           49.541%           62.971%           50.319%           82.444%         
+SimpleShot（欧氏最近类均值）        49.438%           49.541%           62.971%           50.319%           82.444%         
+仅原型-实例融合（无属先验）             49.438%           49.541%           62.971%           50.319%           82.444%         
+GWP/ProtoPrior（属先验版）       49.354%           49.496%           62.978%           50.443%           82.468%         
+★白化＋ProtoNet               54.758%           55.434%           70.018%           18.434%           77.393%         
+★白化＋线性探针                   55.239%           55.696%           70.177%           32.872%           78.167%         
+线性探针                       49.702%           49.691%           63.539%           52.691%           82.637%         
+
+endb | 5-shot
+方法                         clean_multitask   clean_species     genus_center      clip_vitb16       dinov2_vitb14   
+NN 基线（余弦 kNN）              64.187%           63.907%           73.733%           83.120%           91.680%         
+ProtoNet（类原型均值）            66.733%           65.987%           75.520%           86.880%           88.347%         
+SimpleShot（欧氏最近类均值）        66.813%           66.013%           75.640%           86.987%           88.413%         
+仅原型-实例融合（无属先验）             66.667%           66.013%           75.933%           87.147%           89.920%         
+GWP/ProtoPrior（属先验版）       66.667%           66.000%           75.920%           87.000%           89.907%         
+★白化＋ProtoNet               74.653%           74.427%           80.800%           84.413%           89.000%         
+★白化＋线性探针                   77.093%           76.573%           82.493%           86.587%           93.040%         
+线性探针                       70.253%           69.547%           78.867%           89.200%           93.227%         
+
+saved: \_tools\final_out\final_main_table.csv

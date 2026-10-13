@@ -1,0 +1,4 @@
+﻿backbone,key,dim,params_M,flops_G,lat_gpu_ms,lat_cpu_ms
+EfficientNetV2-S,efficientnet_v2_s,1280,20.18,5.70,13.16,34.5
+CLIP ViT-B/16,clip_vitb16,768,85.80,35.13,6.86,102.0
+DINOv2 ViT-B/14,dinov2_vitb14,768,85.72,46.32,8.74,128.0

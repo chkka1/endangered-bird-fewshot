@@ -1,0 +1,35 @@
+{
+ "n_species": 70,
+ "n_genus": 45,
+ "n_multi_genus": 24,
+ "n_same_genus_pairs": 26,
+ "n_images": 1617,
+ "per_class_min": 10,
+ "per_class_max": 25,
+ "per_class_median": 24,
+ "per_class_mean": 23.1,
+ "n_class_at_max": 23,
+ "n_class_below_max": 47,
+ "n_class_at_min": 1,
+ "license": {
+  "CC-BY-NC": 1377,
+  "CC-BY": 181,
+  "CC0": 59
+ },
+ "license_verified": {
+  "yes": 1617
+ },
+ "n_observers": 1014,
+ "iucn_by_species": {
+  "Vulnerable": 13,
+  "Critically Endangered": 7,
+  "Endangered": 16
+ },
+ "iucn_covered_species": 36,
+ "year_min": "1911",
+ "year_max": "2026",
+ "year_n_dated": 1617,
+ "year_n_2000plus": 1610,
+ "year_n_pre1950": 4,
+ "n_countries": 171
+}

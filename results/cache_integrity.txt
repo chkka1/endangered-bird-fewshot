@@ -1,0 +1,51 @@
+﻿============================================================================
+缓存完整性校验（磁盘实际数据 vs 缓存内容）
+============================================================================
+缓存文件                                     期望       实际  结果
+----------------------------------------------------------------------------
+cub_base__clean_multitask.npz          4348     4348  OK
+cub_base__clean_species.npz            4348     4348  OK
+cub_base__clip_vitb16.npz              4348     4348  OK
+cub_base__clipopenai.npz               4348     4348  OK
+cub_base__dinov2_vitb14.npz            4348     4348  OK
+cub_base__unseen_multitask.npz         4348     4348  OK
+cub_base__unseen_species.npz           4348     4348  OK
+cub_novel__clean_multitask.npz         1627     1627  OK
+cub_novel__clean_species.npz           1627     1627  OK
+cub_novel__clip_vitb16.npz             1627     1627  OK
+cub_novel__clipopenai.npz              1627     1627  OK
+cub_novel__dinov2_vitb14.npz           1627     1627  OK
+cub_novel__unseen_multitask.npz        1627     1627  OK
+cub_novel__unseen_species.npz          1627     1627  OK
+cubunseen_base__unseen_multitask.npz     4344     4344  OK
+cubunseen_base__unseen_species.npz     4344     4344  OK
+cubunseen_novel__unseen_multitask.npz     1594     1594  OK
+cubunseen_novel__unseen_species.npz     1594     1594  OK
+endb__clean_multitask.npz              1673     1673  OK
+endb__clean_species.npz                1673     1673  OK
+endb__clip_vitb16.npz                  1673     1673  OK
+endb__clipopenai.npz                   1673     1673  OK
+endb__dinov2_vitb14.npz                1673     1673  OK
+endb__unseen_multitask.npz             1673     1673  OK
+endb__unseen_species.npz               1673     1673  OK
+nab_base__clean_multitask.npz         15483    15483  OK
+nab_base__clean_species.npz           15483    15483  OK
+nab_base__clip_vitb16.npz             15483    15483  OK
+nab_base__clipopenai.npz              15483    15483  OK
+nab_base__dinov2_vitb14.npz           15483    15483  OK
+nab_novel__clean_multitask.npz         8741     8741  OK
+nab_novel__clean_species.npz           8741     8741  OK
+nab_novel__clip_vitb16.npz             8741     8741  OK
+nab_novel__clipopenai.npz              8741     8741  OK
+nab_novel__dinov2_vitb14.npz           8741     8741  OK
+----------------------------------------------------------------------------
+已核对 35 个论文所需缓存
+  期望 cub_novel         1627 张 /  55 类
+  期望 cub_base          4348 张 / 145 类
+  期望 cubunseen_novel   1594 张 /  55 类
+  期望 cubunseen_base    4344 张 / 145 类
+  期望 endb              1673 张 /  70 类
+  期望 nab_novel         8741 张 / 146 类
+  期望 nab_base         15483 张 / 259 类
+
+>>> 全部一致，可以开始评测

@@ -1,0 +1,50 @@
+﻿======================================================================
+cub / clean_multitask   (novel 1627 张, base 4348 张)
+   cal_protonet     判据(ncc)→pca     eps=0.05 留出 98.58 | novel 71.48 ± 1.07 (12s)
+   cal_linearprobe  判据(lr)→pca     eps=0.05 留出 98.58 | novel 73.26 ± 1.09 (129s)
+======================================================================
+cub / clean_species   (novel 1627 张, base 4348 张)
+   cal_protonet     判据(ncc)→pca     eps=0.10 留出 97.10 | novel 72.26 ± 1.14 (12s)
+   cal_linearprobe  判据(lr)→pca     eps=0.10 留出 97.42 | novel 73.46 ± 1.04 (149s)
+======================================================================
+cub / clip_vitb16   (novel 1627 张, base 4348 张)
+   cal_protonet     判据(ncc)→lda     eps=0.40 留出 84.27 | novel 85.33 ± 1.08 (5s)
+   cal_linearprobe  判据(lr)→within  eps=0.40 留出 84.44 | novel 82.99 ± 0.95 (94s)
+======================================================================
+cub / dinov2_vitb14   (novel 1627 张, base 4348 张)
+   cal_protonet     判据(ncc)→within  eps=0.20 留出 90.74 | novel 94.18 ± 0.50 (5s)
+   cal_linearprobe  判据(lr)→within  eps=0.20 留出 91.78 | novel 94.32 ± 0.53 (80s)
+======================================================================
+nab / clean_multitask   (novel 8741 张, base 15483 张)
+   cal_protonet     判据(ncc)→within  eps=0.05 留出 55.04 | novel 53.95 ± 0.83 (35s)
+   cal_linearprobe  判据(lr)→within  eps=0.05 留出 58.23 | novel 56.60 ± 0.77 (767s)
+======================================================================
+nab / clean_species   (novel 8741 张, base 15483 张)
+   cal_protonet     判据(ncc)→pca     eps=0.05 留出 55.88 | novel 53.58 ± 0.79 (34s)
+   cal_linearprobe  判据(lr)→within  eps=0.05 留出 58.45 | novel 56.64 ± 0.79 (63s)
+======================================================================
+nab / clip_vitb16   (novel 8741 张, base 15483 张)
+   cal_protonet     判据(ncc)→lda     eps=0.40 留出 78.48 | novel 68.02 ± 0.68 (10s)
+   cal_linearprobe  判据(lr)→lda     eps=0.40 留出 76.50 | novel 66.87 ± 0.67 (111s)
+======================================================================
+nab / dinov2_vitb14   (novel 8741 张, base 15483 张)
+   cal_protonet     判据(ncc)→within  eps=0.05 留出 92.12 | novel 86.17 ± 0.71 (16s)
+   cal_linearprobe  判据(lr)→within  eps=0.10 留出 93.15 | novel 87.78 ± 0.64 (964s)
+======================================================================
+endb / clean_multitask   (novel 1673 张, base 4348 张)
+   cal_protonet     判据(ncc)→pca     eps=0.05 留出 98.58 | novel 45.31 ± 1.15 (14s)
+   cal_linearprobe  判据(lr)→pca     eps=0.05 留出 98.58 | novel 47.50 ± 1.22 (42s)
+======================================================================
+endb / clean_species   (novel 1673 张, base 4348 张)
+   cal_protonet     判据(ncc)→pca     eps=0.10 留出 97.10 | novel 44.00 ± 1.15 (12s)
+   cal_linearprobe  判据(lr)→pca     eps=0.10 留出 97.42 | novel 46.78 ± 1.27 (73s)
+======================================================================
+endb / clip_vitb16   (novel 1673 张, base 4348 张)
+   cal_protonet     判据(ncc)→lda     eps=0.40 留出 84.27 | novel 66.95 ± 1.53 (4s)
+   cal_linearprobe  判据(lr)→within  eps=0.40 留出 84.44 | novel 65.83 ± 1.46 (32s)
+======================================================================
+endb / dinov2_vitb14   (novel 1673 张, base 4348 张)
+   cal_protonet     判据(ncc)→within  eps=0.20 留出 90.74 | novel 81.75 ± 1.02 (5s)
+   cal_linearprobe  判据(lr)→within  eps=0.20 留出 91.78 | novel 84.01 ± 1.10 (75s)
+
+saved: \_tools\final_out\final_main_table_calibrated.csv  (714 行，其中校准行 24，移除 white_* 行 300)

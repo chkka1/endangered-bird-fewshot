@@ -1,0 +1,50 @@
+﻿======================================================================
+cub / clean_multitask   (eps=0.10 固定)
+   uncond_protonet    novel 70.71 ± 1.02  (2s)
+   uncond_linearprobe novel 72.82 ± 1.02  (22s)
+======================================================================
+cub / clean_species   (eps=0.10 固定)
+   uncond_protonet    novel 72.26 ± 1.14  (3s)
+   uncond_linearprobe novel 73.46 ± 1.04  (25s)
+======================================================================
+cub / clip_vitb16   (eps=0.10 固定)
+   uncond_protonet    novel 62.67 ± 1.78  (1s)
+   uncond_linearprobe novel 71.87 ± 1.21  (26s)
+======================================================================
+cub / dinov2_vitb14   (eps=0.10 固定)
+   uncond_protonet    novel 92.25 ± 0.65  (2s)
+   uncond_linearprobe novel 92.49 ± 0.59  (20s)
+======================================================================
+nab / clean_multitask   (eps=0.10 固定)
+   uncond_protonet    novel 52.26 ± 0.78  (21s)
+   uncond_linearprobe novel 55.29 ± 0.80  (44s)
+======================================================================
+nab / clean_species   (eps=0.10 固定)
+   uncond_protonet    novel 52.58 ± 0.77  (16s)
+   uncond_linearprobe novel 55.28 ± 0.83  (20s)
+======================================================================
+nab / clip_vitb16   (eps=0.10 固定)
+   uncond_protonet    novel 54.01 ± 0.92  (8s)
+   uncond_linearprobe novel 57.88 ± 0.78  (17s)
+======================================================================
+nab / dinov2_vitb14   (eps=0.10 固定)
+   uncond_protonet    novel 84.44 ± 0.69  (8s)
+   uncond_linearprobe novel 85.82 ± 0.71  (19s)
+======================================================================
+endb / clean_multitask   (eps=0.10 固定)
+   uncond_protonet    novel 44.71 ± 1.07  (3s)
+   uncond_linearprobe novel 47.07 ± 1.22  (13s)
+======================================================================
+endb / clean_species   (eps=0.10 固定)
+   uncond_protonet    novel 44.00 ± 1.15  (3s)
+   uncond_linearprobe novel 46.78 ± 1.27  (19s)
+======================================================================
+endb / clip_vitb16   (eps=0.10 固定)
+   uncond_protonet    novel 47.74 ± 1.91  (2s)
+   uncond_linearprobe novel 57.09 ± 1.56  (13s)
+======================================================================
+endb / dinov2_vitb14   (eps=0.10 固定)
+   uncond_protonet    novel 80.48 ± 1.17  (2s)
+   uncond_linearprobe novel 82.63 ± 1.12  (13s)
+
+方法族表尚未生成，先写入 unconditional_whitening.csv
