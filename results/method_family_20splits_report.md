@@ -95,7 +95,7 @@
 - 预估：由单设定单种子实测外推得 **约 64 min**；实测 **131.3 min**（7876 s），为预估的 2.05 倍。
   偏差原因：nab 的 base 为 15483×1280，一次 `criterion()` 要做 13 次全 Base 拟合、耗时约 85~107 s（cub 同维度仅约 8 s，因样本数少 3.6 倍），按 cub 的规模外推时被低估；此外「四个单一成员」的对照又需每设定 4 次额外全 Base 拟合。
 - 单次二分实测：cub/clean_multitask 19.7~21.6 s；cub/clip_vitb16 7.3 s；nab/clean_multitask 85~107 s；nab/clip_vitb16 36 s；endb/clip_vitb16 9.3 s。
-- 命令：`D:\soft\Anaconda\envs\pytorch_env\python.exe _tools/method_family_20splits.py`
+- 命令：`<PYTHON> _tools/method_family_20splits.py`
 - 产物：
   - `results/method_family_20splits.json`（完整逐值 + 统计）
   - `release/results/method_family_20splits.csv`（逐设定 × 逐二分原始值，240 行）
