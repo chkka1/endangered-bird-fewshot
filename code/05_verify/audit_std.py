@@ -68,7 +68,7 @@ d = Document(DOCX)
 bad, total = [], 0
 per_table = {}
 
-for cap, label in (("表 2", "表 2"), ("表 4", "表 4"), ("表 8", "表 8")):
+for cap, label in (("表 2", "表 2"), ("表 3", "表 3"), ("表 5", "表 5")):
     t = tbc(d, cap)
     if t is None:
         print("  %s 未找到" % label)
@@ -103,7 +103,7 @@ for cap, label in (("表 2", "表 2"), ("表 4", "表 4"), ("表 8", "表 8")):
                 key = "cal_protonet"
             if key:
                 src = ACC.get((cur, bb, "5", key))
-            elif label == "表 4":
+            elif label == "表 3":
                 mk = None
                 for kw, k2 in (("不校准", "none"), ("ZCA", "zca"),
                                ("类内白化", "within"), ("判别性", "lda")):

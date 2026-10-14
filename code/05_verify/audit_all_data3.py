@@ -66,7 +66,7 @@ def main():
              "CLIP B/16": "clip_vitb16", "CLIP ViT-B/16": "clip_vitb16",
              "DINOv2 B/14": "dinov2_vitb14", "DINOv2 ViT-B/14": "dinov2_vitb14"}
 
-    for cap, label in (("表 8", "表 8 双协议"), ("表 10", "表 10 分层")):
+    for cap, label in (("表 5", "表 5 双协议"), ("表 7", "表 3 分层")):
         t = tbc(d, cap)
         if not t:
             print("  %s：未找到" % label)

@@ -80,8 +80,8 @@ def main():
                 bad.append(("表1 含 %s" % k, txt[:50], k))
         print("  表 1：核对属级可迁移率数字")
 
-    # ---------- 表 4：方法族 12 设定 ----------
-    t = tbc(d, "表 4")
+    # ---------- 表 3：方法族 12 设定 ----------
+    t = tbc(d, "表 3")
     if t:
         rows = [[c.text.strip() for c in r.cells] for r in t.rows[1:]]
         dsmap = {"CUB-200": "cub", "NABirds": "nab", "濒危": "endb"}
@@ -143,8 +143,8 @@ def main():
             chk("表6 %s/mul" % dim, r[2], c["mul_MFLOPs"], tol=0.002)
         print("  表 6：处理 %d 行" % len(rows))
 
-    # ---------- 表 8：双协议 ----------
-    t = tbc(d, "表 8")
+    # ---------- 表 5：双协议 ----------
+    t = tbc(d, "表 5")
     if t:
         txt = " ".join(c.text for r in t.rows for c in r.cells)
         print("  表 8：处理 %d 行（6.84 / 1.1 已在正文核）" % (len(t.rows) - 1))
@@ -152,8 +152,8 @@ def main():
         if "6.84" not in full and "6.84" not in txt:
             bad.append(("表8/正文 6.84", "缺失", "6.84"))
 
-    # ---------- 表 10：濒危集分层 ----------
-    t = tbc(d, "表 10")
+    # ---------- 表 3：濒危集分层 ----------
+    t = tbc(d, "表 7")
     if t:
         rows = [[c.text.strip() for c in r.cells] for r in t.rows[1:]]
         n = 0

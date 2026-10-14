@@ -36,8 +36,8 @@ def main():
         W[(r["group"], r["ways"])] = r
 
     d = Document(DOCX)
-    t = tbc(d, "表 10")
-    assert t is not None, "表 10 未找到"
+    t = tbc(d, "表 7")
+    assert t is not None, "表 3 未找到"
     bad, total = [], 0
     grp = None
     for r in t.rows[1:]:
