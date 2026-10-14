@@ -1,46 +1,46 @@
-﻿genus,n_species_total,n_in_base,n_in_novel,membership
-Agelaius,2,0,2,Novel only
-Anas,2,0,2,Novel only
-Anthus,2,0,2,Novel only
-Antigone,1,0,1,Novel only
-Aquila,2,0,2,Novel only
-Ardea,2,0,2,Novel only
-Aythya,2,0,2,Novel only
-Branta,1,0,1,Novel only
-Bubo,2,0,2,Novel only
-Calidris,2,0,2,Novel only
-Chaetura,1,0,1,Novel only
-Charadrius,2,0,2,Novel only
-Coccyzus,2,0,2,Novel only
-Corvus,2,0,2,Novel only
-Crossoptilon,1,0,1,Novel only
-Cyornis,2,0,2,Novel only
-Egretta,2,0,2,Novel only
-Emberiza,2,0,2,Novel only
-Euphagus,1,0,1,Novel only
-Fregata,2,0,2,Novel only
-Glaucidium,1,0,1,Novel only
-Grus,3,0,3,Novel only
-Haliaeetus,1,0,1,Novel only
-Icterus,2,0,2,Novel only
-Junco,1,0,1,Novel only
-Lanius,1,0,1,Novel only
-Lophura,2,0,2,Novel only
-Mergus,1,0,1,Novel only
-Mimus,2,0,2,Novel only
-Myadestes,1,0,1,Novel only
-Nipponia,1,0,1,Novel only
-Oroanassa,1,0,1,Novel only
-Paradoxornis,1,0,1,Novel only
-Pavo,1,0,1,Novel only
-Phalacrocorax,2,0,2,Novel only
-Phoebastria,1,0,1,Novel only
-Phoebetria,1,0,1,Novel only
-Platalea,1,0,1,Novel only
-Setophaga,2,0,2,Novel only
-Sitta,1,0,1,Novel only
-Sterna,1,0,1,Novel only
-Thalasseus,2,0,2,Novel only
-Tragopan,2,0,2,Novel only
-Tringa,2,0,2,Novel only
-Turdus,1,0,1,Novel only
+﻿genus,n_species,n_images,n_in_base,in_cub_base,membership,species
+Agelaius,2,50,1,yes,Base only,Agelaius tricolor; Agelaius xanthomus
+Anas,2,49,1,yes,both,Anas bernieri; Anas laysanensis
+Anthus,2,43,1,yes,both,Anthus nattereri; Anthus sokokensis
+Antigone,1,20,0,no,not in CUB,Antigone vipio
+Aquila,2,50,0,no,not in CUB,Aquila chrysaetos; Aquila heliaca
+Ardea,2,50,1,yes,Base only,Ardea humbloti; Ardea insignis
+Aythya,2,50,0,no,not in CUB,Aythya baeri; Aythya nyroca
+Branta,1,25,1,yes,Base only,Branta ruficollis
+Bubo,2,50,1,yes,Base only,Bubo blakistoni; Bubo philippensis
+Calidris,2,50,1,yes,both,Calidris pygmaea; Calidris tenuirostris
+Chaetura,1,25,1,yes,Base only,Chaetura pelagica
+Charadrius,2,50,1,yes,Base only,Charadrius mongolus; Charadrius obscurus
+Coccyzus,2,41,1,yes,Base only,Coccyzus ferrugineus; Coccyzus rufigularis
+Corvus,2,50,1,yes,both,Corvus kubaryi; Corvus unicolor
+Crossoptilon,1,20,0,no,not in CUB,Crossoptilon mantchuricum
+Cyornis,2,50,0,no,not in CUB,Cyornis brunneatus; Cyornis hainanus
+Egretta,2,50,1,yes,Base only,Egretta eulophotes; Egretta vinaceigula
+Emberiza,2,50,0,no,not in CUB,Emberiza aureola; Emberiza jankowskii
+Euphagus,1,25,1,yes,both,Euphagus carolinus
+Fregata,2,50,1,yes,Base only,Fregata andrewsi; Fregata aquila
+Glaucidium,1,25,1,yes,Base only,Glaucidium nubicola
+Grus,3,75,1,yes,Base only,Grus japonensis; Grus monacha; Grus nigricollis
+Haliaeetus,1,20,0,no,not in CUB,Haliaeetus leucoryphus
+Icterus,2,50,1,yes,both,Icterus laudabilis; Icterus northropi
+Junco,1,20,1,yes,Base only,Junco insularis
+Lanius,1,25,1,yes,Base only,Lanius meridionalis
+Lophura,2,50,0,no,not in CUB,Lophura leucomelanos; Lophura swinhoii
+Mergus,1,20,1,yes,Base only,Mergus squamatus
+Mimus,2,50,1,yes,Base only,Mimus graysoni; Mimus trifasciatus
+Myadestes,1,20,1,yes,Base only,Myadestes palmeri
+Nipponia,1,20,0,no,not in CUB,Nipponia nippon
+Oroanassa,1,20,0,no,not in CUB,Oroanassa magnifica
+Paradoxornis,1,20,0,no,not in CUB,Paradoxornis heudei
+Pavo,1,20,0,no,not in CUB,Pavo muticus
+Phalacrocorax,2,51,1,yes,Base only,Phalacrocorax capensis; Phalacrocorax featherstoni
+Phoebastria,1,25,1,yes,both,Phoebastria irrorata
+Phoebetria,1,25,1,yes,Base only,Phoebetria fusca
+Platalea,1,20,0,no,not in CUB,Platalea minor
+Setophaga,2,50,1,yes,Base only,Setophaga angelae; Setophaga chrysoparia
+Sitta,1,25,1,yes,Base only,Sitta ledanti
+Sterna,1,25,1,yes,both,Sterna acuticauda
+Thalasseus,2,50,0,no,not in CUB,Thalasseus bengalensis; Thalasseus bernsteini
+Tragopan,2,50,0,no,not in CUB,Tragopan caboti; Tragopan temminckii
+Tringa,2,50,1,yes,both,Tringa flavipes; Tringa guttifer
+Turdus,1,20,1,yes,Base only,Turdus helleri
