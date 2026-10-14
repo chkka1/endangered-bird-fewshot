@@ -21,6 +21,7 @@ Usage:
     python train_base_clean.py --stage multitask --epochs 30 --lr 2e-5
 """
 import argparse
+import sys
 import json
 import os
 import time
@@ -35,7 +36,6 @@ import torch.nn.utils.parametrizations as param
 from PIL import Image
 from torch.utils.data import DataLoader, Dataset
 from tqdm import tqdm
-from _paths import find_root  # noqa: E402
 
 ROOT = (os.environ.get("BIRD_PROJECT_ROOT")
         or os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -137,6 +137,18 @@ def main():
     va_items = build_items("test", genus2id, base_ids, False)
     num_species = len(base_ids)
     print("stage=%s  epochs=%d  lr=%g  batch=%d" % (args.stage, epochs, lr, args.batch))
+    # --- PROVENANCE: 记录划分来源，使 Base 集合可被独立追溯 ---
+    import hashlib as _h
+    _sp_path = os.path.join(PARSED, args.split)
+    _h256 = _h.sha256(open(_sp_path, "rb").read()).hexdigest()
+    _base_genera = len({genus2id[c] for c in split["base_species_ids"]})
+    print("PROVENANCE split_file=%s sha256=%s" % (args.split, _h256))
+    print("PROVENANCE base_classes=%d base_genera=%d novel_classes=%d"
+          % (len(split["base_species_ids"]), _base_genera,
+             len(split.get("novel_species_ids", []))))
+    print("PROVENANCE checkpoint=%s init=%s"
+          % (args.out or "(default)", args.init or "(scratch)"))
+    print("PROVENANCE argv=%s" % (" ".join(sys.argv[1:]) if "sys" in dir() else ""))
     print("Base 类数=%d  训练图=%d  验证图=%d  属数=%d"
           % (num_species, len(tr_items), len(va_items), num_genus))
     print("输出: %s" % out)
