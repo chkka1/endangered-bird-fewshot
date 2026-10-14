@@ -19,11 +19,28 @@ import numpy as np
 from docx import Document
 from docx.table import Table
 from docx.text.paragraph import Paragraph
-from _paths import find_root, FINAL_OUT, find_paper  # noqa: E402
 
-ROOT = find_root()
-DOCX = os.environ.get("PAPER_DOCX") or find_paper()
-FO = FINAL_OUT
+
+def _latest_docx():
+    """取 paper_code 下版本号最大的 v*.docx；无则取目录内唯一 .docx。"""
+    import os as _os
+    import re as _re
+    d = os.path.join(ROOT, "paper_code")
+    if not _os.path.isdir(d):
+        return None
+    docs = [x for x in _os.listdir(d)
+            if x.lower().endswith(".docx") and not x.startswith("~$")]
+    vs = [x for x in docs if _re.match(r"^v\d+\.docx$", x)]
+    if vs:
+        return _os.path.join(
+            d, max(vs, key=lambda x: int(_re.search(r"v(\d+)", x).group(1))))
+    return _os.path.join(d, docs[0]) if docs else None
+
+
+ROOT = r"D:\soft\bird_project"
+DOCX = os.environ.get("PAPER_DOCX") or _latest_docx()
+FO = os.path.join(ROOT, "_tools", "final_out")
+
 def load(name):
     p = os.path.join(FO, name)
     if not os.path.exists(p):
@@ -57,7 +74,7 @@ def main():
             pass
     EB = {(r["dataset"], r["backbone"]): r for r in load("error_breakdown.csv")}
     CM = {(r["dataset"], r["backbone"]): r for r in load("criterion_match.csv")}
-    SP = {(r["dataset"], r["backbone"]): r for r in load("spectrum_metrics.csv")}
+    SP = {(r["dataset"], r["backbone"]): r for r in load("spectrum_metrics_table.csv")}
     WP = {}
     for r in load("endb_waycurve.csv"):
         WP[(r.get("group"), r.get("way"))] = r
@@ -95,33 +112,38 @@ def main():
                 pass
         print("  表 2：处理 %d 行" % len([r for r in rows if r[0] in dsmap]))
 
-    # ---------- 表 3：谱指标 ----------
-    t = table_by_caption(d, "表 3")
-    if t:
-        rows = [[c.text.strip() for c in r.cells] for r in t.rows[1:]]
-        dsmap = {"CUB-200": "cub", "NABirds": "nab", "濒危": "endb"}
-        bbmap = {"EfficientNetV2-S（领域微调）": "clean_multitask",
-                 "EfficientNetV2-S（无属监督）": "clean_species",
-                 "CLIP ViT-B/16": "clip_vitb16", "DINOv2 ViT-B/14": "dinov2_vitb14"}
-        cur = None
-        for r in rows:
-            if r[0] in dsmap:
-                cur = dsmap[r[0]]
-            s = SP.get((cur, bbmap.get(r[1], "")))
-            if not s:
-                continue
-            for col, f in ((2, "dim"), (3, "eff_rank"), (4, "part_ratio"), (5, "top10_pct")):
-                chk("表3 %s/%s/%s" % (cur, r[1][:8], f), r[col], s[f], tol=0.06)
-        print("  表 3：处理 %d 行" % len(rows))
+    # ---------- 谱指标：正文表已移出，改核仓库 CSV ----------
+    # 说明：谱指标表原为正文「表 3」，后续版本已移出正文、改随仓库发布
+    #       （results/spectrum_metrics_table.csv），故不再与正文表格对照。
+    if os.environ.get("AUDIT_SPECTRUM_TABLE"):
+        t = table_by_caption(d, "表 3")
+        if t:
+            rows = [[c.text.strip() for c in r.cells] for r in t.rows[1:]]
+            dsmap = {"CUB-200": "cub", "NABirds": "nab", "濒危": "endb"}
+            bbmap = {"EfficientNetV2-S（领域微调）": "clean_multitask",
+                     "EfficientNetV2-S（无属监督）": "clean_species",
+                     "CLIP ViT-B/16": "clip_vitb16", "DINOv2 ViT-B/14": "dinov2_vitb14"}
+            cur = None
+            for r in rows:
+                if r[0] in dsmap:
+                    cur = dsmap[r[0]]
+                s = SP.get((cur, bbmap.get(r[1], "")))
+                if not s:
+                    continue
+                for col, f in ((2, "dim"), (3, "eff_rank"), (4, "part_ratio"), (5, "top10_pct")):
+                    chk("表3 %s/%s/%s" % (cur, r[1][:8], f), r[col], s[f], tol=0.06)
+            print("  表 3：处理 %d 行" % len(rows))
+    else:
+        print("  谱指标：正文表已移出（见仓库 results/spectrum_metrics_table.csv），跳过正文核对")
 
-    # ---------- 表 7：评测集概况（只核规模数字） ----------
-    t = table_by_caption(d, "表 7")
+    # ---------- 表 4：评测集概况（只核规模数字；表号已前移：原表 7） ----------
+    t = table_by_caption(d, "表 4")
     if t:
         txt = " ".join(c.text for r in t.rows for c in r.cells)
         total += 1
         if "1617" not in txt:
-            bad.append(("表7 濒危集规模", txt[:60], "1617"))
-        print("  表 7：核对规模数字")
+            bad.append(("表4 濒危集规模", txt[:60], "1617"))
+        print("  表 4：核对规模数字")
 
     # ---------- 表 9：ρ_cross ----------
     t = table_by_caption(d, "表 9")
