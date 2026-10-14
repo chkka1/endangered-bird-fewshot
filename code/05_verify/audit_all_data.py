@@ -37,7 +37,7 @@ def _latest_docx():
     return _os.path.join(d, docs[0]) if docs else None
 
 
-ROOT = r"D:\soft\bird_project"
+ROOT = find_root()
 DOCX = os.environ.get("PAPER_DOCX") or _latest_docx()
 FO = os.path.join(ROOT, "_tools", "final_out")
 
