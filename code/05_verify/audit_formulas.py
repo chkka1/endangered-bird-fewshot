@@ -25,16 +25,30 @@ import re
 import sys
 
 import os
+
 from docx import Document
 from docx.oxml.ns import qn
+
+def find_root(start=None):
+    """从 __file__ 向上找含 release 或 _tools 的项目根，返回绝对路径。"""
+    import os as _os
+    p = _os.path.abspath(start or __file__)
+    for _ in range(8):
+        p = _os.path.dirname(p)
+        if _os.path.isdir(_os.path.join(p, "release")) or \
+           _os.path.isdir(_os.path.join(p, "_tools")):
+            return p
+    return _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+
+ROOT = find_root()
 
 def _latest_docx():
     """取 paper_code 下版本号最大的 v*.docx；无则取 release/paper 下的稿件。"""
     import glob as _g
     import re as _re
     cands = []
-    for d in (r"D:\soft\bird_project\paper_code",
-              r"D:\soft\bird_project\release\paper"):
+    for d in (os.path.join(ROOT, "paper_code"),
+              os.path.join(ROOT, "release", "paper")):
         if os.path.isdir(d):
             cands += [x for x in _g.glob(os.path.join(d, "*.docx"))
                       if not os.path.basename(x).startswith("~$")]
@@ -43,7 +57,7 @@ def _latest_docx():
     if vs:
         return max(vs)[1]
     # 回退：release/paper 下的中文名稿件
-    rel = _g.glob(r"D:\soft\bird_project\release\paper\*.docx")
+    rel = _g.glob(r"<ROOT>\release\paper\*.docx")
     rel = [x for x in rel if not os.path.basename(x).startswith("~$")]
     return max(rel, key=os.path.getmtime) if rel else (cands[0] if cands else "")
 

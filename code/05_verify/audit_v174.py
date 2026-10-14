@@ -12,6 +12,7 @@
 import csv
 import io
 import os
+
 import re
 import sys
 
@@ -19,6 +20,19 @@ import numpy as np
 from docx import Document
 from docx.table import Table
 from docx.text.paragraph import Paragraph
+
+def find_root(start=None):
+    """从 __file__ 向上找含 release 或 _tools 的项目根，返回绝对路径。"""
+    import os as _os
+    p = _os.path.abspath(start or __file__)
+    for _ in range(8):
+        p = _os.path.dirname(p)
+        if _os.path.isdir(_os.path.join(p, "release")) or \
+           _os.path.isdir(_os.path.join(p, "_tools")):
+            return p
+    return _os.path.dirname(_os.path.dirname(_os.path.abspath(__file__)))
+
+ROOT = find_root()
 
 
 def _latest_docx():
@@ -37,7 +51,7 @@ def _latest_docx():
     return _os.path.join(d, docs[0]) if docs else None
 
 
-ROOT = r"D:\soft\bird_project"
+ROOT = ROOT
 DOCX = os.environ.get("PAPER_DOCX") or _latest_docx()
 FO = os.path.join(ROOT, "_tools", "final_out")
 
