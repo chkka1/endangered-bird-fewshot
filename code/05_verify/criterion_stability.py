@@ -37,7 +37,19 @@ BACKBONES = ["clean_multitask", "clean_species", "clip_vitb16", "dinov2_vitb14"]
 SHOT = 5
 SEEDS = int(os.environ.get("FE_STAB_SEEDS") or 20)
 WANT = {x.strip() for x in (os.environ.get("FE_STAB_SETS") or "").split(",") if x.strip()}
-OUT = os.environ.get("FE_STAB_OUT") or r"D:\soft\bird_project\release\results\criterion_stability.csv"
+def _find_root(start=None):
+    """从 __file__ 向上找含 release 的项目根。"""
+    p = os.path.abspath(start or __file__)
+    for _ in range(8):
+        p = os.path.dirname(p)
+        if os.path.isdir(os.path.join(p, "release")):
+            return p
+    return os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+
+_ROOT = _find_root()
+OUT = os.environ.get("FE_STAB_OUT") or os.path.join(
+    _ROOT, "release", "results", "criterion_stability.csv")
 
 
 def load(group, backbone):
