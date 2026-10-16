@@ -1,4 +1,4 @@
-# 面向濒危鸟类小样本识别的属分层基准与基类校准方法族
+﻿# 面向濒危鸟类小样本识别的属分层基准与基类校准方法族
 
 本仓库为论文《面向濒危鸟类小样本识别的属分层基准与基类校准方法族》的
 可复现材料，包含代码、评测集清单、全部结果文件与稿件图源。
@@ -87,6 +87,7 @@ code/run_all.cmd          # Windows
 | 脚本 | 覆盖 | 项数 |
 |---|---|---|
 | `verify_prose_aggregates.py` | 正文聚合量 | 25 |
+| `audit_endb_manifest.py` | 濒危集清单内部一致性（species_table vs image_sources） | 14 |
 | `check_causal_drops.py` | 因果检验落差 | — |
 | `audit_all_data.py` | 表 2/3/7/9 + 正文 + 图 7 + 图 4(b) | 153 |
 | `audit_all_data2.py` | 表 1/4/5/6/8/10 + 图 5/6 | 73 |

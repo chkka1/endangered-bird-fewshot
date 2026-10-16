@@ -1,4 +1,4 @@
-@echo off
+﻿@echo off
 REM ============================================================================
 REM  核验包一键核验
 REM
@@ -21,7 +21,7 @@ set PYTHONPATH=%~dp0;%~dp001_data;%~dp002_cache;%~dp003_train;%~dp004_eval;%~dp0
 set PY=python
 cd /d %~dp0
 
-for %%f in (verify_prose_aggregates check_causal_drops audit_all_data audit_all_data2 audit_all_data3 audit_all_data4) do (
+for %%f in (verify_prose_aggregates check_causal_drops audit_endb_manifest audit_all_data audit_all_data2 audit_all_data3 audit_all_data4) do (
   echo ============================================================
   echo  %%f
   echo ============================================================
